@@ -9,12 +9,13 @@
     "output/model-distribution-research/run-performance-evidence.json",
     "LICENSE",
     "public/community/bbtv-qq-group.jpg",
-    "public/image-preset-examples/portrait-natural.png",
-    "public/image-preset-examples/cinematic-light.png",
-    "public/image-preset-examples/story-four-panel.png",
-    "output/public-repo-assets/multi-image-creation.png",
-    "output/public-repo-assets/node-actions.png",
-    "output/public-repo-assets/canvas-settings.png"
+    "output/public-repo-assets/story-to-video.png",
+    "output/public-repo-assets/multi-angle-video.png",
+    "output/public-repo-assets/prompt-upscale-compare.png",
+    "output/public-repo-assets/image-tools.png",
+    "output/public-repo-assets/canvas-preferences.png",
+    "output/public-repo-assets/engine-models.png",
+    "output/public-repo-assets/about-updates.png"
   ],
   "outputAllowlist": [
     "README.md",
@@ -30,17 +31,22 @@
     "docs/performance-reference.json",
     "docs/publication-allowlist.json",
     "docs/assets/bbtv-qq-group.jpg",
-    "docs/assets/multi-image-creation.png",
-    "docs/assets/node-actions.png",
-    "docs/assets/canvas-settings.png"
+    "docs/assets/story-to-video.png",
+    "docs/assets/multi-angle-video.png",
+    "docs/assets/prompt-upscale-compare.png",
+    "docs/assets/image-tools.png",
+    "docs/assets/canvas-preferences.png",
+    "docs/assets/engine-models.png",
+    "docs/assets/about-updates.png"
   ],
   "prohibitedContent": [
     "program source",
     "credentials",
     "absolute author paths",
-    "user project media",
+    "unapproved user project media",
     "internal task logs"
   ],
+  "screenshotPolicy": "Only the seven author-provided screenshots are published byte-for-byte; no synthetic UI captures.",
   "sanitizedInventoryFields": [
     "relative model paths",
     "sizes",
@@ -72,8 +78,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 20618,
-      "sha256": "c848cb192a7e3fd4ffb6aa9a8ac155a4391e1cd3f57f91b825fc036d5113a5bd"
+      "bytes": 21644,
+      "sha256": "588af066a9830bf2932fca65ce5125c970802690fefed413ee83e479b24ab2d7"
+    },
+    {
+      "path": "docs/assets/about-updates.png",
+      "bytes": 205388,
+      "sha256": "970fa76abc2155246ff8a4c0d31d1c34b025869ba85487ae0cd025a0a89aa58d"
     },
     {
       "path": "docs/assets/bbtv-qq-group.jpg",
@@ -81,19 +92,34 @@
       "sha256": "990ccb2bfd52b96c9e3e36812fab8e3ceb05c3d7d4cf4d06037ffcd2190859cf"
     },
     {
-      "path": "docs/assets/canvas-settings.png",
-      "bytes": 154329,
-      "sha256": "0ba9e12e5ddc739498d7a1f160dfd47a6d3a1a6886b2a82b7f4b3dbc27e01548"
+      "path": "docs/assets/canvas-preferences.png",
+      "bytes": 182978,
+      "sha256": "c5baf10c2755d6592e97d79047c484ed04a9447e63e8d21a7334310c1e75669b"
     },
     {
-      "path": "docs/assets/multi-image-creation.png",
-      "bytes": 501948,
-      "sha256": "3da0cb8bb48bc8ac0c2fdb2d3fc7931e62411e01b891df03c7178731b79b640c"
+      "path": "docs/assets/engine-models.png",
+      "bytes": 211103,
+      "sha256": "006a25851e36309124a24f8fa3bef325e6bca2df7db6f8ad7f4d46671a19593b"
     },
     {
-      "path": "docs/assets/node-actions.png",
-      "bytes": 467762,
-      "sha256": "1e7f77355a495b010586e20c95ff521bdabb76c657002bf237fff9a2f9a5c609"
+      "path": "docs/assets/image-tools.png",
+      "bytes": 617375,
+      "sha256": "0ad4794519dca3ffb037a2fd13f1390fefe68dfed1a1966a304e840739a65857"
+    },
+    {
+      "path": "docs/assets/multi-angle-video.png",
+      "bytes": 1954226,
+      "sha256": "e210a77b19da9757b7334220067db07b58a7ffb967d08b24bff52649e7ace868"
+    },
+    {
+      "path": "docs/assets/prompt-upscale-compare.png",
+      "bytes": 1348362,
+      "sha256": "8f2f3dac15d52d13233b90592236c8267c28ac5e19032b8736f51fc3434a4679"
+    },
+    {
+      "path": "docs/assets/story-to-video.png",
+      "bytes": 1147813,
+      "sha256": "2da8dacd495fef597893a9aab93217f7b0a0c09de8187b93c56b8a366ac26176"
     },
     {
       "path": "docs/distribution-resources.json",
