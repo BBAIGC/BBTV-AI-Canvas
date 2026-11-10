@@ -1,12 +1,22 @@
 # BBTV 无限画布 · 本地 AI 创作
 
+**图片、视频与声音，在一张无限画布中创作。**
+
+[![版本 v0.1.12](https://img.shields.io/badge/版本-v0.1.12-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
+[![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%2F%2011-0078d4)](https://bbtv.ainivox.cn)
+[![本地 AI](https://img.shields.io/badge/AI-本地运行-7c3aed)](#从参考素材到完整创作)
+[![永久免费](https://img.shields.io/badge/本地功能-永久免费-16a34a)](#开始使用)
+[![无需购买 API](https://img.shields.io/badge/API-无需购买-0891b2)](#开始使用)
+
+[使用说明](#从参考素材到完整创作) · [快速安装](#开始使用) · [模型下载](MODELS.md) · [安装提示词](AGENT_INSTALL.md) · [版本清单](release-notes/0.1.12.md)
+
 ## [官方网站 · 下载 Windows 版](https://bbtv.ainivox.cn)
 
-[最新版安装包](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest) · [模型与依赖](MODELS.md) · [智能体安装](AGENT_INSTALL.md) · [v0.1.12 更新内容](release-notes/0.1.12.md)
+[最新版安装包](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest) · [v0.1.12 更新内容](release-notes/0.1.12.md)
 
 **把想法、参考图、分镜和生成结果放进一张无限画布，接着创作。** BBTV 将常用的本地图片、视频与放大流程做成可以直接使用的操作：选择模型、提供参考、写下要求，无需手动搭建 ComfyUI 节点工作流。
 
-**本地功能永久免费。本地模型在自己的电脑运行，无需购买 API，也没有按次生成费用。** 本地运行仍需要适合的硬件、推理引擎和相应模型。
+**无需购买 API。本地功能永久免费，也没有按次生成费用。** 本地模型在自己的电脑运行，需要适合的硬件、推理引擎和相应模型。
 
 ![BBTV 多图创作](docs/assets/multi-image-creation.png)
 
