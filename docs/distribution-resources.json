@@ -21,8 +21,8 @@
     "downloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
     "extractionCode": "rpmx",
     "inventoryPath": "docs/model-distribution-inventory.json",
-    "verifiedBytes": 299175972323,
-    "verifiedFiles": 115,
+    "verifiedBytes": 323721669793,
+    "verifiedFiles": 119,
     "tiers": [
       {
         "id": "mandatory",
@@ -36,8 +36,8 @@
         "id": "optional",
         "label": "可选扩展",
         "directory": "02-可选扩展",
-        "files": 87,
-        "bytes": 195304365317,
+        "files": 91,
+        "bytes": 219850062787,
         "description": "按需增加图片模型、参考视频、放大、配音、识别及其他模型。"
       }
     ]

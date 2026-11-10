@@ -6,13 +6,13 @@
 
 桌面安装包、推理引擎与模型权重分别准备。已存在的 ComfyUI 可以通过额外模型路径复用权重；同一 SHA256 文件无需重复下载或移动原文件。
 
-文件清单日期：2026-11-10。以下大小按十进制 GB 统计，是磁盘文件大小，不是显存需求。完整功能还需推理引擎、Python 依赖、运行缓存与解压空间。
+文件清单日期：2026-11-11。以下大小按十进制 GB 统计，是磁盘文件大小，不是显存需求。完整功能还需推理引擎、Python 依赖、运行缓存与解压空间。
 
 | 层级 | 文件数 | 文件合计 |
 |---|---:|---:|
 | 基础必需 | 28 | 103.87 GB |
-| 可选扩展 | 87 | 195.30 GB |
-| 合计 | 115 | 299.18 GB |
+| 可选扩展 | 91 | 219.85 GB |
+| 合计 | 119 | 323.72 GB |
 
 ## 当前主要路线：含配套依赖
 
@@ -27,6 +27,9 @@
 | MOSS Image · Jib V2 INT8 | 24.97 GB | `diffusion_models/jibMixMossRealistic_v2RealityRenew.safetensors`<br>`text_encoders/qwen3.5_9b_bf16.safetensors`<br>`vae/flux2-vae_small.safetensors` |
 | MOSS Image · 官方 SFT 生图 | 29.72 GB | `diffusion_models/moss_image_sft_bf16.safetensors`<br>`text_encoders/qwen3.5_9b_bf16.safetensors`<br>`vae/flux2-vae_small.safetensors` |
 | MOSS Image · 官方 SFT 原生编辑 | 30.02 GB | `diffusion_models/moss_image_sft_bf16.safetensors`<br>`text_encoders/qwen3.5_9b_bf16.safetensors`<br>`vae/flux2-vae_small.safetensors`<br>`loras/MOSS-Image/moss_image_edit_lora_rank_64_bf16.safetensors` |
+| MOSS（小红书特调 V1） | 24.97 GB | `diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors`<br>`text_encoders/qwen3.5_9b_bf16.safetensors`<br>`vae/flux2-vae_small.safetensors` |
+| MOSS（小红书特调 V2） | 24.97 GB | `diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors`<br>`text_encoders/qwen3.5_9b_bf16.safetensors`<br>`vae/flux2-vae_small.safetensors` |
+| MiniMax H3 Image · 图片生成与编辑 | 29.41 GB | `diffusion_models/minimax_h3_image_pruned_w4a8.safetensors`<br>`vae/minimax_h3_image_vae_fp16.safetensors`<br>`text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors` |
 
 共享编码器、VAE 只需安装一次；基础与可选目录可以共同引用。H3 基础路线的合计包含当前默认 8 步加速 LoRA；参考视频路线与基础路线需要不同的主模型，不能只下载其中一个权重就认为两条路线都可用。
 
@@ -66,6 +69,9 @@
 | uncensored-qwen3.6:27b-aggressive-q3_k_p | 15.23 GB | 视觉理解/图片反推/提示词优化；按用户选择安装，manifest及所有引用blob一并上传，保持manifests/blobs相对结构 |
 | uncensored-qwen3.8:27b-aggressive-q3_k_p | 14.37 GB | 视觉理解/图片反推/提示词优化；按用户选择安装，manifest及所有引用blob一并上传，保持manifests/blobs相对结构 |
 | MOSS Image · 官方 SFT 原生编辑 | 30.02 GB | 官方SFT配合编辑LoRA、原生参考编码与第22层引导；Jib V2不冒充原生编辑 |
+| MOSS（小红书特调 V1） | 24.97 GB | 社区融合版图片生成；共享既有编码器与 VAE |
+| MOSS（小红书特调 V2） | 24.97 GB | 社区融合版图片生成；共享既有编码器与 VAE |
+| MiniMax H3 Image · W4A8 | 29.41 GB | 图片生成与编辑 |
 
 组合之间存在共享文件，不能把每行直接相加当成整库体积。SAM B/H、U2Net/P 等替代项按所选模式安装，不必同时加载全部模型。
 

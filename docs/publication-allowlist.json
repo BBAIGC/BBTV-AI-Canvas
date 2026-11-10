@@ -24,6 +24,7 @@
     "LICENSES/open-canvas-MIT.txt",
     "release-notes/0.1.12.md",
     "release-notes/0.1.13.md",
+    "release-notes/0.1.14.md",
     "docs/model-distribution-inventory.json",
     "docs/distribution-resources.json",
     "docs/performance-reference.json",
@@ -47,7 +48,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.13",
+  "generatedFromVersion": "0.1.14",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -61,8 +62,8 @@
     },
     {
       "path": "MODELS.md",
-      "bytes": 9867,
-      "sha256": "17d5787ad483f8aaf2ed4f8864fd3bb7a81207da6592a98aa38b8ca6faa924ee"
+      "bytes": 10748,
+      "sha256": "26412a3b8cfa45986c059cef55a7754e0163500bf67f183d956a187988af298a"
     },
     {
       "path": "NOTICE.md",
@@ -71,8 +72,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6058,
-      "sha256": "d9a1e64ca3a63fdab515b196dff87be4e2ac9fb43edcab12c2159fc85b9f7830"
+      "bytes": 20618,
+      "sha256": "c848cb192a7e3fd4ffb6aa9a8ac155a4391e1cd3f57f91b825fc036d5113a5bd"
     },
     {
       "path": "docs/assets/bbtv-qq-group.jpg",
@@ -97,12 +98,12 @@
     {
       "path": "docs/distribution-resources.json",
       "bytes": 7695,
-      "sha256": "32f59ad6d6c33862424c4d411f116753aff1c5accd7fea589a64a43e28ef3558"
+      "sha256": "6053083065559c57bc1b736d723dc2f350e5b322e771cd671f63ffd25e680072"
     },
     {
       "path": "docs/model-distribution-inventory.json",
-      "bytes": 124173,
-      "sha256": "a3d1f46ee66f801465a7e88fbf782855e436e12d2ca14858dc6f60a630e34b7c"
+      "bytes": 130318,
+      "sha256": "44629c59a1c54127eade82a686312ec23fc7796bdb07a2fe8ec21be77d0865fb"
     },
     {
       "path": "docs/performance-reference.json",
@@ -118,6 +119,11 @@
       "path": "release-notes/0.1.13.md",
       "bytes": 979,
       "sha256": "ee12dd5eda9b74d398692b67e1ebfbcf4da39e4756801e39664773362c359265"
+    },
+    {
+      "path": "release-notes/0.1.14.md",
+      "bytes": 1619,
+      "sha256": "b6eda6574fbe6959bc958340ef7b06fcc32645ad5c9af1a9452c1dfef89b48f2"
     }
   ],
   "auditResult": {

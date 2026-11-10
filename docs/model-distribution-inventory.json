@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedDate": "2026-11-10",
+  "generatedDate": "2026-11-11",
   "totals": {
     "mandatory": {
       "files": 28,
       "bytes": 103871607006
     },
     "optional": {
-      "files": 87,
-      "bytes": 195304365317
+      "files": 91,
+      "bytes": 219850062787
     }
   },
-  "totalFiles": 115,
-  "totalBytes": 299175972323,
+  "totalFiles": 119,
+  "totalBytes": 323721669793,
   "distributionPolicy": {
     "singleResourceLibrary": true,
     "sharedDependencies": "相同 SHA256 权重只保存一份，基础与可选资源共用依赖。",
@@ -296,7 +296,9 @@
       "md5": "eb9507e55e90fada2903cbdd7a93ac83",
       "models": [
         "MOSS Image · Jib V2",
-        "MOSS Image · 官方 SFT"
+        "MOSS Image · 官方 SFT",
+        "MOSS（小红书特调 V1）",
+        "MOSS（小红书特调 V2）"
       ],
       "sourceStatus": "verified-public-metadata",
       "group": "01-图片生成",
@@ -304,7 +306,9 @@
       "dependenciesFor": [
         "studio:moss",
         "studio:moss-sft",
-        "studio:moss-sft:edit"
+        "studio:moss-sft:edit",
+        "studio:moss-qaq-v1",
+        "studio:moss-qaq-v2"
       ],
       "sources": [
         {
@@ -434,7 +438,9 @@
       "md5": "6680825f9ff15d88c92417e6a6d95d82",
       "models": [
         "MOSS Image · Jib V2",
-        "MOSS Image · 官方 SFT"
+        "MOSS Image · 官方 SFT",
+        "MOSS（小红书特调 V1）",
+        "MOSS（小红书特调 V2）"
       ],
       "sourceStatus": "verified-public-metadata",
       "group": "01-图片生成",
@@ -442,7 +448,9 @@
       "dependenciesFor": [
         "studio:moss",
         "studio:moss-sft",
-        "studio:moss-sft:edit"
+        "studio:moss-sft:edit",
+        "studio:moss-qaq-v1",
+        "studio:moss-qaq-v2"
       ],
       "sources": [
         {
@@ -665,14 +673,16 @@
       "sha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6",
       "md5": "b0412eae26c7fb95e77139dc0f03c8b8",
       "models": [
-        "MiniMax H3 基础/参考视频"
+        "MiniMax H3 基础/参考视频",
+        "MiniMax H3 Image · W4A8"
       ],
       "sourceStatus": "verified-public-metadata",
       "group": "02-视频生成",
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:minimax-h3:base",
-        "studio:minimax-h3:reference"
+        "studio:minimax-h3:reference",
+        "studio:minimax-h3-image"
       ],
       "sources": [
         {
@@ -2425,6 +2435,105 @@
           "bytes": 297382216
         }
       ]
+    },
+    {
+      "id": "file-116",
+      "relativePath": "模型库/01-图片生成/diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/01-图片生成/diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors",
+      "installRelativePath": "diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors",
+      "downloadTier": "optional",
+      "bytes": 5413698814,
+      "sha256": "825c4d7f873b89eeecd4593fd276b3e9805f675bcd758219067e0365d9c2f3fc",
+      "md5": "d22f1d6eaf8d5f5b206c76fdde9f953c",
+      "models": [
+        "MOSS（小红书特调 V1）"
+      ],
+      "sourceStatus": "user-provided-community-variant-no-public-source",
+      "group": "01-图片生成",
+      "installRoot": "ComfyModels",
+      "dependenciesFor": [
+        "studio:moss-qaq-v1"
+      ],
+      "sources": []
+    },
+    {
+      "id": "file-117",
+      "relativePath": "模型库/01-图片生成/diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/01-图片生成/diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors",
+      "installRelativePath": "diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors",
+      "downloadTier": "optional",
+      "bytes": 5413698814,
+      "sha256": "1db788f3559b60c38ad0c2369900e19334632963fd8a81776a569315ce4ffafa",
+      "md5": "6649e7a6e05731537d02f37195302bc2",
+      "models": [
+        "MOSS（小红书特调 V2）"
+      ],
+      "sourceStatus": "user-provided-community-variant-no-public-source",
+      "group": "01-图片生成",
+      "installRoot": "ComfyModels",
+      "dependenciesFor": [
+        "studio:moss-qaq-v2"
+      ],
+      "sources": []
+    },
+    {
+      "id": "file-118",
+      "relativePath": "模型库/01-图片生成/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/01-图片生成/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
+      "installRelativePath": "diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
+      "downloadTier": "optional",
+      "bytes": 12549794530,
+      "sha256": "517cc19b85348386f4df7c806dce80d839d0899e7cdaa3e1dbb09de964381dbb",
+      "md5": "62fb1e48f86cf639686b8722332b3041",
+      "models": [
+        "MiniMax H3 Image · W4A8"
+      ],
+      "sourceStatus": "verified-public-metadata",
+      "group": "01-图片生成",
+      "installRoot": "ComfyModels",
+      "dependenciesFor": [
+        "studio:minimax-h3-image"
+      ],
+      "sources": [
+        {
+          "repository": "Comfy-Org/MiniMax-H3-Image",
+          "revision": "892de7cb61df49753bf15145a711154803a355cb",
+          "path": "diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image/resolve/892de7cb61df49753bf15145a711154803a355cb/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
+          "verification": "full-file-sha256-matches-official-lfs",
+          "bytes": 12549794530
+        }
+      ]
+    },
+    {
+      "id": "file-119",
+      "relativePath": "模型库/01-图片生成/vae/minimax_h3_image_vae_fp16.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/01-图片生成/vae/minimax_h3_image_vae_fp16.safetensors",
+      "installRelativePath": "vae/minimax_h3_image_vae_fp16.safetensors",
+      "downloadTier": "optional",
+      "bytes": 1168505312,
+      "sha256": "d80e9c2e5cfc9844869961ff5a58c9a9e52182df6bfb30b26018dd7f348721af",
+      "md5": "f30ee3edb1b41c7799833bbd92556a62",
+      "models": [
+        "MiniMax H3 Image · 图片 VAE",
+        "MiniMax H3 Image · W4A8"
+      ],
+      "sourceStatus": "verified-public-metadata",
+      "group": "01-图片生成",
+      "installRoot": "ComfyModels",
+      "dependenciesFor": [
+        "studio:minimax-h3-image"
+      ],
+      "sources": [
+        {
+          "repository": "Comfy-Org/MiniMax-H3-Image",
+          "revision": "892de7cb61df49753bf15145a711154803a355cb",
+          "path": "vae/minimax_h3_image_vae_fp16.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image/resolve/892de7cb61df49753bf15145a711154803a355cb/vae/minimax_h3_image_vae_fp16.safetensors",
+          "verification": "full-file-sha256-matches-official-lfs",
+          "bytes": 1168505312
+        }
+      ]
     }
   ],
   "modelBundles": [
@@ -2871,6 +2980,45 @@
       "requiredBytes": 30017871692,
       "downloadTier": "optional",
       "dependencies": []
+    },
+    {
+      "name": "MOSS（小红书特调 V1）",
+      "group": "01-图片生成",
+      "use": "社区融合版图片生成；共享既有编码器与 VAE",
+      "fileIds": [
+        "file-116",
+        "file-012",
+        "file-017"
+      ],
+      "requiredBytes": 24969532482,
+      "downloadTier": "optional",
+      "dependencies": []
+    },
+    {
+      "name": "MOSS（小红书特调 V2）",
+      "group": "01-图片生成",
+      "use": "社区融合版图片生成；共享既有编码器与 VAE",
+      "fileIds": [
+        "file-117",
+        "file-012",
+        "file-017"
+      ],
+      "requiredBytes": 24969532482,
+      "downloadTier": "optional",
+      "dependencies": []
+    },
+    {
+      "name": "MiniMax H3 Image · W4A8",
+      "group": "01-图片生成",
+      "use": "图片生成与编辑",
+      "fileIds": [
+        "file-118",
+        "file-119",
+        "file-025"
+      ],
+      "requiredBytes": 29405442393,
+      "downloadTier": "optional",
+      "dependencies": []
     }
   ],
   "activeModelDependencies": {
@@ -2952,6 +3100,30 @@
         "file-115"
       ],
       "bytes": 30017871692
+    },
+    "studio:moss-qaq-v1": {
+      "fileIds": [
+        "file-116",
+        "file-012",
+        "file-017"
+      ],
+      "bytes": 24969532482
+    },
+    "studio:moss-qaq-v2": {
+      "fileIds": [
+        "file-117",
+        "file-012",
+        "file-017"
+      ],
+      "bytes": 24969532482
+    },
+    "studio:minimax-h3-image": {
+      "fileIds": [
+        "file-118",
+        "file-119",
+        "file-025"
+      ],
+      "bytes": 29405442393
     }
   },
   "additionalLocalFiles": [
