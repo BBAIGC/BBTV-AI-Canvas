@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "publicationType": "documentation-and-public-assets-only",
+  "sourceAllowlist": [
+    "package.json",
+    "config/distribution-resources.json",
+    "config/distribution-prompt.cjs",
+    "docs/model-distribution-inventory.json",
+    "output/model-distribution-research/run-performance-evidence.json",
+    "LICENSE",
+    "public/community/bbtv-qq-group.jpg",
+    "public/image-preset-examples/portrait-natural.png",
+    "public/image-preset-examples/cinematic-light.png",
+    "public/image-preset-examples/story-four-panel.png",
+    "output/public-repo-assets/multi-image-creation.png",
+    "output/public-repo-assets/node-actions.png",
+    "output/public-repo-assets/canvas-settings.png"
+  ],
+  "outputAllowlist": [
+    "README.md",
+    "MODELS.md",
+    "AGENT_INSTALL.md",
+    "NOTICE.md",
+    "LICENSES/open-canvas-MIT.txt",
+    "release-notes/0.1.12.md",
+    "docs/model-distribution-inventory.json",
+    "docs/distribution-resources.json",
+    "docs/performance-reference.json",
+    "docs/publication-allowlist.json",
+    "docs/assets/bbtv-qq-group.jpg",
+    "docs/assets/multi-image-creation.png",
+    "docs/assets/node-actions.png",
+    "docs/assets/canvas-settings.png"
+  ],
+  "prohibitedContent": [
+    "program source",
+    "credentials",
+    "absolute author paths",
+    "user project media",
+    "internal task logs"
+  ],
+  "sanitizedInventoryFields": [
+    "relative model paths",
+    "sizes",
+    "SHA256",
+    "public sources",
+    "dependency references"
+  ],
+  "generatedFromVersion": "0.1.12",
+  "files": [
+    {
+      "path": "AGENT_INSTALL.md",
+      "bytes": 12152,
+      "sha256": "2400e4002c41a2c988f7a1ec140c040a4bfb99015ebb0f72aac4c4bb32c57987"
+    },
+    {
+      "path": "LICENSES/open-canvas-MIT.txt",
+      "bytes": 1084,
+      "sha256": "fcf1e5d82614b635703aa199d76fc3ec8d30eddc28f13e6eb4ff6fcf83c2f01f"
+    },
+    {
+      "path": "MODELS.md",
+      "bytes": 9867,
+      "sha256": "17d5787ad483f8aaf2ed4f8864fd3bb7a81207da6592a98aa38b8ca6faa924ee"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1084,
+      "sha256": "2616b4ae64b8edc937cc235c9797b373219e2adf65db49da04e55ae8e0478f00"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5361,
+      "sha256": "4ccecce76aea922e4ed86dc937ddb54d503ff24162bbe55036ef1c9071ecb1a5"
+    },
+    {
+      "path": "docs/assets/bbtv-qq-group.jpg",
+      "bytes": 601435,
+      "sha256": "990ccb2bfd52b96c9e3e36812fab8e3ceb05c3d7d4cf4d06037ffcd2190859cf"
+    },
+    {
+      "path": "docs/assets/canvas-settings.png",
+      "bytes": 154329,
+      "sha256": "0ba9e12e5ddc739498d7a1f160dfd47a6d3a1a6886b2a82b7f4b3dbc27e01548"
+    },
+    {
+      "path": "docs/assets/multi-image-creation.png",
+      "bytes": 501948,
+      "sha256": "3da0cb8bb48bc8ac0c2fdb2d3fc7931e62411e01b891df03c7178731b79b640c"
+    },
+    {
+      "path": "docs/assets/node-actions.png",
+      "bytes": 467762,
+      "sha256": "1e7f77355a495b010586e20c95ff521bdabb76c657002bf237fff9a2f9a5c609"
+    },
+    {
+      "path": "docs/distribution-resources.json",
+      "bytes": 7695,
+      "sha256": "32f59ad6d6c33862424c4d411f116753aff1c5accd7fea589a64a43e28ef3558"
+    },
+    {
+      "path": "docs/model-distribution-inventory.json",
+      "bytes": 124173,
+      "sha256": "a3d1f46ee66f801465a7e88fbf782855e436e12d2ca14858dc6f60a630e34b7c"
+    },
+    {
+      "path": "docs/performance-reference.json",
+      "bytes": 15148,
+      "sha256": "7baee77b36e0fb5d717ef1cf9c5e6d158f2e939248225546fda03cd6911a5137"
+    },
+    {
+      "path": "release-notes/0.1.12.md",
+      "bytes": 1681,
+      "sha256": "f7813bb8dda5eade014c95dc0a2acee90a6bdb83a8f0cbd8c588a459f5b72763"
+    }
+  ],
+  "auditResult": {
+    "sensitiveFindings": 0,
+    "brokenRelativeLinks": 0,
+    "copiedProgramFiles": 0
+  }
+}

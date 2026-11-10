@@ -1,0 +1,716 @@
+{
+  "hardware": {
+    "cpu": "Intel Core i7-12700KF",
+    "cpuCores": 12,
+    "cpuThreads": 20,
+    "ramGiB": 63.78,
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "vramMiB": 16311,
+    "driver": "595.97",
+    "summary": "作者电脑：i7-12700KF · 64 GB 内存 · RTX 5060 Ti 16 GB"
+  },
+  "caveat": "本机历史成功任务，参数与缓存状态未统一；不是标准基准或跨设备速度保证。",
+  "samples": [
+    {
+      "model": "studio:minimax-h3",
+      "generationSeconds": 788.704,
+      "width": 480,
+      "height": 864,
+      "durationSec": 15,
+      "options": {}
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 22.219,
+      "width": 2732,
+      "height": 2732,
+      "durationSec": null,
+      "options": {
+        "scale": 4,
+        "upscaleProfile": "high-fidelity"
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 21.578,
+      "width": 2732,
+      "height": 2732,
+      "durationSec": null,
+      "options": {
+        "scale": 4,
+        "upscaleProfile": "high-fidelity"
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 21.251,
+      "width": 2728,
+      "height": 2732,
+      "durationSec": null,
+      "options": {
+        "scale": 4,
+        "upscaleProfile": "high-fidelity"
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 20.494,
+      "width": 2732,
+      "height": 2732,
+      "durationSec": null,
+      "options": {
+        "scale": 4,
+        "upscaleProfile": "high-fidelity"
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 20.035,
+      "width": 2732,
+      "height": 2732,
+      "durationSec": null,
+      "options": {
+        "scale": 4,
+        "upscaleProfile": "high-fidelity"
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 21.175,
+      "width": 2728,
+      "height": 2732,
+      "durationSec": null,
+      "options": {
+        "scale": 4,
+        "upscaleProfile": "high-fidelity"
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 22.112,
+      "width": 2732,
+      "height": 2728,
+      "durationSec": null,
+      "options": {
+        "scale": 4,
+        "upscaleProfile": "high-fidelity"
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 21.707,
+      "width": 2732,
+      "height": 2728,
+      "durationSec": null,
+      "options": {
+        "scale": 4,
+        "upscaleProfile": "high-fidelity"
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 49.294,
+      "width": 2728,
+      "height": 2728,
+      "durationSec": null,
+      "options": {
+        "scale": 4,
+        "upscaleProfile": "high-fidelity"
+      }
+    },
+    {
+      "model": "studio:minimax-h3",
+      "generationSeconds": 749.224,
+      "width": 480,
+      "height": 640,
+      "durationSec": 15,
+      "options": {}
+    },
+    {
+      "model": "studio:minimax-h3",
+      "generationSeconds": 1102.012,
+      "width": 480,
+      "height": 640,
+      "durationSec": 15,
+      "options": {}
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 12.873,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 12.95,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 13.525,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 14.058,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 13.148,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 13.753,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 14.527,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 13.284,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 19.365,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 15.288,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 14.37,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 14.227,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 14.455,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 16.784,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 14.898,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 13.982,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 14.639,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 14.709,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 13.685,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 10.502,
+      "width": 1024,
+      "height": 1824,
+      "durationSec": null,
+      "options": {
+        "width": 1024,
+        "height": 1824,
+        "steps": 8
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 16.586,
+      "width": 576,
+      "height": 1024,
+      "durationSec": null,
+      "options": {}
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 11.553,
+      "width": 1366,
+      "height": 1366,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 11.461,
+      "width": 1366,
+      "height": 1366,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 11.536,
+      "width": 1364,
+      "height": 1366,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 10.619,
+      "width": 1366,
+      "height": 1366,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 11.09,
+      "width": 1366,
+      "height": 1366,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 12.579,
+      "width": 1364,
+      "height": 1366,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 12.258,
+      "width": 1366,
+      "height": 1364,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 13.302,
+      "width": 1366,
+      "height": 1364,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 18.864,
+      "width": 1364,
+      "height": 1364,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 32.544,
+      "width": 4048,
+      "height": 2699,
+      "durationSec": null,
+      "options": {
+        "targetEdge": "longest",
+        "targetPixels": 4048
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 53.738,
+      "width": 4608,
+      "height": 3072,
+      "durationSec": null,
+      "options": {
+        "scale": 3
+      }
+    },
+    {
+      "model": "studio:qwen-2.1",
+      "generationSeconds": 210.903,
+      "width": 1536,
+      "height": 2048,
+      "durationSec": null,
+      "options": {
+        "width": 1536,
+        "height": 2048
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 54.32,
+      "width": 3906,
+      "height": 2934,
+      "durationSec": null,
+      "options": {
+        "scale": 3
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 62.102,
+      "width": 3792,
+      "height": 5856,
+      "durationSec": null,
+      "options": {
+        "scale": 3
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 8.13,
+      "width": 1302,
+      "height": 978,
+      "durationSec": null,
+      "options": {
+        "scale": 2
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 21.767,
+      "width": 1264,
+      "height": 1952,
+      "durationSec": null,
+      "options": {
+        "scale": 4
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 44.937,
+      "width": 3258,
+      "height": 4344,
+      "durationSec": null,
+      "options": {
+        "scale": 3
+      }
+    },
+    {
+      "model": "studio:minimax-h3",
+      "generationSeconds": 673.114,
+      "width": 480,
+      "height": 640,
+      "durationSec": 15,
+      "options": {}
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 40.419,
+      "width": 2048,
+      "height": 2048,
+      "durationSec": null,
+      "options": {
+        "width": 2048,
+        "height": 2048
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 31.991,
+      "width": 2048,
+      "height": 2048,
+      "durationSec": null,
+      "options": {
+        "width": 2048,
+        "height": 2048
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 36.317,
+      "width": 2048,
+      "height": 2048,
+      "durationSec": null,
+      "options": {
+        "width": 2048,
+        "height": 2048
+      }
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 41.283,
+      "width": 2048,
+      "height": 2048,
+      "durationSec": null,
+      "options": {
+        "width": 2048,
+        "height": 2048
+      }
+    },
+    {
+      "model": "studio:minimax-h3",
+      "generationSeconds": 569.203,
+      "width": 480,
+      "height": 640,
+      "durationSec": 15,
+      "options": {}
+    },
+    {
+      "model": "studio:minimax-h3",
+      "generationSeconds": 1091.59,
+      "width": 480,
+      "height": 640,
+      "durationSec": 15,
+      "options": {}
+    },
+    {
+      "model": "studio:qwen-2.1",
+      "generationSeconds": 346.296,
+      "width": 2048,
+      "height": 2048,
+      "durationSec": null,
+      "options": {
+        "width": 2048,
+        "height": 2048,
+        "steps": 25
+      }
+    },
+    {
+      "model": "studio:vosr2",
+      "generationSeconds": 44.143,
+      "width": 3072,
+      "height": 4096,
+      "durationSec": null,
+      "options": {}
+    },
+    {
+      "model": "studio:qwen-2.1",
+      "generationSeconds": 386.639,
+      "width": 2048,
+      "height": 2048,
+      "durationSec": null,
+      "options": {}
+    },
+    {
+      "model": "studio:qwen-2.1",
+      "generationSeconds": 231.655,
+      "width": 2048,
+      "height": 1152,
+      "durationSec": null,
+      "options": {}
+    },
+    {
+      "model": "studio:qwen-2.1",
+      "generationSeconds": 385.399,
+      "width": 2048,
+      "height": 2048,
+      "durationSec": null,
+      "options": {}
+    },
+    {
+      "model": "studio:qwen-2.1",
+      "generationSeconds": 400.821,
+      "width": 2048,
+      "height": 2048,
+      "durationSec": null,
+      "options": {}
+    },
+    {
+      "model": "studio:qwen-2.1-turbo",
+      "generationSeconds": 42.703,
+      "width": 1920,
+      "height": 640,
+      "durationSec": null,
+      "options": {}
+    },
+    {
+      "model": "studio:qwen-2.1",
+      "generationSeconds": 239.026,
+      "width": 2048,
+      "height": 1152,
+      "durationSec": null,
+      "options": {}
+    },
+    {
+      "model": "studio:minimax-h3",
+      "generationSeconds": 476.008,
+      "width": 480,
+      "height": 640,
+      "durationSec": 15,
+      "options": {}
+    }
+  ],
+  "authorEstimates": [
+    {
+      "model": "MiniMax H3",
+      "description": "15 秒视频约 10 分钟，作者口述，参数未固定。"
+    },
+    {
+      "model": "VOSR2",
+      "description": "到 4K 约 20～30 秒，作者口述，输入尺寸未固定。"
+    },
+    {
+      "model": "Qwen Image 2.1",
+      "description": "接近 1K 十多秒，作者口述，普通版与 Turbo 要区分。"
+    }
+  ]
+}
