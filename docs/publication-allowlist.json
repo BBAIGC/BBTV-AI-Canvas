@@ -23,6 +23,7 @@
     "NOTICE.md",
     "LICENSES/open-canvas-MIT.txt",
     "release-notes/0.1.12.md",
+    "release-notes/0.1.13.md",
     "docs/model-distribution-inventory.json",
     "docs/distribution-resources.json",
     "docs/performance-reference.json",
@@ -46,7 +47,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.12",
+  "generatedFromVersion": "0.1.13",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -71,7 +72,7 @@
     {
       "path": "README.md",
       "bytes": 6058,
-      "sha256": "2fef2cf89f476db3a989a524a073d93691cb24e28cfcd31de5eedcee90b672de"
+      "sha256": "d9a1e64ca3a63fdab515b196dff87be4e2ac9fb43edcab12c2159fc85b9f7830"
     },
     {
       "path": "docs/assets/bbtv-qq-group.jpg",
@@ -112,6 +113,11 @@
       "path": "release-notes/0.1.12.md",
       "bytes": 2168,
       "sha256": "9a0f93e7a236f06f8e3ccb7be692b298818f3cee5a2ce563bc41145fedac6c02"
+    },
+    {
+      "path": "release-notes/0.1.13.md",
+      "bytes": 979,
+      "sha256": "ee12dd5eda9b74d398692b67e1ebfbcf4da39e4756801e39664773362c359265"
     }
   ],
   "auditResult": {
