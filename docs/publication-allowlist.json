@@ -110,8 +110,8 @@
     },
     {
       "path": "release-notes/0.1.12.md",
-      "bytes": 2035,
-      "sha256": "5a6d2c3352b49c27f805d888421b1d3f241ecf8cb9661f2fac76d840dfcad677"
+      "bytes": 2168,
+      "sha256": "9a0f93e7a236f06f8e3ccb7be692b298818f3cee5a2ce563bc41145fedac6c02"
     }
   ],
   "auditResult": {
