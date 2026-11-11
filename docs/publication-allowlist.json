@@ -16,7 +16,8 @@
     "output/public-repo-assets/image-tools.png",
     "output/public-repo-assets/canvas-preferences.png",
     "output/public-repo-assets/engine-models.png",
-    "output/public-repo-assets/about-updates.png"
+    "output/public-repo-assets/about-updates.png",
+    "output/public-repo-assets/video-generation-speed.png"
   ],
   "outputAllowlist": [
     "README.md",
@@ -41,7 +42,8 @@
     "docs/assets/image-tools.png",
     "docs/assets/canvas-preferences.png",
     "docs/assets/engine-models.png",
-    "docs/assets/about-updates.png"
+    "docs/assets/about-updates.png",
+    "docs/assets/video-generation-speed.png"
   ],
   "prohibitedContent": [
     "program source",
@@ -50,7 +52,7 @@
     "unapproved user project media",
     "internal task logs"
   ],
-  "screenshotPolicy": "Only the seven author-provided screenshots are published byte-for-byte; no synthetic UI captures.",
+  "screenshotPolicy": "Only the eight author-authorized screenshots are published byte-for-byte; the new video-generation screenshot was explicitly approved on 2026-11-11; no diagnostic screenshots or synthetic UI captures.",
   "sanitizedInventoryFields": [
     "relative model paths",
     "sizes",
@@ -82,8 +84,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 21644,
-      "sha256": "a4ab134133ecb96b376211438c2d77ca5df1a0c7d78f4bef91b8fb85a58ce95e"
+      "bytes": 22406,
+      "sha256": "6756a514b41eea87d205ad45fcdecfcce9c0793da74bb55c5bd1307af6eab534"
     },
     {
       "path": "docs/assets/about-updates.png",
@@ -124,6 +126,11 @@
       "path": "docs/assets/story-to-video.png",
       "bytes": 1147813,
       "sha256": "2da8dacd495fef597893a9aab93217f7b0a0c09de8187b93c56b8a366ac26176"
+    },
+    {
+      "path": "docs/assets/video-generation-speed.png",
+      "bytes": 1371763,
+      "sha256": "a4a34a3d52b5c300785ace3135317ec92f724502537041eef761cb43985fc566"
     },
     {
       "path": "docs/distribution-resources.json",
