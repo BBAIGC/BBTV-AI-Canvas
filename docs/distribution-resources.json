@@ -21,8 +21,8 @@
     "downloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
     "extractionCode": "rpmx",
     "inventoryPath": "docs/model-distribution-inventory.json",
-    "verifiedBytes": 323721669793,
-    "verifiedFiles": 119,
+    "verifiedBytes": 323806651100,
+    "verifiedFiles": 122,
     "tiers": [
       {
         "id": "mandatory",
@@ -36,9 +36,35 @@
         "id": "optional",
         "label": "可选扩展",
         "directory": "02-可选扩展",
-        "files": 91,
-        "bytes": 219850062787,
+        "files": 94,
+        "bytes": 219935044094,
         "description": "按需增加图片模型、参考视频、放大、配音、识别及其他模型。"
+      }
+    ],
+    "additionalOfficialDownloads": [
+      {
+        "name": "RealESRGAN_x4plus.pth",
+        "installRelativePath": "upscale_models/RealESRGAN_x4plus.pth",
+        "downloadUrl": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "bytes": 67040989,
+        "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1",
+        "license": "BSD-3-Clause",
+        "licensePath": "docs/licenses/Real-ESRGAN-LICENSE.txt",
+        "shareVerified": true,
+        "licenseDownloadUrl": "https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/LICENSE",
+        "licenseSha256": "4a699ec4863d96a91fc265948a0c90033f7e8735d515524dcf3444736406e0c2"
+      },
+      {
+        "name": "RealESRGAN_x4plus_anime_6B.pth",
+        "installRelativePath": "upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+        "downloadUrl": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth",
+        "bytes": 17938799,
+        "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+        "license": "BSD-3-Clause",
+        "licensePath": "docs/licenses/Real-ESRGAN-LICENSE.txt",
+        "shareVerified": true,
+        "licenseDownloadUrl": "https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/LICENSE",
+        "licenseSha256": "4a699ec4863d96a91fc265948a0c90033f7e8735d515524dcf3444736406e0c2"
       }
     ]
   },

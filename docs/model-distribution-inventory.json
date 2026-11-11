@@ -7,12 +7,12 @@
       "bytes": 103871607006
     },
     "optional": {
-      "files": 91,
-      "bytes": 219850062787
+      "files": 94,
+      "bytes": 219935044094
     }
   },
-  "totalFiles": 119,
-  "totalBytes": 323721669793,
+  "totalFiles": 122,
+  "totalBytes": 323806651100,
   "distributionPolicy": {
     "singleResourceLibrary": true,
     "sharedDependencies": "相同 SHA256 权重只保存一份，基础与可选资源共用依赖。",
@@ -2534,6 +2534,89 @@
           "bytes": 1168505312
         }
       ]
+    },
+    {
+      "id": "file-120",
+      "relativePath": "模型库/03-图片放大/upscale_models/RealESRGAN_x4plus.pth",
+      "targetRelativePath": "02-可选扩展/模型库/03-图片放大/upscale_models/RealESRGAN_x4plus.pth",
+      "installRelativePath": "upscale_models/RealESRGAN_x4plus.pth",
+      "downloadTier": "optional",
+      "bytes": 67040989,
+      "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1",
+      "md5": "99ec365d4afad750833258a1a24f44ca",
+      "models": [
+        "Real-ESRGAN x4plus"
+      ],
+      "sourceStatus": "verified-official-release-local-hash",
+      "group": "03-图片放大",
+      "installRoot": "ComfyModels",
+      "dependenciesFor": [],
+      "license": "BSD-3-Clause",
+      "licensePath": "docs/licenses/Real-ESRGAN-LICENSE.txt",
+      "sources": [
+        {
+          "repository": "xinntao/Real-ESRGAN",
+          "revision": "v0.1.0",
+          "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+          "verification": "downloaded-from-official-release-local-sha256"
+        }
+      ]
+    },
+    {
+      "id": "file-121",
+      "relativePath": "模型库/03-图片放大/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+      "targetRelativePath": "02-可选扩展/模型库/03-图片放大/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+      "installRelativePath": "upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+      "downloadTier": "optional",
+      "bytes": 17938799,
+      "sha256": "f872d837d3c90ed2e05227bed711af5671a6fd1c9f7d7e91c911a61f155e99da",
+      "md5": "d58ce384064ec1591c2ea7b79dbf47ba",
+      "models": [
+        "Real-ESRGAN x4plus 动漫 6B"
+      ],
+      "sourceStatus": "verified-official-release-local-hash",
+      "group": "03-图片放大",
+      "installRoot": "ComfyModels",
+      "dependenciesFor": [],
+      "license": "BSD-3-Clause",
+      "licensePath": "docs/licenses/Real-ESRGAN-LICENSE.txt",
+      "sources": [
+        {
+          "repository": "xinntao/Real-ESRGAN",
+          "revision": "v0.2.2.4",
+          "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth",
+          "verification": "downloaded-from-official-release-local-sha256"
+        }
+      ]
+    },
+    {
+      "id": "file-122",
+      "relativePath": "模型库/03-图片放大/upscale_models/Real-ESRGAN-LICENSE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/03-图片放大/upscale_models/Real-ESRGAN-LICENSE.txt",
+      "installRelativePath": "upscale_models/Real-ESRGAN-LICENSE.txt",
+      "downloadTier": "optional",
+      "bytes": 1519,
+      "sha256": "4a699ec4863d96a91fc265948a0c90033f7e8735d515524dcf3444736406e0c2",
+      "md5": "24dc98de4adb0f623e18e524a625e1a1",
+      "models": [
+        "Real-ESRGAN x4plus",
+        "Real-ESRGAN x4plus 动漫 6B"
+      ],
+      "sourceStatus": "verified-official-license",
+      "group": "03-图片放大",
+      "installRoot": "ComfyModels",
+      "dependenciesFor": [
+        "Real-ESRGAN x4plus",
+        "Real-ESRGAN x4plus 动漫 6B"
+      ],
+      "license": "BSD-3-Clause",
+      "sources": [
+        {
+          "repository": "xinntao/Real-ESRGAN",
+          "url": "https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/LICENSE",
+          "verification": "official-license-downloaded-local-sha256"
+        }
+      ]
     }
   ],
   "modelBundles": [
@@ -3019,6 +3102,34 @@
       "requiredBytes": 29405442393,
       "downloadTier": "optional",
       "dependencies": []
+    },
+    {
+      "name": "Real-ESRGAN x4plus",
+      "group": "03-图片放大",
+      "use": "原生4倍快速放大；可作为独立后处理；动漫版本适用于插画/动漫",
+      "fileIds": [
+        "file-120",
+        "file-122"
+      ],
+      "requiredBytes": 67042508,
+      "downloadTier": "optional",
+      "dependencies": [
+        "Real-ESRGAN-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "Real-ESRGAN x4plus 动漫 6B",
+      "group": "03-图片放大",
+      "use": "原生4倍快速放大；可作为独立后处理；动漫版本适用于插画/动漫",
+      "fileIds": [
+        "file-121",
+        "file-122"
+      ],
+      "requiredBytes": 17940318,
+      "downloadTier": "optional",
+      "dependencies": [
+        "Real-ESRGAN-LICENSE.txt"
+      ]
     }
   ],
   "activeModelDependencies": {

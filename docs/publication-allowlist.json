@@ -6,6 +6,7 @@
     "config/distribution-resources.json",
     "config/distribution-prompt.cjs",
     "docs/model-distribution-inventory.json",
+    "docs/licenses/Real-ESRGAN-LICENSE.txt",
     "output/model-distribution-research/run-performance-evidence.json",
     "LICENSE",
     "public/community/bbtv-qq-group.jpg",
@@ -26,7 +27,9 @@
     "release-notes/0.1.12.md",
     "release-notes/0.1.13.md",
     "release-notes/0.1.14.md",
+    "release-notes/0.1.15.md",
     "docs/model-distribution-inventory.json",
+    "docs/licenses/Real-ESRGAN-LICENSE.txt",
     "docs/distribution-resources.json",
     "docs/performance-reference.json",
     "docs/publication-allowlist.json",
@@ -54,7 +57,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.14",
+  "generatedFromVersion": "0.1.15",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -68,8 +71,8 @@
     },
     {
       "path": "MODELS.md",
-      "bytes": 10748,
-      "sha256": "26412a3b8cfa45986c059cef55a7754e0163500bf67f183d956a187988af298a"
+      "bytes": 11002,
+      "sha256": "fe87d6a47f1bed750e8eae473fd1c617ba17411d17d3f9a565915828fcbf051e"
     },
     {
       "path": "NOTICE.md",
@@ -79,7 +82,7 @@
     {
       "path": "README.md",
       "bytes": 21644,
-      "sha256": "588af066a9830bf2932fca65ce5125c970802690fefed413ee83e479b24ab2d7"
+      "sha256": "4324f24c5a4efaf5ce39016bbdaa93f3525f4a4beaaeb7acd9c4772dc41d1ee7"
     },
     {
       "path": "docs/assets/about-updates.png",
@@ -123,13 +126,18 @@
     },
     {
       "path": "docs/distribution-resources.json",
-      "bytes": 7695,
-      "sha256": "6053083065559c57bc1b736d723dc2f350e5b322e771cd671f63ffd25e680072"
+      "bytes": 9123,
+      "sha256": "25058f1107a0b5935d67d339bdff066697926387344ae11661751488b1e8e47b"
+    },
+    {
+      "path": "docs/licenses/Real-ESRGAN-LICENSE.txt",
+      "bytes": 1519,
+      "sha256": "4a699ec4863d96a91fc265948a0c90033f7e8735d515524dcf3444736406e0c2"
     },
     {
       "path": "docs/model-distribution-inventory.json",
-      "bytes": 130318,
-      "sha256": "44629c59a1c54127eade82a686312ec23fc7796bdb07a2fe8ec21be77d0865fb"
+      "bytes": 134483,
+      "sha256": "d47abd9a418bf7925b72f446b609dbd8e6e86f06b2ed590ae735669ee4a596fd"
     },
     {
       "path": "docs/performance-reference.json",
@@ -150,6 +158,11 @@
       "path": "release-notes/0.1.14.md",
       "bytes": 1619,
       "sha256": "b6eda6574fbe6959bc958340ef7b06fcc32645ad5c9af1a9452c1dfef89b48f2"
+    },
+    {
+      "path": "release-notes/0.1.15.md",
+      "bytes": 2009,
+      "sha256": "dc9966e7e10266043b12f512ce4a79388b30918e977e25745136d7014419ccea"
     }
   ],
   "auditResult": {
