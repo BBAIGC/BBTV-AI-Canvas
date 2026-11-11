@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedDate": "2026-11-11",
+  "generatedDate": "2026-11-12",
   "totals": {
     "mandatory": {
       "files": 28,
       "bytes": 103871607006
     },
     "optional": {
-      "files": 94,
-      "bytes": 219935044094
+      "files": 115,
+      "bytes": 251767964940
     }
   },
-  "totalFiles": 122,
-  "totalBytes": 323806651100,
+  "totalFiles": 143,
+  "totalBytes": 355639571946,
   "distributionPolicy": {
     "singleResourceLibrary": true,
     "sharedDependencies": "相同 SHA256 权重只保存一份，基础与可选资源共用依赖。",
@@ -2553,6 +2553,7 @@
       "dependenciesFor": [],
       "license": "BSD-3-Clause",
       "licensePath": "docs/licenses/Real-ESRGAN-LICENSE.txt",
+      "distributionStatus": "NAS SHA256 matched; Baidu ordered block MD5 matched",
       "sources": [
         {
           "repository": "xinntao/Real-ESRGAN",
@@ -2580,6 +2581,7 @@
       "dependenciesFor": [],
       "license": "BSD-3-Clause",
       "licensePath": "docs/licenses/Real-ESRGAN-LICENSE.txt",
+      "distributionStatus": "NAS SHA256 matched; Baidu ordered block MD5 matched",
       "sources": [
         {
           "repository": "xinntao/Real-ESRGAN",
@@ -2610,11 +2612,501 @@
         "Real-ESRGAN x4plus 动漫 6B"
       ],
       "license": "BSD-3-Clause",
+      "distributionStatus": "NAS SHA256 matched; Baidu ordered block MD5 matched",
       "sources": [
         {
           "repository": "xinntao/Real-ESRGAN",
           "url": "https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/LICENSE",
           "verification": "official-license-downloaded-local-sha256"
+        }
+      ]
+    },
+    {
+      "id": "file-123",
+      "relativePath": "模型库/01-图片生成/loras/qwen21_multiple_angles_v2_step1500.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/01-图片生成/loras/qwen21_multiple_angles_v2_step1500.safetensors",
+      "installRelativePath": "loras/qwen21_multiple_angles_v2_step1500.safetensors",
+      "downloadTier": "optional",
+      "bytes": 318819792,
+      "sha256": "548c57977c3f1c09c2c9e5f4e83e930cbc6f719c878a576ab8666ce29fef39b6",
+      "md5": "b38fccea956814c806977ba54cb8952f",
+      "models": [
+        "qwen-camera"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "01-图片生成",
+      "installRoot": "models",
+      "license": "Apache-2.0",
+      "sources": [
+        {
+          "repository": "akhaliq/Qwen-Image-2.1-Multiple-Angles-LoRA",
+          "revision": "175b29b6eb41307473eebc363fca8fc198216b60",
+          "url": "https://huggingface.co/akhaliq/Qwen-Image-2.1-Multiple-Angles-LoRA/resolve/175b29b6eb41307473eebc363fca8fc198216b60/checkpoints_v2/angles_v2_full_qwen21_multiple_angles_v2_qwen21_multiple_angles_v2_000001500.safetensors"
+        }
+      ]
+    },
+    {
+      "id": "file-124",
+      "relativePath": "模型库/02-视频生成/loras/h3_character_swap_v1.5.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/loras/h3_character_swap_v1.5.safetensors",
+      "installRelativePath": "loras/h3_character_swap_v1.5.safetensors",
+      "downloadTier": "optional",
+      "bytes": 155110792,
+      "sha256": "8f2c3c3eba161df8d0c6099598b4730f641f5ce01e04cd16d2427cff8a35218f",
+      "md5": "55c5bb53f1104e3cd4fed7fbe5d522d7",
+      "models": [
+        "character-swap"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "MiniMax-H3 Community License",
+      "sources": [
+        {
+          "repository": "akatz-ai/MiniMax-H3-Character-Swap-LoRA",
+          "revision": "96ea3407b230b6f7df71c58c70e31df96bd7e533",
+          "url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA/resolve/96ea3407b230b6f7df71c58c70e31df96bd7e533/h3_character_swap_v1.5.safetensors"
+        }
+      ]
+    },
+    {
+      "id": "file-125",
+      "relativePath": "模型库/02-视频生成/model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
+      "installRelativePath": "model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
+      "downloadTier": "optional",
+      "bytes": 4531220608,
+      "sha256": "890af58bb350f0c2f6c409b1c67ea8f4196654297d037769b72de1e6f504c612",
+      "md5": "1d5a108256d815ea4f5f2dbd1578c5ed",
+      "models": [
+        "funcontrol2"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "MiniMax-H3 Community License",
+      "sources": [
+        {
+          "repository": "Comfy-Org/MiniMax-H3",
+          "revision": "54472221d27c695fca9621b0c3ed52f06c4af707",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/54472221d27c695fca9621b0c3ed52f06c4af707/model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors?download=true"
+        }
+      ]
+    },
+    {
+      "id": "file-126",
+      "relativePath": "模型库/02-视频生成/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
+      "installRelativePath": "diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
+      "downloadTier": "optional",
+      "bytes": 22213723064,
+      "sha256": "851b2dc9670ed864b7f1e951ac9da047d83b1c04ded9bfcc1a9e5bba0ee33f80",
+      "md5": "0549b3810f244036d57671a488d1b508",
+      "models": [
+        "fast"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "MiniMax-H3 Community License",
+      "distributionStatus": {
+        "state": "pending-multipart",
+        "shareAvailable": false,
+        "officialDirectDownloadAvailable": true,
+        "reason": "Baidu单文件超过20GiB限制，后台分包同步；可使用已核验的官方固定版本直链或现有本地模型。"
+      },
+      "sources": [
+        {
+          "repository": "FastVideo/FastH3-Omni-Comfy",
+          "revision": "82eff2a6eee6c962846879f4bab52610a4df24d3",
+          "url": "https://huggingface.co/FastVideo/FastH3-Omni-Comfy/resolve/82eff2a6eee6c962846879f4bab52610a4df24d3/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors?download=true"
+        }
+      ]
+    },
+    {
+      "id": "file-127",
+      "relativePath": "模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+      "installRelativePath": "loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+      "downloadTier": "optional",
+      "bytes": 1956193000,
+      "sha256": "08cfe946033af7d27719b964b6e0a0e50c32138daabbd6ce4137e23df6bf9980",
+      "md5": "6f3e07a52a1ab2ce9a525c31f3157a84",
+      "models": [
+        "turbo768"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "MiniMax-H3 Community License",
+      "sources": [
+        {
+          "repository": "lightx2v/Minimax-h3-Turbo",
+          "revision": "30f485ed874aa44c8183348ad361c5eabad318da",
+          "url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/30f485ed874aa44c8183348ad361c5eabad318da/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors?download=true"
+        }
+      ]
+    },
+    {
+      "id": "file-128",
+      "relativePath": "模型库/03-图片放大/facerestore_models/GFPGANv1.4.pth",
+      "targetRelativePath": "02-可选扩展/模型库/03-图片放大/facerestore_models/GFPGANv1.4.pth",
+      "installRelativePath": "facerestore_models/GFPGANv1.4.pth",
+      "downloadTier": "optional",
+      "bytes": 348632874,
+      "sha256": "e2cd4703ab14f4d01fd1383a8a8b266f9a5833dacee8e6a79d3bf21a1b6be5ad",
+      "md5": "94d735072630ab734561130a47bc44f8",
+      "models": [
+        "face-restoration"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "03-图片放大",
+      "installRoot": "models",
+      "license": "Apache-2.0 + upstream notices",
+      "sources": [
+        {
+          "url": "https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth"
+        }
+      ]
+    },
+    {
+      "id": "file-129",
+      "relativePath": "模型库/03-图片放大/facedetection/detection_mobilenet0.25_Final.pth",
+      "targetRelativePath": "02-可选扩展/模型库/03-图片放大/facedetection/detection_mobilenet0.25_Final.pth",
+      "installRelativePath": "facedetection/detection_mobilenet0.25_Final.pth",
+      "downloadTier": "optional",
+      "bytes": 1789735,
+      "sha256": "2979b33ffafda5d74b6948cd7a5b9a7a62f62b949cef24e95fd15d2883a65220",
+      "md5": "d308262876f997c63f79c7805b2cdab0",
+      "models": [
+        "face-restoration"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "03-图片放大",
+      "installRoot": "models",
+      "license": "facexlib MIT project; retain upstream model provenance",
+      "sources": [
+        {
+          "url": "https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_mobilenet0.25_Final.pth"
+        }
+      ]
+    },
+    {
+      "id": "file-130",
+      "relativePath": "模型库/02-视频生成/dwpose/dw-ll_ucoco_384.onnx",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/dwpose/dw-ll_ucoco_384.onnx",
+      "installRelativePath": "dwpose/dw-ll_ucoco_384.onnx",
+      "downloadTier": "optional",
+      "bytes": 134399116,
+      "sha256": "724f4ff2439ed61afb86fb8a1951ec39c6220682803b4a8bd4f598cd913b1843",
+      "md5": "5963bb23b9dbeaa037cbd1231dc48426",
+      "models": [
+        "dwpose"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "Apache-2.0 model card; OpenPose renderer excluded",
+      "sources": [
+        {
+          "repository": "yzd-v/DWPose",
+          "revision": "1a7144101628d69ee7a3768d1ee3a094070dc388",
+          "url": "https://huggingface.co/yzd-v/DWPose/resolve/1a7144101628d69ee7a3768d1ee3a094070dc388/dw-ll_ucoco_384.onnx"
+        }
+      ]
+    },
+    {
+      "id": "file-131",
+      "relativePath": "模型库/02-视频生成/dwpose/yolox_l.onnx",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/dwpose/yolox_l.onnx",
+      "installRelativePath": "dwpose/yolox_l.onnx",
+      "downloadTier": "optional",
+      "bytes": 216746733,
+      "sha256": "7860ae79de6c89a3c1eb72ae9a2756c0ccfbe04b7791bb5880afabd97855a411",
+      "md5": "67404e8706aeb0d6d3d354aecd6f42a4",
+      "models": [
+        "dwpose"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "Apache-2.0 model card; OpenPose renderer excluded",
+      "sources": [
+        {
+          "repository": "yzd-v/DWPose",
+          "revision": "1a7144101628d69ee7a3768d1ee3a094070dc388",
+          "url": "https://huggingface.co/yzd-v/DWPose/resolve/1a7144101628d69ee7a3768d1ee3a094070dc388/yolox_l.onnx"
+        }
+      ]
+    },
+    {
+      "id": "file-132",
+      "relativePath": "模型库/02-视频生成/licenses/Character-Swap-H3-LICENSE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/licenses/Character-Swap-H3-LICENSE.txt",
+      "installRelativePath": "licenses/Character-Swap-H3-LICENSE.txt",
+      "downloadTier": "optional",
+      "bytes": 17604,
+      "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+      "md5": "f16c57afc00f5df3b34d312a85540bd7",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "MiniMax-H3 Community License",
+      "sources": [
+        {
+          "url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA/resolve/96ea3407b230b6f7df71c58c70e31df96bd7e533/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "file-133",
+      "relativePath": "模型库/02-视频生成/licenses/Character-Swap-H3-NOTICE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/licenses/Character-Swap-H3-NOTICE.txt",
+      "installRelativePath": "licenses/Character-Swap-H3-NOTICE.txt",
+      "downloadTier": "optional",
+      "bytes": 444,
+      "sha256": "d029194e580402f7212dd54be0b24ee5863c09ac2e994c8c2d9e498a23c767e4",
+      "md5": "16d4d549194173c6e55a67ef9986cc8f",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "MiniMax-H3 Community License",
+      "sources": [
+        {
+          "url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA/resolve/96ea3407b230b6f7df71c58c70e31df96bd7e533/NOTICE"
+        }
+      ]
+    },
+    {
+      "id": "file-134",
+      "relativePath": "模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+      "installRelativePath": "licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+      "downloadTier": "optional",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "md5": "3b83ef96387f14655fc854ddc3c6bd57",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "01-图片生成",
+      "installRoot": "models",
+      "license": "Apache-2.0",
+      "sources": [
+        {
+          "url": "https://huggingface.co/akhaliq/Qwen-Image-2.1-Multiple-Angles-LoRA/blob/175b29b6eb41307473eebc363fca8fc198216b60/README.md",
+          "verification": "pinned model card declares Apache-2.0; license text matches standard Apache-2.0"
+        }
+      ]
+    },
+    {
+      "id": "file-135",
+      "relativePath": "模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
+      "installRelativePath": "licenses/Qwen21-Multiple-Angles-NOTICE.txt",
+      "downloadTier": "optional",
+      "bytes": 392,
+      "sha256": "35cdc423e567585012136a141f46978503734b74646673fbc2dd4c5395eb65ee",
+      "md5": "2be8ebf7f0ac11188efc044e2188a1bb",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "01-图片生成",
+      "installRoot": "models",
+      "license": "Apache-2.0",
+      "sources": [
+        {
+          "verification": "local reviewed attribution notice; references pinned upstream in body"
+        }
+      ]
+    },
+    {
+      "id": "file-136",
+      "relativePath": "模型库/02-视频生成/licenses/MiniMax-H3-Community-LICENSE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/licenses/MiniMax-H3-Community-LICENSE.txt",
+      "installRelativePath": "licenses/MiniMax-H3-Community-LICENSE.txt",
+      "downloadTier": "optional",
+      "bytes": 17604,
+      "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+      "md5": "f16c57afc00f5df3b34d312a85540bd7",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "MiniMax-H3 Community License",
+      "sources": [
+        {
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/resolve/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "file-137",
+      "relativePath": "模型库/03-图片放大/licenses/GFPGAN-LICENSE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/03-图片放大/licenses/GFPGAN-LICENSE.txt",
+      "installRelativePath": "licenses/GFPGAN-LICENSE.txt",
+      "downloadTier": "optional",
+      "bytes": 22990,
+      "sha256": "b916d19bf894eb43409866adf17c9f71cbb17aefd9cd105117c4a32598ef6a46",
+      "md5": "99a171129dda451696523d16d70c031f",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "03-图片放大",
+      "installRoot": "models",
+      "license": "Apache-2.0 + third-party notices",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/TencentARC/GFPGAN/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "file-138",
+      "relativePath": "模型库/03-图片放大/licenses/facexlib-LICENSE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/03-图片放大/licenses/facexlib-LICENSE.txt",
+      "installRelativePath": "licenses/facexlib-LICENSE.txt",
+      "downloadTier": "optional",
+      "bytes": 1068,
+      "sha256": "db131d6ba4392941108e6adea4216475221b30accd1f59c20f69de619fd39fd8",
+      "md5": "666d9c00eb3f410d3e3e180c46ef394a",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "03-图片放大",
+      "installRoot": "models",
+      "license": "MIT",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/xinntao/facexlib/master/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "file-139",
+      "relativePath": "模型库/02-视频生成/licenses/DWPose-LICENSE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/licenses/DWPose-LICENSE.txt",
+      "installRelativePath": "licenses/DWPose-LICENSE.txt",
+      "downloadTier": "optional",
+      "bytes": 11996,
+      "sha256": "ec5aa54eef312195c4494873a37158b19b0d523e25cec570189e6aa86289cf42",
+      "md5": "be9c455f557350054dcb8f6fbb8d1ce0",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "Apache-2.0",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/IDEA-Research/DWPose/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "file-140",
+      "relativePath": "模型库/02-视频生成/licenses/YOLOX-LICENSE.txt",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/licenses/YOLOX-LICENSE.txt",
+      "installRelativePath": "licenses/YOLOX-LICENSE.txt",
+      "downloadTier": "optional",
+      "bytes": 11371,
+      "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088",
+      "md5": "86e3f2dd3698f0256add6c4e0a968e64",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "Apache-2.0",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "file-141",
+      "relativePath": "模型库/02-视频生成/loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
+      "installRelativePath": "loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
+      "downloadTier": "optional",
+      "bytes": 1956172304,
+      "sha256": "cc5453aeecd6189468409003fe4cf1b57e52ff3a830a0a154b87decbe07358b7",
+      "md5": "4b03d411da610a3b6c5f4b361cadc59f",
+      "models": [
+        "pika-fl2va"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "MiniMax-H3 Community License + Pika upstream notices",
+      "sources": [
+        {
+          "repository": "Comfy-Org/MiniMax-H3",
+          "revision": "54472221d27c695fca9621b0c3ed52f06c4af707",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/54472221d27c695fca9621b0c3ed52f06c4af707/loras/pika_h3_flex_fl2va_v1_bf16.safetensors"
+        }
+      ]
+    },
+    {
+      "id": "file-142",
+      "relativePath": "模型库/02-视频生成/licenses/pika-license-fixed.txt",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/licenses/pika-license-fixed.txt",
+      "installRelativePath": "licenses/pika-license-fixed.txt",
+      "downloadTier": "optional",
+      "bytes": 17604,
+      "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+      "md5": "f16c57afc00f5df3b34d312a85540bd7",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "MiniMax-H3 Community License",
+      "sources": [
+        {
+          "repository": "Pika-Labs/Pika-H3-Flex",
+          "revision": "ca45d99f9b1d1859ffb9dc1cd6bfaaa994257f56",
+          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex/resolve/ca45d99f9b1d1859ffb9dc1cd6bfaaa994257f56/LICENSE"
+        }
+      ]
+    },
+    {
+      "id": "file-143",
+      "relativePath": "模型库/02-视频生成/licenses/pika-notice-fixed.txt",
+      "targetRelativePath": "02-可选扩展/模型库/02-视频生成/licenses/pika-notice-fixed.txt",
+      "installRelativePath": "licenses/pika-notice-fixed.txt",
+      "downloadTier": "optional",
+      "bytes": 397,
+      "sha256": "8fc52805a4f8d034f853b5ed494574e37f292def5cdd326d22547afa2658527b",
+      "md5": "e3215558fa628ee18dc1bab5d27a1e36",
+      "models": [
+        "license"
+      ],
+      "sourceStatus": "fixed-version-primary-source-and-local-sha256",
+      "group": "02-视频生成",
+      "installRoot": "models",
+      "license": "Pika upstream attribution",
+      "sources": [
+        {
+          "repository": "Pika-Labs/Pika-H3-Flex",
+          "revision": "ca45d99f9b1d1859ffb9dc1cd6bfaaa994257f56",
+          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex/resolve/ca45d99f9b1d1859ffb9dc1cd6bfaaa994257f56/NOTICE"
         }
       ]
     }
@@ -3130,6 +3622,201 @@
       "dependencies": [
         "Real-ESRGAN-LICENSE.txt"
       ]
+    },
+    {
+      "name": "Qwen 2.1 相机控制 V2",
+      "group": "媒体处理",
+      "use": "Qwen 2.1 相机控制 V2；效果按实际任务核对。",
+      "fileIds": [
+        "file-008",
+        "file-014",
+        "file-018",
+        "file-123",
+        "file-134",
+        "file-135"
+      ],
+      "requiredBytes": 16221696166,
+      "downloadTier": "optional",
+      "dependencies": [
+        "diffusion_models/qwen-image-2.1-UC-Q6_K.gguf",
+        "text_encoders/qwen3vl_8b_int8_convrot.safetensors",
+        "vae/qwen_image_2.1_vae_bf16.safetensors",
+        "loras/qwen21_multiple_angles_v2_step1500.safetensors",
+        "licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+        "licenses/Qwen21-Multiple-Angles-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "H3 人物替换 V1.5",
+      "group": "视频生成",
+      "use": "H3 人物替换 V1.5；效果按实际任务核对。",
+      "fileIds": [
+        "file-021",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-124",
+        "file-132",
+        "file-133"
+      ],
+      "requiredBytes": 40228970999,
+      "downloadTier": "optional",
+      "dependencies": [
+        "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "vae/minimax_h3_audio_vae_fp32.safetensors",
+        "vae/minimax_h3_video_vae_int8_convrot.safetensors",
+        "loras/h3_character_swap_v1.5.safetensors",
+        "licenses/Character-Swap-H3-LICENSE.txt",
+        "licenses/Character-Swap-H3-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "H3 人物替换 V1.5 官方8步",
+      "group": "视频生成",
+      "use": "H3 人物替换 V1.5 官方8步；效果按实际任务核对。",
+      "fileIds": [
+        "file-021",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-124",
+        "file-127",
+        "file-132",
+        "file-133"
+      ],
+      "requiredBytes": 42185163999,
+      "downloadTier": "optional",
+      "dependencies": [
+        "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "vae/minimax_h3_audio_vae_fp32.safetensors",
+        "vae/minimax_h3_video_vae_int8_convrot.safetensors",
+        "loras/h3_character_swap_v1.5.safetensors",
+        "loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+        "licenses/Character-Swap-H3-LICENSE.txt",
+        "licenses/Character-Swap-H3-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "FastH3 Omni 8步",
+      "group": "视频生成",
+      "use": "FastH3 Omni 8步；效果按实际任务核对。",
+      "fileIds": [
+        "file-126",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-136"
+      ],
+      "requiredBytes": 41317203211,
+      "downloadTier": "optional",
+      "dependencies": [
+        "diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
+        "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "vae/minimax_h3_audio_vae_fp32.safetensors",
+        "vae/minimax_h3_video_vae_int8_convrot.safetensors",
+        "licenses/MiniMax-H3-Community-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "H3 FunControl Union 2.0",
+      "group": "视频生成",
+      "use": "H3 FunControl Union 2.0；效果按实际任务核对。",
+      "fileIds": [
+        "file-020",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-125",
+        "file-136"
+      ],
+      "requiredBytes": 44605080371,
+      "downloadTier": "optional",
+      "dependencies": [
+        "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "vae/minimax_h3_audio_vae_fp32.safetensors",
+        "vae/minimax_h3_video_vae_int8_convrot.safetensors",
+        "model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
+        "licenses/MiniMax-H3-Community-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "SeedVR2 官方视频时序放大",
+      "group": "媒体处理",
+      "use": "SeedVR2 官方视频时序放大；效果按实际任务核对。",
+      "fileIds": [
+        "file-030",
+        "file-032"
+      ],
+      "requiredBytes": 3959584518,
+      "downloadTier": "optional",
+      "dependencies": [
+        "diffusion_models/seedvr2_3b_int8_convrot.safetensors",
+        "vae/seedvr2_ema_vae_fp16.safetensors"
+      ]
+    },
+    {
+      "name": "GFPGAN 视频人脸预修复",
+      "group": "媒体处理",
+      "use": "GFPGAN 视频人脸预修复；效果按实际任务核对。",
+      "fileIds": [
+        "file-128",
+        "file-129",
+        "file-137",
+        "file-138"
+      ],
+      "requiredBytes": 350446667,
+      "downloadTier": "optional",
+      "dependencies": [
+        "facerestore_models/GFPGANv1.4.pth",
+        "facedetection/detection_mobilenet0.25_Final.pth",
+        "licenses/GFPGAN-LICENSE.txt",
+        "licenses/facexlib-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "DWPose 动作骨架",
+      "group": "媒体处理",
+      "use": "DWPose 动作骨架；效果按实际任务核对。",
+      "fileIds": [
+        "file-130",
+        "file-131",
+        "file-139",
+        "file-140"
+      ],
+      "requiredBytes": 351169216,
+      "downloadTier": "optional",
+      "dependencies": [
+        "dwpose/dw-ll_ucoco_384.onnx",
+        "dwpose/yolox_l.onnx",
+        "licenses/DWPose-LICENSE.txt",
+        "licenses/YOLOX-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "Pika H3 Flex 6步",
+      "group": "视频生成",
+      "use": "Pika H3 Flex 6步；效果按实际任务核对。",
+      "fileIds": [
+        "file-020",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-141",
+        "file-136"
+      ],
+      "requiredBytes": 42030032067,
+      "downloadTier": "optional",
+      "dependencies": [
+        "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "vae/minimax_h3_audio_vae_fp32.safetensors",
+        "vae/minimax_h3_video_vae_int8_convrot.safetensors",
+        "loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
+        "licenses/MiniMax-H3-Community-LICENSE.txt"
+      ]
     }
   ],
   "activeModelDependencies": {
@@ -3235,6 +3922,99 @@
         "file-025"
       ],
       "bytes": 29405442393
+    },
+    "studio:qwen-2.1:camera": {
+      "fileIds": [
+        "file-008",
+        "file-014",
+        "file-018",
+        "file-123",
+        "file-134",
+        "file-135"
+      ],
+      "bytes": 16221696166
+    },
+    "studio:minimax-h3:character-swap": {
+      "fileIds": [
+        "file-021",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-124",
+        "file-132",
+        "file-133"
+      ],
+      "bytes": 40228970999
+    },
+    "studio:minimax-h3:character-swap-turbo8": {
+      "fileIds": [
+        "file-021",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-124",
+        "file-127",
+        "file-132",
+        "file-133"
+      ],
+      "bytes": 42185163999
+    },
+    "studio:minimax-h3:fast8": {
+      "fileIds": [
+        "file-126",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-136"
+      ],
+      "bytes": 41317203211
+    },
+    "studio:minimax-h3:fun-control": {
+      "fileIds": [
+        "file-020",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-125",
+        "file-136"
+      ],
+      "bytes": 44605080371
+    },
+    "video:seedvr2-native": {
+      "fileIds": [
+        "file-030",
+        "file-032"
+      ],
+      "bytes": 3959584518
+    },
+    "video:face-restoration": {
+      "fileIds": [
+        "file-128",
+        "file-129",
+        "file-137",
+        "file-138"
+      ],
+      "bytes": 350446667
+    },
+    "video:dwpose": {
+      "fileIds": [
+        "file-130",
+        "file-131",
+        "file-139",
+        "file-140"
+      ],
+      "bytes": 351169216
+    },
+    "studio:minimax-h3:pika6": {
+      "fileIds": [
+        "file-020",
+        "file-025",
+        "file-026",
+        "file-027",
+        "file-141",
+        "file-136"
+      ],
+      "bytes": 42030032067
     }
   },
   "additionalLocalFiles": [

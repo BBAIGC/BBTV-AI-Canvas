@@ -6,13 +6,13 @@
 
 桌面安装包、推理引擎与模型权重分别准备。已存在的 ComfyUI 可以通过额外模型路径复用权重；同一 SHA256 文件无需重复下载或移动原文件。
 
-文件清单日期：2026-11-11。以下大小按十进制 GB 统计，是磁盘文件大小，不是显存需求。完整功能还需推理引擎、Python 依赖、运行缓存与解压空间。
+文件清单日期：2026-11-12。以下大小按十进制 GB 统计，是磁盘文件大小，不是显存需求。完整功能还需推理引擎、Python 依赖、运行缓存与解压空间。
 
 | 层级 | 文件数 | 文件合计 |
 |---|---:|---:|
 | 基础必需 | 28 | 103.87 GB |
-| 可选扩展 | 94 | 219.94 GB |
-| 合计 | 122 | 323.81 GB |
+| 可选扩展 | 115 | 251.77 GB |
+| 合计 | 143 | 355.64 GB |
 
 ## 当前主要路线：含配套依赖
 
@@ -30,8 +30,19 @@
 | MOSS（小红书特调 V1） | 24.97 GB | `diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors`<br>`text_encoders/qwen3.5_9b_bf16.safetensors`<br>`vae/flux2-vae_small.safetensors` |
 | MOSS（小红书特调 V2） | 24.97 GB | `diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors`<br>`text_encoders/qwen3.5_9b_bf16.safetensors`<br>`vae/flux2-vae_small.safetensors` |
 | MiniMax H3 Image · 图片生成与编辑 | 29.41 GB | `diffusion_models/minimax_h3_image_pruned_w4a8.safetensors`<br>`vae/minimax_h3_image_vae_fp16.safetensors`<br>`text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors` |
+| Qwen 2.1 相机控制 | 16.22 GB | `diffusion_models/qwen-image-2.1-UC-Q6_K.gguf`<br>`text_encoders/qwen3vl_8b_int8_convrot.safetensors`<br>`vae/qwen_image_2.1_vae_bf16.safetensors`<br>`loras/qwen21_multiple_angles_v2_step1500.safetensors`<br>`licenses/Qwen21-Multiple-Angles-LICENSE.txt`<br>`licenses/Qwen21-Multiple-Angles-NOTICE.txt` |
+| H3 人物替换 | 40.23 GB | `diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors`<br>`text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors`<br>`vae/minimax_h3_audio_vae_fp32.safetensors`<br>`vae/minimax_h3_video_vae_int8_convrot.safetensors`<br>`loras/h3_character_swap_v1.5.safetensors`<br>`licenses/Character-Swap-H3-LICENSE.txt`<br>`licenses/Character-Swap-H3-NOTICE.txt` |
+| H3 人物替换官方8步 | 42.19 GB | `diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors`<br>`text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors`<br>`vae/minimax_h3_audio_vae_fp32.safetensors`<br>`vae/minimax_h3_video_vae_int8_convrot.safetensors`<br>`loras/h3_character_swap_v1.5.safetensors`<br>`loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors`<br>`licenses/Character-Swap-H3-LICENSE.txt`<br>`licenses/Character-Swap-H3-NOTICE.txt` |
+| FastH3 Omni 8步 | 41.32 GB | `diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors`<br>`text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors`<br>`vae/minimax_h3_audio_vae_fp32.safetensors`<br>`vae/minimax_h3_video_vae_int8_convrot.safetensors`<br>`licenses/MiniMax-H3-Community-LICENSE.txt` |
+| H3 动作控制 | 44.61 GB | `diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors`<br>`text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors`<br>`vae/minimax_h3_audio_vae_fp32.safetensors`<br>`vae/minimax_h3_video_vae_int8_convrot.safetensors`<br>`model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors`<br>`licenses/MiniMax-H3-Community-LICENSE.txt` |
+| SeedVR2 官方视频 | 3.96 GB | `diffusion_models/seedvr2_3b_int8_convrot.safetensors`<br>`vae/seedvr2_ema_vae_fp16.safetensors` |
+| 视频人脸预修复 | 0.35 GB | `facerestore_models/GFPGANv1.4.pth`<br>`facedetection/detection_mobilenet0.25_Final.pth`<br>`licenses/GFPGAN-LICENSE.txt`<br>`licenses/facexlib-LICENSE.txt` |
+| DWPose 骨架视频 | 0.35 GB | `dwpose/dw-ll_ucoco_384.onnx`<br>`dwpose/yolox_l.onnx`<br>`licenses/DWPose-LICENSE.txt`<br>`licenses/YOLOX-LICENSE.txt` |
+| Pika H3 Flex 6步 | 42.03 GB | `diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors`<br>`text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors`<br>`vae/minimax_h3_audio_vae_fp32.safetensors`<br>`vae/minimax_h3_video_vae_int8_convrot.safetensors`<br>`loras/pika_h3_flex_fl2va_v1_bf16.safetensors`<br>`licenses/MiniMax-H3-Community-LICENSE.txt` |
 
 共享编码器、VAE 只需安装一次；基础与可选目录可以共同引用。H3 基础路线的合计包含当前默认 8 步加速 LoRA；参考视频路线与基础路线需要不同的主模型，不能只下载其中一个权重就认为两条路线都可用。
+
+可选 **FastH3 Omni** 的 22.2 GB 文件超过网盘单文件限制，正在后台分包同步；这部分尚未计入已同步的 142 文件。可从清单中的官方固定版本直链安装，或复用已有本地模型；未安装时应用会明确显示不可用。
 
 ## 全部功能组合
 
@@ -74,6 +85,15 @@
 | MiniMax H3 Image · W4A8 | 29.41 GB | 图片生成与编辑 |
 | Real-ESRGAN x4plus | 0.07 GB | 原生4倍快速放大；可作为独立后处理；动漫版本适用于插画/动漫 |
 | Real-ESRGAN x4plus 动漫 6B | 0.02 GB | 原生4倍快速放大；可作为独立后处理；动漫版本适用于插画/动漫 |
+| Qwen 2.1 相机控制 V2 | 16.22 GB | Qwen 2.1 相机控制 V2；效果按实际任务核对。 |
+| H3 人物替换 V1.5 | 40.23 GB | H3 人物替换 V1.5；效果按实际任务核对。 |
+| H3 人物替换 V1.5 官方8步 | 42.19 GB | H3 人物替换 V1.5 官方8步；效果按实际任务核对。 |
+| FastH3 Omni 8步 | 41.32 GB | FastH3 Omni 8步；效果按实际任务核对。 |
+| H3 FunControl Union 2.0 | 44.61 GB | H3 FunControl Union 2.0；效果按实际任务核对。 |
+| SeedVR2 官方视频时序放大 | 3.96 GB | SeedVR2 官方视频时序放大；效果按实际任务核对。 |
+| GFPGAN 视频人脸预修复 | 0.35 GB | GFPGAN 视频人脸预修复；效果按实际任务核对。 |
+| DWPose 动作骨架 | 0.35 GB | DWPose 动作骨架；效果按实际任务核对。 |
+| Pika H3 Flex 6步 | 42.03 GB | Pika H3 Flex 6步；效果按实际任务核对。 |
 
 组合之间存在共享文件，不能把每行直接相加当成整库体积。SAM B/H、U2Net/P 等替代项按所选模式安装，不必同时加载全部模型。
 

@@ -21,8 +21,8 @@
     "downloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
     "extractionCode": "rpmx",
     "inventoryPath": "docs/model-distribution-inventory.json",
-    "verifiedBytes": 323806651100,
-    "verifiedFiles": 122,
+    "verifiedBytes": 333425848882,
+    "verifiedFiles": 142,
     "tiers": [
       {
         "id": "mandatory",
@@ -36,8 +36,8 @@
         "id": "optional",
         "label": "可选扩展",
         "directory": "02-可选扩展",
-        "files": 94,
-        "bytes": 219935044094,
+        "files": 115,
+        "bytes": 251767964940,
         "description": "按需增加图片模型、参考视频、放大、配音、识别及其他模型。"
       }
     ],
@@ -65,6 +65,16 @@
         "shareVerified": true,
         "licenseDownloadUrl": "https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/LICENSE",
         "licenseSha256": "4a699ec4863d96a91fc265948a0c90033f7e8735d515524dcf3444736406e0c2"
+      }
+    ],
+    "optionalPending": [
+      {
+        "name": "FastH3 Omni",
+        "installRelativePath": "diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
+        "bytes": 22213723064,
+        "reason": "网盘分包同步中；可用官方固定直链或现有本地模型。",
+        "downloadUrl": "https://huggingface.co/FastVideo/FastH3-Omni-Comfy/resolve/82eff2a6eee6c962846879f4bab52610a4df24d3/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors?download=true",
+        "sha256": "851b2dc9670ed864b7f1e951ac9da047d83b1c04ded9bfcc1a9e5bba0ee33f80"
       }
     ]
   },

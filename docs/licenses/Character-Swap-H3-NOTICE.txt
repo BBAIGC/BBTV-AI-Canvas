@@ -1,0 +1,6 @@
+MiniMax H3 Character Swap LoRA V1.5
+Source: https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA
+Revision: 96ea3407b230b6f7df71c58c70e31df96bd7e533
+SHA256: 8f2c3c3eba161df8d0c6099598b4730f641f5ce01e04cd16d2427cff8a35218f
+License: MiniMax H3 Community License; see Character-Swap-H3-LICENSE.txt.
+Task-specific reference-to-video adapter. No claim of pixel-identical background, exact lip sync or universal adapter compatibility.

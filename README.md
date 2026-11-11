@@ -4,7 +4,7 @@
 
 ### 图片、视频与声音，在一张画布中创作
 
-[![版本 v0.1.16](https://img.shields.io/badge/版本-v0.1.16-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
+[![版本 v0.1.17](https://img.shields.io/badge/版本-v0.1.17-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
 [![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%2F%2011-0078d4)](https://bbtv.ainivox.cn)
 [![本地永久免费](https://img.shields.io/badge/本地功能-永久免费-16a34a)](#开始使用下载与安装)
 [![无需购买 API](https://img.shields.io/badge/API-无需购买-0891b2)](#开始使用下载与安装)
@@ -21,7 +21,7 @@
 [![SeedVR2](https://img.shields.io/badge/SeedVR2-放大-278a6a)](https://huggingface.co/numz/SeedVR2_comfyUI)
 [![Qwen 视觉](https://img.shields.io/badge/Qwen-视觉反推-615ced)](https://huggingface.co/Qwen)
 
-[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.16.md)
+[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.17.md)
 
 </div>
 
@@ -34,7 +34,7 @@
 3. **连接本地引擎。** 在设置中选择引擎目录，并参考 [MODELS.md](MODELS.md) 核对所选模型的编码器、VAE 和其他依赖。
 4. **开始第一次创作。** 新建项目，导入参考图片，选择模型，输入要求并生成。
 
-[v0.1.16 更新内容](release-notes/0.1.16.md)
+[v0.1.17 更新内容](release-notes/0.1.17.md)
 
 
 
@@ -230,8 +230,8 @@ MiniMax H3 在远景、小脸画面中可能出现面部细节失真。**视频�
 | 资源层 | 文件数 | 文件合计 |
 |---|---:|---:|
 | 基础必需组合 | 28 | 103.87 GB |
-| 可选扩展 | 94 | 219.94 GB |
-| 当前资源清单合计 | 122 | 323.81 GB |
+| 可选扩展 | 115 | 251.77 GB |
+| 当前资源清单合计 | 143 | 355.64 GB |
 
 这是作者资源库的分层，并非安装 BBTV 必须一次下载全部文件。按功能计算所需资源，预留下载、解压和运行缓存空间；共用权重只保存一份。
 

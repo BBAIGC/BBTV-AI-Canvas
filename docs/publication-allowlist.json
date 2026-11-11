@@ -7,17 +7,28 @@
     "config/distribution-prompt.cjs",
     "docs/model-distribution-inventory.json",
     "docs/licenses/Real-ESRGAN-LICENSE.txt",
+    "docs/licenses/Character-Swap-H3-LICENSE.txt",
+    "docs/licenses/Character-Swap-H3-NOTICE.txt",
+    "docs/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+    "docs/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
+    "docs/licenses/MiniMax-H3-Community-LICENSE.txt",
+    "docs/licenses/GFPGAN-LICENSE.txt",
+    "docs/licenses/facexlib-LICENSE.txt",
+    "docs/licenses/DWPose-LICENSE.txt",
+    "docs/licenses/YOLOX-LICENSE.txt",
+    "docs/licenses/pika-license-fixed.txt",
+    "docs/licenses/pika-notice-fixed.txt",
     "output/model-distribution-research/run-performance-evidence.json",
     "LICENSE",
     "public/community/bbtv-qq-group.jpg",
+    "output/public-repo-assets/video-generation-speed.png",
     "output/public-repo-assets/story-to-video.png",
     "output/public-repo-assets/multi-angle-video.png",
     "output/public-repo-assets/prompt-upscale-compare.png",
     "output/public-repo-assets/image-tools.png",
     "output/public-repo-assets/canvas-preferences.png",
     "output/public-repo-assets/engine-models.png",
-    "output/public-repo-assets/about-updates.png",
-    "output/public-repo-assets/video-generation-speed.png"
+    "output/public-repo-assets/about-updates.png"
   ],
   "outputAllowlist": [
     "README.md",
@@ -30,20 +41,32 @@
     "release-notes/0.1.14.md",
     "release-notes/0.1.15.md",
     "release-notes/0.1.16.md",
+    "release-notes/0.1.17.md",
     "docs/model-distribution-inventory.json",
     "docs/licenses/Real-ESRGAN-LICENSE.txt",
+    "docs/licenses/Character-Swap-H3-LICENSE.txt",
+    "docs/licenses/Character-Swap-H3-NOTICE.txt",
+    "docs/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+    "docs/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
+    "docs/licenses/MiniMax-H3-Community-LICENSE.txt",
+    "docs/licenses/GFPGAN-LICENSE.txt",
+    "docs/licenses/facexlib-LICENSE.txt",
+    "docs/licenses/DWPose-LICENSE.txt",
+    "docs/licenses/YOLOX-LICENSE.txt",
+    "docs/licenses/pika-license-fixed.txt",
+    "docs/licenses/pika-notice-fixed.txt",
     "docs/distribution-resources.json",
     "docs/performance-reference.json",
     "docs/publication-allowlist.json",
     "docs/assets/bbtv-qq-group.jpg",
+    "docs/assets/video-generation-speed.png",
     "docs/assets/story-to-video.png",
     "docs/assets/multi-angle-video.png",
     "docs/assets/prompt-upscale-compare.png",
     "docs/assets/image-tools.png",
     "docs/assets/canvas-preferences.png",
     "docs/assets/engine-models.png",
-    "docs/assets/about-updates.png",
-    "docs/assets/video-generation-speed.png"
+    "docs/assets/about-updates.png"
   ],
   "prohibitedContent": [
     "program source",
@@ -60,12 +83,12 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.16",
+  "generatedFromVersion": "0.1.17",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
-      "bytes": 12492,
-      "sha256": "0ff5f33e4840cc7f3fe050ce70a48c28b9c7ca2d85a5cb30a51e9f7240a1c1fc"
+      "bytes": 12396,
+      "sha256": "c03ba83362f0e2f4c69146bd0f291758349edcb30eef0886da604fa7e23073f5"
     },
     {
       "path": "LICENSES/open-canvas-MIT.txt",
@@ -74,8 +97,8 @@
     },
     {
       "path": "MODELS.md",
-      "bytes": 11002,
-      "sha256": "fe87d6a47f1bed750e8eae473fd1c617ba17411d17d3f9a565915828fcbf051e"
+      "bytes": 14959,
+      "sha256": "7502e5f99b4ec7087aec58b2c99ebe847cd6d9025c8e5879070c3ee04e95073c"
     },
     {
       "path": "NOTICE.md",
@@ -84,8 +107,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 22650,
-      "sha256": "43c969dfa0d34e5a48a36e771d56f17afba44a5d0b5cf0587b75608e2e82d434"
+      "bytes": 22391,
+      "sha256": "8384ed40de5d04c907de8025f8db270497171ef25a3d030ae71091d528183645"
     },
     {
       "path": "docs/assets/about-updates.png",
@@ -134,8 +157,43 @@
     },
     {
       "path": "docs/distribution-resources.json",
-      "bytes": 10054,
-      "sha256": "7972fe5097c4415a799ea00e822906d81080ef439a8a5b630e827262b5bc922d"
+      "bytes": 10470,
+      "sha256": "9a93083dd148d138823843131efff910144149b96563ba459ef36475820500e4"
+    },
+    {
+      "path": "docs/licenses/Character-Swap-H3-LICENSE.txt",
+      "bytes": 17604,
+      "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44"
+    },
+    {
+      "path": "docs/licenses/Character-Swap-H3-NOTICE.txt",
+      "bytes": 444,
+      "sha256": "d029194e580402f7212dd54be0b24ee5863c09ac2e994c8c2d9e498a23c767e4"
+    },
+    {
+      "path": "docs/licenses/DWPose-LICENSE.txt",
+      "bytes": 11996,
+      "sha256": "ec5aa54eef312195c4494873a37158b19b0d523e25cec570189e6aa86289cf42"
+    },
+    {
+      "path": "docs/licenses/GFPGAN-LICENSE.txt",
+      "bytes": 22990,
+      "sha256": "b916d19bf894eb43409866adf17c9f71cbb17aefd9cd105117c4a32598ef6a46"
+    },
+    {
+      "path": "docs/licenses/MiniMax-H3-Community-LICENSE.txt",
+      "bytes": 17604,
+      "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44"
+    },
+    {
+      "path": "docs/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "docs/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
+      "bytes": 392,
+      "sha256": "35cdc423e567585012136a141f46978503734b74646673fbc2dd4c5395eb65ee"
     },
     {
       "path": "docs/licenses/Real-ESRGAN-LICENSE.txt",
@@ -143,9 +201,29 @@
       "sha256": "4a699ec4863d96a91fc265948a0c90033f7e8735d515524dcf3444736406e0c2"
     },
     {
+      "path": "docs/licenses/YOLOX-LICENSE.txt",
+      "bytes": 11371,
+      "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088"
+    },
+    {
+      "path": "docs/licenses/facexlib-LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "db131d6ba4392941108e6adea4216475221b30accd1f59c20f69de619fd39fd8"
+    },
+    {
+      "path": "docs/licenses/pika-license-fixed.txt",
+      "bytes": 17604,
+      "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44"
+    },
+    {
+      "path": "docs/licenses/pika-notice-fixed.txt",
+      "bytes": 397,
+      "sha256": "8fc52805a4f8d034f853b5ed494574e37f292def5cdd326d22547afa2658527b"
+    },
+    {
       "path": "docs/model-distribution-inventory.json",
-      "bytes": 134483,
-      "sha256": "d47abd9a418bf7925b72f446b609dbd8e6e86f06b2ed590ae735669ee4a596fd"
+      "bytes": 163780,
+      "sha256": "81a2c47c079afddb6d00a00ff608dcf8fe6a62926a1f492769254ddbf079bc6b"
     },
     {
       "path": "docs/performance-reference.json",
@@ -176,6 +254,11 @@
       "path": "release-notes/0.1.16.md",
       "bytes": 871,
       "sha256": "9a221822be675db3c87c666281d032a995faa57a3486a91bd02406129309c822"
+    },
+    {
+      "path": "release-notes/0.1.17.md",
+      "bytes": 1266,
+      "sha256": "4b9f3d6bedb2485db5d8c24226acf034a8453409b6ad2104f45b8f205f7b73dc"
     }
   ],
   "auditResult": {
