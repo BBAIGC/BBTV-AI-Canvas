@@ -4,7 +4,7 @@
 
 ### 图片、视频与声音，在一张画布中创作
 
-[![版本 v0.1.15](https://img.shields.io/badge/版本-v0.1.15-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
+[![版本 v0.1.16](https://img.shields.io/badge/版本-v0.1.16-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
 [![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%2F%2011-0078d4)](https://bbtv.ainivox.cn)
 [![本地永久免费](https://img.shields.io/badge/本地功能-永久免费-16a34a)](#开始使用下载与安装)
 [![无需购买 API](https://img.shields.io/badge/API-无需购买-0891b2)](#开始使用下载与安装)
@@ -21,7 +21,7 @@
 [![SeedVR2](https://img.shields.io/badge/SeedVR2-放大-278a6a)](https://huggingface.co/numz/SeedVR2_comfyUI)
 [![Qwen 视觉](https://img.shields.io/badge/Qwen-视觉反推-615ced)](https://huggingface.co/Qwen)
 
-[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.15.md)
+[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.16.md)
 
 </div>
 
@@ -34,7 +34,7 @@
 3. **连接本地引擎。** 在设置中选择引擎目录，并参考 [MODELS.md](MODELS.md) 核对所选模型的编码器、VAE 和其他依赖。
 4. **开始第一次创作。** 新建项目，导入参考图片，选择模型，输入要求并生成。
 
-[v0.1.15 更新内容](release-notes/0.1.15.md)
+[v0.1.16 更新内容](release-notes/0.1.16.md)
 
 
 

@@ -28,6 +28,7 @@
     "release-notes/0.1.13.md",
     "release-notes/0.1.14.md",
     "release-notes/0.1.15.md",
+    "release-notes/0.1.16.md",
     "docs/model-distribution-inventory.json",
     "docs/licenses/Real-ESRGAN-LICENSE.txt",
     "docs/distribution-resources.json",
@@ -57,7 +58,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.15",
+  "generatedFromVersion": "0.1.16",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -82,7 +83,7 @@
     {
       "path": "README.md",
       "bytes": 21644,
-      "sha256": "4324f24c5a4efaf5ce39016bbdaa93f3525f4a4beaaeb7acd9c4772dc41d1ee7"
+      "sha256": "a4ab134133ecb96b376211438c2d77ca5df1a0c7d78f4bef91b8fb85a58ce95e"
     },
     {
       "path": "docs/assets/about-updates.png",
@@ -163,6 +164,11 @@
       "path": "release-notes/0.1.15.md",
       "bytes": 2009,
       "sha256": "dc9966e7e10266043b12f512ce4a79388b30918e977e25745136d7014419ccea"
+    },
+    {
+      "path": "release-notes/0.1.16.md",
+      "bytes": 871,
+      "sha256": "9a221822be675db3c87c666281d032a995faa57a3486a91bd02406129309c822"
     }
   ],
   "auditResult": {
