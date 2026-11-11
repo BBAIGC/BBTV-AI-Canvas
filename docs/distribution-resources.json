@@ -11,9 +11,10 @@
     "description": "本地创作的运行环境，与桌面程序和模型权重分开准备。",
     "downloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
     "extractionCode": "rpmx",
-    "archiveName": "BBTV-Engine-0.1.8-Windows-x64.zip",
-    "bytes": 4806430980,
-    "sha256": "6d98abbecc7ee8c87f0694d81bf5d8fcb01cfe84a63c4c505109668cd25f8fde"
+    "archiveName": "BBTV-Engine-0.1.18-Windows-x64.zip",
+    "bytes": 4872523089,
+    "sha256": "0095404efa405db16b332c159256e8a3becad4f639212214e674a9fbce323d64",
+    "directory": "02-推理引擎"
   },
   "models": {
     "label": "模型资源",
@@ -26,19 +27,19 @@
     "tiers": [
       {
         "id": "mandatory",
-        "label": "基础必需",
-        "directory": "01-基础必需",
-        "files": 28,
-        "bytes": 103871607006,
-        "description": "引擎、图片生成、H3 基础视频、VOSR2 与常用分层所需的配套资源。"
+        "label": "基础模型",
+        "directory": "03-基础模型",
+        "files": 20,
+        "bytes": 76298016302,
+        "description": "Krea 2 Turbo、H3 基础视频、VOSR2、SAM 与 Qwen3.5 9B；先下载常用功能，其他按需添加。"
       },
       {
         "id": "optional",
         "label": "可选扩展",
-        "directory": "02-可选扩展",
-        "files": 115,
-        "bytes": 251767964940,
-        "description": "按需增加图片模型、参考视频、放大、配音、识别及其他模型。"
+        "directory": "04-可选扩展",
+        "files": 120,
+        "bytes": 275089376832,
+        "description": "其他图片、视频、配音、修脸和控制模型；共享编码器及 VAE 复用基础资源。"
       }
     ],
     "additionalOfficialDownloads": [
@@ -76,7 +77,8 @@
         "downloadUrl": "https://huggingface.co/FastVideo/FastH3-Omni-Comfy/resolve/82eff2a6eee6c962846879f4bab52610a4df24d3/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors?download=true",
         "sha256": "851b2dc9670ed864b7f1e951ac9da047d83b1c04ded9bfcc1a9e5bba0ee33f80"
       }
-    ]
+    ],
+    "baseLanguageModel": "Qwen3.5 9B"
   },
   "authorHardware": {
     "cpu": "Intel Core i7-12700KF",
@@ -95,9 +97,9 @@
       "先检测 Windows 版本、CPU、内存、GPU、可用显存、驱动和目标磁盘剩余空间。记录实际检测结果；不要用作者电脑配置代替我的硬件。",
       "如果尚未安装 BBTV，只从官网或官方 GitHub Releases 获取 Windows 二进制安装器，核对版本和校验值后安装；GitHub 是安装包与使用文档入口，不要求克隆源码或在本机编译。",
       "定位已有 ComfyUI（包括便携版、整合包和独立 Python 环境）、extra_model_paths.yaml、BBTV 引擎与模型目录。先检查常见安装位置和用户指定目录，再按实际证据扩大查找；不要全盘读取无关文件。",
-      "资源库按“01-基础必需”和“02-可选扩展”分层，共享依赖只保留一份；先按清单核对所选功能，不需要为不同方案下载两份相同权重。基础层覆盖一组完整常用能力，但按电脑配置推荐时仍应只准备本机所需资源。",
-      "复用已存在且匹配的模型文件，按公开清单核对大小与 SHA256，不能只凭名称判断；名称不同但哈希一致的文件也是可复用资源。检查并使用 extra_model_paths.yaml；如果 BBTV 需要清单指定的模型名称，可采用文件联接或额外路径配置满足别名，保留原权重原位，不搬移、不重复下载。仅下载缺失且适合本机的资源，图片、视频、文本编码器、VAE、LoRA 和放大模型必须按依赖配套，不把包名当作已完整可用的证据。",
-      "按资源清单的 installRoot 和 installRelativePath 分流安装，不把“01-基础必需/02-可选扩展”分类目录整层嵌入 models。Ollama 模型要保留 manifest、模型 blob 与图像投影器的完整引用，不能只放一个同名 GGUF。遵守每个模型各自的许可与使用条款。",
+      "资源目录分为“01-软件包”“02-推理引擎”“03-基础模型”“04-可选扩展”。软件与引擎必需；先选基础模型中的常用能力，其他模型在使用时按需准备，无需全量下载。基础使用 Krea 2 Turbo、H3、VOSR2、SAM 与 Qwen3.5 9B，配套依赖不重复下载。",
+      "复用已存在且匹配的模型文件，按公开清单核对大小与 SHA256，不能只凭名称判断；名称不同但哈希一致的文件也是可复用资源。检查并使用 extra_model_paths.yaml；如果 BBTV 需要清单指定的模型名称，可采用文件联接或额外路径配置满足别名，保留原权重原位，不搬移、不重复下载。仅下载缺失且适合本机的资源，图片、视频、文本编码器、VAE、LoRA 和放大模型必须按依赖配套，不把包名当作已完整可用的证据。 用户主动拖入下载的模型包时，按清单校验后归位：同盘移动，跨盘校验复制成功再移除该下载源；已有 ComfyUI 或 Ollama 模型仍可原位复用，不搬移既有环境。",
+      "按资源清单的 installRoot 和 installRelativePath 分流安装，不将基础/可选、功能分类或旧“模型库”目录整层嵌入 models。新旧包目录都支持识别；Ollama 必须保留 manifest、所有 blob 与图像投影器完整引用。导入模型后刷新检测，无需重启应用；导入引擎时依界面提示重启。遵守每个模型各自许可。",
       "先给出本机适合的功能组合、所需磁盘空间与缺失资源，再部署已选择的组合。不要覆盖同名模型或删除现有环境；修改配置前保留可恢复备份，不强制迁移已有模型。",
       "网盘分享页不是文件直链。使用已公开的真实下载链接；若资源链接尚未开放，或百度网盘需要我完成登录、转存或下载，请明确说明并使用我提供的本地压缩包，不编造链接或校验值。",
       "部署后检查核心依赖、模型文件与本地推理服务。启动 BBTV，在设置的本地引擎中选择正确目录，保存配置并按需重启；分别验证引擎连通、模型列表和对应功能是否可用。未经我选择，不调用收费云端接口。",

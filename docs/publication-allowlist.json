@@ -6,6 +6,7 @@
     "config/distribution-resources.json",
     "config/distribution-prompt.cjs",
     "docs/model-distribution-inventory.json",
+    "docs/模型安装说明.txt",
     "docs/licenses/Real-ESRGAN-LICENSE.txt",
     "docs/licenses/Character-Swap-H3-LICENSE.txt",
     "docs/licenses/Character-Swap-H3-NOTICE.txt",
@@ -42,7 +43,9 @@
     "release-notes/0.1.15.md",
     "release-notes/0.1.16.md",
     "release-notes/0.1.17.md",
+    "release-notes/0.1.18.md",
     "docs/model-distribution-inventory.json",
+    "docs/模型安装说明.txt",
     "docs/licenses/Real-ESRGAN-LICENSE.txt",
     "docs/licenses/Character-Swap-H3-LICENSE.txt",
     "docs/licenses/Character-Swap-H3-NOTICE.txt",
@@ -83,12 +86,12 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.17",
+  "generatedFromVersion": "0.1.18",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
-      "bytes": 12396,
-      "sha256": "c03ba83362f0e2f4c69146bd0f291758349edcb30eef0886da604fa7e23073f5"
+      "bytes": 13341,
+      "sha256": "1b83dcfff78e617aa01fe7d81a849a1d67c2c15434d163bcfedd5f2fb4c8bc97"
     },
     {
       "path": "LICENSES/open-canvas-MIT.txt",
@@ -97,8 +100,8 @@
     },
     {
       "path": "MODELS.md",
-      "bytes": 14959,
-      "sha256": "7502e5f99b4ec7087aec58b2c99ebe847cd6d9025c8e5879070c3ee04e95073c"
+      "bytes": 14958,
+      "sha256": "6e9513c98b34f26854c6b6dc2d963bb095287e9f2cc4edcc5b9af686d0985ad3"
     },
     {
       "path": "NOTICE.md",
@@ -107,8 +110,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 22391,
-      "sha256": "8384ed40de5d04c907de8025f8db270497171ef25a3d030ae71091d528183645"
+      "bytes": 23398,
+      "sha256": "6f9e69cd519e4121e5a9c5edff5e04397f69478d456f3416f5c57579b5e6bc7f"
     },
     {
       "path": "docs/assets/about-updates.png",
@@ -157,8 +160,8 @@
     },
     {
       "path": "docs/distribution-resources.json",
-      "bytes": 10470,
-      "sha256": "9a93083dd148d138823843131efff910144149b96563ba459ef36475820500e4"
+      "bytes": 10897,
+      "sha256": "7698c63227340abdbb2b055281a3c914ef346967c7c0dff17a61df36b439cb7a"
     },
     {
       "path": "docs/licenses/Character-Swap-H3-LICENSE.txt",
@@ -222,13 +225,18 @@
     },
     {
       "path": "docs/model-distribution-inventory.json",
-      "bytes": 163780,
-      "sha256": "81a2c47c079afddb6d00a00ff608dcf8fe6a62926a1f492769254ddbf079bc6b"
+      "bytes": 163394,
+      "sha256": "2a361d0657e79101455640ab50f837621b9d6878f65f62ac44df1d4ccf75b7b4"
     },
     {
       "path": "docs/performance-reference.json",
       "bytes": 15148,
       "sha256": "7baee77b36e0fb5d717ef1cf9c5e6d158f2e939248225546fda03cd6911a5137"
+    },
+    {
+      "path": "docs/模型安装说明.txt",
+      "bytes": 2419,
+      "sha256": "b686c574bedb5457c9aaf20acfe66f2dece162c47d9fa2d616cc28f96ca6305f"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -259,6 +267,11 @@
       "path": "release-notes/0.1.17.md",
       "bytes": 1266,
       "sha256": "4b9f3d6bedb2485db5d8c24226acf034a8453409b6ad2104f45b8f205f7b73dc"
+    },
+    {
+      "path": "release-notes/0.1.18.md",
+      "bytes": 1327,
+      "sha256": "66c515fe98f6e7856a40777a6f7d79a4e17cc72b7ceed484ecce29b50e78b6c1"
     }
   ],
   "auditResult": {

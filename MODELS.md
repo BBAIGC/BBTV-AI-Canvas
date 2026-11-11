@@ -10,9 +10,9 @@
 
 | 层级 | 文件数 | 文件合计 |
 |---|---:|---:|
-| 基础必需 | 28 | 103.87 GB |
-| 可选扩展 | 115 | 251.77 GB |
-| 合计 | 143 | 355.64 GB |
+| 基础必需 | 20 | 76.30 GB |
+| 可选扩展 | 120 | 275.09 GB |
+| 合计 | 144 | 356.26 GB |
 
 ## 当前主要路线：含配套依赖
 
@@ -67,7 +67,7 @@
 | SAM ViT-B / ViT-H | 2.94 GB | 图层分离/视频抠像默认优先B，小模型足够时无需H |
 | U2Net / U2NetP | 0.18 GB | 去背景质量/快速模式 |
 | Depth Anything V2 Small | 0.10 GB | 视频深度图需要的权重；插件代码属于引擎组件 |
-| 人脸替换依赖 | 0.19 GB | 仅对应视频主体替换功能可选，不列为图片/视频基础生成必需 |
+| 人脸替换依赖 | 0.75 GB | 仅对应视频主体替换功能可选，不列为图片/视频基础生成必需 |
 | uncensored-gemma4:12b-balanced | 7.56 GB | 视觉理解/图片反推/提示词优化；按用户选择安装，manifest及所有引用blob一并上传，保持manifests/blobs相对结构 |
 | uncensored-gemma4:e2b-aggressive | 6.02 GB | 视觉理解/图片反推/提示词优化；按用户选择安装，manifest及所有引用blob一并上传，保持manifests/blobs相对结构 |
 | uncensored-gemma4:e4b-aggressive | 7.24 GB | 视觉理解/图片反推/提示词优化；按用户选择安装，manifest及所有引用blob一并上传，保持manifests/blobs相对结构 |
