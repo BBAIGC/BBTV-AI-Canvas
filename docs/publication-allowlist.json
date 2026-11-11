@@ -64,8 +64,8 @@
   "files": [
     {
       "path": "AGENT_INSTALL.md",
-      "bytes": 12152,
-      "sha256": "2400e4002c41a2c988f7a1ec140c040a4bfb99015ebb0f72aac4c4bb32c57987"
+      "bytes": 12492,
+      "sha256": "0ff5f33e4840cc7f3fe050ce70a48c28b9c7ca2d85a5cb30a51e9f7240a1c1fc"
     },
     {
       "path": "LICENSES/open-canvas-MIT.txt",
@@ -84,8 +84,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 22406,
-      "sha256": "6756a514b41eea87d205ad45fcdecfcce9c0793da74bb55c5bd1307af6eab534"
+      "bytes": 22650,
+      "sha256": "43c969dfa0d34e5a48a36e771d56f17afba44a5d0b5cf0587b75608e2e82d434"
     },
     {
       "path": "docs/assets/about-updates.png",
@@ -134,8 +134,8 @@
     },
     {
       "path": "docs/distribution-resources.json",
-      "bytes": 9123,
-      "sha256": "25058f1107a0b5935d67d339bdff066697926387344ae11661751488b1e8e47b"
+      "bytes": 10054,
+      "sha256": "7972fe5097c4415a799ea00e822906d81080ef439a8a5b630e827262b5bc922d"
     },
     {
       "path": "docs/licenses/Real-ESRGAN-LICENSE.txt",

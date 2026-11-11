@@ -79,7 +79,7 @@
     "summary": "作者电脑：i7-12700KF · 64 GB 内存 · RTX 5060 Ti 16 GB"
   },
   "installation": {
-    "hint": "复制后发给 Codex、Claude Code、豆包等智能体，协助检测本机 ComfyUI 路径、模型与硬件并部署。",
+    "hint": "复制后发给 Codex、Claude Code、豆包工作、WorkBuddy、字节 TRAE、MiniMax Code，协助检测本机 ComfyUI 路径、模型与硬件并部署。",
     "intro": "请协助我在这台 Windows 电脑上配置 BBTV 本地推理引擎与模型。按下列目标执行实际检查和部署，保留现有 ComfyUI、模型、画布与用户设置。",
     "commonSteps": [
       "先检测 Windows 版本、CPU、内存、GPU、可用显存、驱动和目标磁盘剩余空间。记录实际检测结果；不要用作者电脑配置代替我的硬件。",
@@ -92,7 +92,35 @@
       "网盘分享页不是文件直链。使用已公开的真实下载链接；若资源链接尚未开放，或百度网盘需要我完成登录、转存或下载，请明确说明并使用我提供的本地压缩包，不编造链接或校验值。",
       "部署后检查核心依赖、模型文件与本地推理服务。启动 BBTV，在设置的本地引擎中选择正确目录，保存配置并按需重启；分别验证引擎连通、模型列表和对应功能是否可用。未经我选择，不调用收费云端接口。",
       "最后列出实际使用的路径、复用与新增文件、验证结果和仍缺少的资源；失败时保留成功部分，说明下一步，不把未验证的功能标为成功。"
-    ]
+    ],
+    "agents": [
+      {
+        "name": "Codex",
+        "url": "https://chatgpt.com/codex"
+      },
+      {
+        "name": "Claude Code",
+        "url": "https://claude.com/product/claude-code"
+      },
+      {
+        "name": "豆包工作",
+        "url": "https://www.doubao.com/work"
+      },
+      {
+        "name": "WorkBuddy",
+        "url": "https://www.workbuddy.cn/"
+      },
+      {
+        "name": "字节 TRAE",
+        "url": "https://www.trae.cn/download"
+      },
+      {
+        "name": "MiniMax Code",
+        "url": "https://code.minimax.cn/about"
+      }
+    ],
+    "hintPrefix": "复制后发给",
+    "hintSuffix": "，协助检测本机 ComfyUI 路径、模型与硬件并部署。"
   },
   "profiles": [
     {

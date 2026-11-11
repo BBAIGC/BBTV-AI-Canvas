@@ -100,7 +100,7 @@ MiniMax H3 在远景、小脸画面中可能出现面部细节失真。**视频�
 
 ## 让智能体协助部署
 
-选择适合自己的方案，复制完整提示词，发给 Codex、Claude Code、豆包等智能体。三套提示词与软件、官网使用同一份内容，都会先核对本机配置并复用已有模型。下方提示词默认展开，也可收起后快速浏览其他内容。
+选择适合自己的方案，复制完整提示词，发给 [Codex](https://chatgpt.com/codex)、[Claude Code](https://claude.com/product/claude-code)、[豆包工作](https://www.doubao.com/work)、[WorkBuddy](https://www.workbuddy.cn/)、[字节 TRAE](https://www.trae.cn/download)、[MiniMax Code](https://code.minimax.cn/about) 等智能体。三套提示词与软件、官网使用同一份内容，都会先核对本机配置并复用已有模型。下方提示词默认展开，也可收起后快速浏览其他内容。
 
 ### 1. 按电脑配置推荐
 

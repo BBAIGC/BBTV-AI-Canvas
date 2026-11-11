@@ -2,7 +2,7 @@
 
 [官方网站](https://bbtv.ainivox.cn) · [模型与依赖](MODELS.md)
 
-选择一套方案，将代码块内的完整内容发给 Codex、Claude Code、豆包等可以检查本机文件与运行环境的智能体。三种方案都先核对实际硬件和已存在的 ComfyUI，保留原有模型、项目与设置。网盘下载可能需要本人登录或提供已下载的本地压缩包。
+选择一套方案，将代码块内的完整内容发给 [Codex](https://chatgpt.com/codex)、[Claude Code](https://claude.com/product/claude-code)、[豆包工作](https://www.doubao.com/work)、[WorkBuddy](https://www.workbuddy.cn/)、[字节 TRAE](https://www.trae.cn/download)、[MiniMax Code](https://code.minimax.cn/about) 等可以检查本机文件与运行环境的智能体。三种方案都先核对实际硬件和已存在的 ComfyUI，保留原有模型、项目与设置。网盘下载可能需要本人登录或提供已下载的本地压缩包。
 
 ## 按电脑配置推荐
 
