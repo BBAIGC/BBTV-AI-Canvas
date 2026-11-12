@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "title": "PRD4 8秒狗对白二次采样真实证据",
+  "realGPU": true,
+  "realASR": true,
+  "paidCalls": 0,
+  "userCanvasChanged": false,
+  "completed": true,
+  "qualityPassed": false,
+  "model": "studio:minimax-h3",
+  "sourcePrompt": "主体定义：\n左侧浅棕白吉娃娃与右侧黑棕吉娃娃，身份与参考图保持一致。\n概要：\n两只狗坐在沙发上看手机后轮流用中文说一句短话，镜头固定。\n保留分析：\n保持两只狗位置、手机、沙发和食品；对白来自狗的嘴部，非画外旁白。\n详细描述：\n0到0.5秒两只狗看手机。0.5到3秒左侧狗朝右侧狗开口发言，右侧狗闭嘴倾听；3到3.5秒短暂停顿；3.5到6.5秒右侧狗朝左侧狗开口发言，左侧狗闭嘴倾听；6.5到8秒两只狗闭嘴对视，给最后一个字留足收尾时间。\n整体声景：\n左侧狗：“太搞笑了。”\n右侧狗：“去现场看。”\n仅这两句画面内中文对白，声音与各自口型同步，无其他人声，轻微衣物摩擦声。\n画外配乐：\nN/A",
+  "exactWirePrompt": "integrated_multimodal_description: 左侧浅棕白吉娃娃与右侧黑棕吉娃娃，身份与参考图保持一致。\n\n两只狗坐在沙发上看手机后轮流用中文说一句短话，镜头固定。\n\n保持两只狗位置、手机、沙发和食品；对白来自狗的嘴部，非画外旁白。\n\n0到0.5秒两只狗看手机。0.5到3秒左侧狗朝右侧狗开口发言，右侧狗闭嘴倾听；3到3.5秒短暂停顿；3.5到6.5秒右侧狗朝左侧狗开口发言，左侧狗闭嘴倾听；6.5到8秒两只狗闭嘴对视，给最后一个字留足收尾时间。\n(S1) 左侧狗在画面内开口说出<d>[Chinese]太搞笑了。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。\n(S2) 右侧狗在画面内开口说出<d>[Chinese]去现场看。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。\n可见角色按上述绑定依次发言并同步口型，声音来自发言角色，禁止用一个画外旁白朗读全部对白。On-screen speaker lip sync, one speaker at a time; no off-screen narration.\n(S1) 左侧狗, identity and screen position fully preserved; (S2) 右侧狗, identity and screen position fully preserved\nClean video, no on-screen captions, no subtitles, no burned-in text overlays.\n\noverall_soundscape: 左侧狗：“太搞笑了。”\n右侧狗：“去现场看。”\n仅这两句画面内中文对白，声音与各自口型同步，无其他人声，轻微衣物摩擦声。\n\nnon_diegetic_music: None. No background music or soundtrack.",
+  "options": {
+    "width": 384,
+    "height": 384,
+    "seconds": 8,
+    "steps": 8,
+    "cfg": 1,
+    "fps": 24,
+    "seed": 912611,
+    "low_vram": true,
+    "background_music": false,
+    "audio": true,
+    "preserve_source_audio": false,
+    "acceleration": "turbo8",
+    "second_pass": true,
+    "second_pass_steps": 4,
+    "second_pass_denoise": 0.2
+  },
+  "reference": {
+    "file": "reference-dogs.png",
+    "sha256": "9255a407d3d19769cb3ddac036333340d006a2560502ad962be9f87d26c78231"
+  },
+  "video": "dialogue-current.mp4",
+  "contactSheet": "dialogue-current-frames.png",
+  "audio": "dialogue-current-audio.wav",
+  "generationSeconds": 127.224,
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "codec_type": "audio"
+      }
+    ],
+    "format": {
+      "duration": "8.000000"
+    }
+  },
+  "plannedWindowASR": [
+    {
+      "label": "all",
+      "start": 0,
+      "end": 8,
+      "ok": true,
+      "text": "太搞笑了，去现场看。",
+      "elapsed": 10.235,
+      "model": "SenseVoice Small",
+      "duration": 8,
+      "device": "cpu",
+      "noSpeech": false
+    },
+    {
+      "label": "left-window",
+      "start": 0,
+      "end": 3.5,
+      "ok": true,
+      "text": "太搞。",
+      "elapsed": 0.75,
+      "model": "SenseVoice Small",
+      "duration": 3.5,
+      "device": "cpu",
+      "noSpeech": false
+    },
+    {
+      "label": "right-window",
+      "start": 3.5,
+      "end": 8,
+      "ok": true,
+      "text": "笑了，去现场看。",
+      "elapsed": 0.641,
+      "model": "SenseVoice Small",
+      "duration": 4.5,
+      "device": "cpu",
+      "noSpeech": false
+    }
+  ],
+  "actualSpeechWindowASR": [
+    {
+      "label": "actual-left-window",
+      "start": 0,
+      "end": 4.5,
+      "ok": true,
+      "text": "太搞笑了。",
+      "elapsed": 10.906,
+      "model": "SenseVoice Small",
+      "duration": 4.5,
+      "device": "cpu",
+      "noSpeech": false
+    },
+    {
+      "label": "actual-right-window",
+      "start": 4.5,
+      "end": 8,
+      "ok": true,
+      "text": "去现场看。",
+      "elapsed": 0.422,
+      "model": "SenseVoice Small",
+      "duration": 3.5,
+      "device": "cpu",
+      "noSpeech": false
+    }
+  ],
+  "completeDialogueDetected": true,
+  "review": {
+    "technicalPass": true,
+    "secondPassExecuted": true,
+    "completeDialogueDetected": true,
+    "strictTimingPass": false,
+    "strictLipSyncScoreMeasured": false,
+    "qualityPassed": false,
+    "visual": "已查看16帧连续图（每0.5秒）：双狗位置、手机与背景稳定；左狗约3–3.5秒嘴部开合，右狗约6–7秒嘴部开合，另一只狗主要闭嘴。没有烧录字幕。该观察支持声音与角色有关联，但不代替定量口型同步评估。",
+    "audio": "整段ASR完整识别两句；预设3.5秒切点拆开了第一句，保留原分段失败结果。根据画面及静音间隙选实际4.5秒间隙重新分段识别，结果见actualSpeechWindowASR。",
+    "timing": "模型没有严格按0.5–3秒/3.5–6.5秒发言，实际发言较晚；不宣称严格时间控制已通过。",
+    "comparison": "与此前6秒示例相比，本次8秒示例检测到了末字“看”；时长与提示词均改变，不能当作同seed单变量二采提升证明。",
+    "musicAbsentVerified": false
+  },
+  "actualSpeechTiming": {
+    "method": "FFmpeg silencedetect noise=-32dB:d=0.2; silence thresholds are descriptive, not speaker recognition",
+    "speechCandidatesSeconds": [
+      [
+        1.588781,
+        1.747844
+      ],
+      [
+        3.047563,
+        3.93375
+      ],
+      [
+        6.229656,
+        7.135875
+      ]
+    ],
+    "speakerAssignment": "与16帧连续图共同人工观察，约3秒对应左狗，约6秒对应右狗；不等同于定量口型或声音身份识别。"
+  },
+  "portableGraphFile": "dialogue-current-graph.json"
+}

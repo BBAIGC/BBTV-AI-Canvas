@@ -1,0 +1,18 @@
+integrated_multimodal_description: 左侧浅棕白吉娃娃与右侧黑棕吉娃娃，身份与参考图保持一致。
+
+两只狗坐在沙发上看手机后轮流用中文说一句短话，镜头固定。
+
+保持两只狗位置、手机、沙发和食品；对白来自狗的嘴部，非画外旁白。
+
+0到0.5秒两只狗看手机。0.5到3秒左侧狗朝右侧狗开口发言，右侧狗闭嘴倾听；3到3.5秒短暂停顿；3.5到6.5秒右侧狗朝左侧狗开口发言，左侧狗闭嘴倾听；6.5到8秒两只狗闭嘴对视，给最后一个字留足收尾时间。
+(S1) 左侧狗在画面内开口说出<d>[Chinese]太搞笑了。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。
+(S2) 右侧狗在画面内开口说出<d>[Chinese]去现场看。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。
+可见角色按上述绑定依次发言并同步口型，声音来自发言角色，禁止用一个画外旁白朗读全部对白。On-screen speaker lip sync, one speaker at a time; no off-screen narration.
+(S1) 左侧狗, identity and screen position fully preserved; (S2) 右侧狗, identity and screen position fully preserved
+Clean video, no on-screen captions, no subtitles, no burned-in text overlays.
+
+overall_soundscape: 左侧狗：“太搞笑了。”
+右侧狗：“去现场看。”
+仅这两句画面内中文对白，声音与各自口型同步，无其他人声，轻微衣物摩擦声。
+
+non_diegetic_music: None. No background music or soundtrack.

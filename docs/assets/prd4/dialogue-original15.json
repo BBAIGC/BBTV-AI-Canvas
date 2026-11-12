@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "title": "用户原15秒完整六段狗对白验证",
+  "realGPU": true,
+  "realASR": true,
+  "paidCalls": 0,
+  "userCanvasChanged": false,
+  "completed": true,
+  "qualityPassed": false,
+  "sourcePrompt": "主体定义\n画面核心为两只拟人化的吉娃娃犬，左侧为浅棕白毛色的吉娃娃，右侧为黑棕相间毛色的吉娃娃。它们并排坐在一把深灰色的布艺扶手椅中，椅子靠背有纽扣装饰，材质呈现织物纹理。两只狗均直立坐姿，前爪搭在椅面上，神态夸张地张大嘴巴大笑，眼睛眯起，露出牙齿和舌头，表情生动且富有感染力。\n\n概要\n两只小狗正专注地观看手机屏幕，周围散落着快餐食物，营造出一种轻松幽默的观影氛围。随着剧情推进，左侧的狗将手机翻转，展示屏幕内容，最终两只狗对视并露出鄙夷的笑容，暗示屏幕中正在播放激烈的格斗比赛画面。\n\n保留分析\n主体数量明确为两只，动作连贯，从共同观看手机到左侧狗单独操作翻转手机，再到双方对视，空间关系清晰。左侧狗手持一根薯条，右侧狗前爪搭在椅背上，姿态自然。手机为白色，背面有三摄镜头模组，细节清晰。背景为室内环境，光线柔和，色彩以暖色调为主，突出主体的毛发质感和食物的诱人色泽。\n\n详细描述\n两只吉娃娃坐在深灰色布艺扶手椅上，左侧的浅棕色吉娃娃右手握着一根薯条，左手扶着手机，身体微微前倾，表情夸张地大笑，眼睛眯成一条线，露出洁白的牙齿和粉嫩的舌头。右侧的黑棕色吉娃娃同样张大嘴巴，前爪搭在椅背上，显得非常投入。手机屏幕朝向观众，显示着两只狗在激烈搏斗的画面，仿佛是一场UFC级别的比赛。随着左侧狗将手机翻转，屏幕逐渐靠近镜头，最终占据画面中心，增强了视觉冲击力。两只狗对视，嘴角上扬，露出鄙夷的笑容，仿佛在嘲笑屏幕中的激烈战斗。\n\n整体声景\n左侧狗：“太搞笑了，居然有人在黄果短剧上看狗片。”\n右侧狗：“哎，也不是全黑的那只，反正那只狗说说对呀，为什么不去现场看。”\n左侧狗翻转手机时，伴随轻微的摩擦声和屏幕亮起的音效。\n两只狗对视时，发出低沉的笑声，声音略带嘲讽。\n背景中隐约传来远处人群的嘈杂声，增加了场景的真实感。\n\n画外配乐\nN/A",
+  "exactWirePrompt": "integrated_multimodal_description: 画面核心为两只拟人化的吉娃娃犬，左侧为浅棕白毛色的吉娃娃，右侧为黑棕相间毛色的吉娃娃。它们并排坐在一把深灰色的布艺扶手椅中，椅子靠背有纽扣装饰，材质呈现织物纹理。两只狗均直立坐姿，前爪搭在椅面上，神态夸张地张大嘴巴大笑，眼睛眯起，露出牙齿和舌头，表情生动且富有感染力。\n\n两只小狗正专注地观看手机屏幕，周围散落着快餐食物，营造出一种轻松幽默的观影氛围。随着剧情推进，左侧的狗将手机翻转，展示屏幕内容，最终两只狗对视并露出鄙夷的笑容，暗示屏幕中正在播放激烈的格斗比赛画面。\n\n主体数量明确为两只，动作连贯，从共同观看手机到左侧狗单独操作翻转手机，再到双方对视，空间关系清晰。左侧狗手持一根薯条，右侧狗前爪搭在椅背上，姿态自然。手机为白色，背面有三摄镜头模组，细节清晰。背景为室内环境，光线柔和，色彩以暖色调为主，突出主体的毛发质感和食物的诱人色泽。\n\n两只吉娃娃坐在深灰色布艺扶手椅上，左侧的浅棕色吉娃娃右手握着一根薯条，左手扶着手机，身体微微前倾，表情夸张地大笑，眼睛眯成一条线，露出洁白的牙齿和粉嫩的舌头。右侧的黑棕色吉娃娃同样张大嘴巴，前爪搭在椅背上，显得非常投入。手机屏幕朝向观众，显示着两只狗在激烈搏斗的画面，仿佛是一场UFC级别的比赛。随着左侧狗将手机翻转，屏幕逐渐靠近镜头，最终占据画面中心，增强了视觉冲击力。两只狗对视，嘴角上扬，露出鄙夷的笑容，仿佛在嘲笑屏幕中的激烈战斗。\n(S1) 左侧狗在画面内开口说出<d>[Chinese]太搞笑了，居然有人在黄果短剧上看狗片。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。\n(S2) 右侧狗在画面内开口说出<d>[Chinese]哎，也不是全黑的那只，反正那只狗说说对呀，为什么不去现场看。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。\n可见角色按上述绑定依次发言并同步口型，声音来自发言角色，禁止用一个画外旁白朗读全部对白。On-screen speaker lip sync, one speaker at a time; no off-screen narration.\n(S1) 左侧狗, identity and screen position fully preserved; (S2) 右侧狗, identity and screen position fully preserved\nClean video, no on-screen captions, no subtitles, no burned-in text overlays.\n\noverall_soundscape: 左侧狗：“太搞笑了，居然有人在黄果短剧上看狗片。”\n右侧狗：“哎，也不是全黑的那只，反正那只狗说说对呀，为什么不去现场看。”\n左侧狗翻转手机时，伴随轻微的摩擦声和屏幕亮起的音效。\n两只狗对视时，发出低沉的笑声，声音略带嘲讽。\n背景中隐约传来远处人群的嘈杂声，增加了场景的真实感。\n\nnon_diegetic_music: None. No background music or soundtrack.",
+  "options": {
+    "width": 384,
+    "height": 384,
+    "seconds": 15,
+    "fps": 24,
+    "steps": 8,
+    "cfg": 1,
+    "acceleration": "turbo8",
+    "low_vram": true,
+    "audio": true,
+    "background_music": false,
+    "second_pass": true,
+    "second_pass_steps": 4,
+    "second_pass_denoise": 0.2,
+    "generate_subtitles": false,
+    "caption_only": false,
+    "seed": 912611
+  },
+  "testSeedAddedForReproducibility": 912611,
+  "savedDraftHasExplicitSeed": false,
+  "originalSavedDraftUnchanged": true,
+  "reference": {
+    "file": "dialogue-original15-reference.png",
+    "sha256": "215338ca35da9f6ef0ac79de660a0cb082a7c51e38e778290139eb97b9f6ab48",
+    "originalUserReference": true,
+    "differsFromEarlierSixAndEightSecondExamples": true
+  },
+  "video": "dialogue-original15.mp4",
+  "audio": "dialogue-original15-audio.wav",
+  "contactSheet": "dialogue-original15-frames.png",
+  "generationSeconds": 348.18,
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "codec_type": "audio"
+      }
+    ],
+    "format": {
+      "duration": "15.000000"
+    }
+  },
+  "targetLines": [
+    "太搞笑了，居然有人在黄果短剧上看狗片。",
+    "哎，也不是全黑的那只，反正那只狗说说对呀，为什么不去现场看。"
+  ],
+  "allASR": {
+    "label": "all",
+    "start": 0,
+    "end": 15,
+    "ok": true,
+    "text": "太搞笑了，居然有人在黄国短剧上看狗片，哎，也不是全黑的那只，反正那只狗说说对呀，为什么不去现场看？",
+    "elapsed": 10.64,
+    "model": "SenseVoice Small",
+    "duration": 15,
+    "device": "cpu",
+    "noSpeech": false
+  },
+  "halfWindowsASR": [
+    {
+      "label": "first-half",
+      "start": 0,
+      "end": 7.5,
+      "ok": true,
+      "text": "太搞笑了，居然有人在黄国短剧上看狗片，哎，也不是全黑的那只。反正。",
+      "elapsed": 0.813,
+      "model": "SenseVoice Small",
+      "duration": 7.5,
+      "device": "cpu",
+      "noSpeech": false
+    },
+    {
+      "label": "second-half",
+      "start": 7.5,
+      "end": 15,
+      "ok": true,
+      "text": "那只狗说说对呀，为什么不去现场看？",
+      "elapsed": 0.75,
+      "model": "SenseVoice Small",
+      "duration": 7.5,
+      "device": "cpu",
+      "noSpeech": false
+    }
+  ],
+  "reviewedWindowASR": [
+    {
+      "label": "left-line-window",
+      "start": 0,
+      "end": 4.25,
+      "ok": true,
+      "text": "太搞笑了，居然有人在黄国短剧上看狗片。",
+      "elapsed": 8.704,
+      "model": "SenseVoice Small",
+      "duration": 4.25,
+      "device": "cpu",
+      "noSpeech": false
+    },
+    {
+      "label": "right-line-window",
+      "start": 4.25,
+      "end": 15,
+      "ok": true,
+      "text": "哎，也不是全黑的那只，反正那只狗说说对呀，为什么不去现场看？",
+      "elapsed": 1.406,
+      "model": "SenseVoice Small",
+      "duration": 10.75,
+      "device": "cpu",
+      "noSpeech": false
+    }
+  ],
+  "review": {
+    "technicalPass": true,
+    "secondPassExecuted": true,
+    "fullOriginalDraftTested": true,
+    "originalReferenceTested": true,
+    "qualityPassed": false,
+    "strictVerbatimPass": false,
+    "wordDifference": "目标“黄果短剧”，整段ASR为“黄国短剧”；为同音字差异，未靠自动替换冒称逐字通过，尚需听觉复核。其余台词及最后“看”均被识别。",
+    "visual": "已查看30帧（每0.5秒）：两只狗身份与位置保持，左狗前段多次嘴部开闭，右狗中后段开闭；手机翻向观众并靠近，屏幕有犬类格斗内容，末段两狗对视笑。部分帧两只狗同时张嘴笑，严格单角色互斥口型不宣称通过。",
+    "visualLipSyncScored": false,
+    "musicAbsentVerified": false,
+    "sourceDraftHanCount": 43,
+    "speakingSecondsAt4HanPerSecond": 10.75,
+    "durationAssessment": "43个汉字纯发言按4字/秒约10.75秒，15秒并非必然不够；还需容纳大笑、翻手机、推近和对视动作，不改用户原台词。",
+    "comparison": "使用用户实际原图，和前6/8秒示例参考不同；时长及稿件亦不同，不能解释为同输入单变量提升。"
+  },
+  "portableGraphFile": "dialogue-original15-graph.json"
+}

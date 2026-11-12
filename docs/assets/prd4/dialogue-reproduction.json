@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "title": "狗对白二次采样完整复现资料",
+  "previousSixSecondSample": {
+    "version": "0.1.18",
+    "sourcePrompt": "主体定义：\n左侧浅棕白吉娃娃与右侧黑棕吉娃娃，身份与参考图保持一致。\n概要：\n两只狗在沙发上看手机后依次用中文交谈，镜头固定。\n保留分析：\n保持两只狗位置、手机、沙发和食品，非画外旁白。\n详细描述：\n0到3秒左侧狗开口，右侧狗闭嘴；3到6秒右侧狗开口，左侧狗闭嘴。\n左侧狗：“太搞笑了。”\n右侧狗：“去现场看。”\n整体声景：\n仅狗在画面内的中文对白，口型同步，轻微衣物摩擦声。\n画外配乐：\nN/A",
+    "exactWirePrompt": "integrated_multimodal_description: 左侧浅棕白吉娃娃与右侧黑棕吉娃娃，身份与参考图保持一致。\n\n两只狗在沙发上看手机后依次用中文交谈，镜头固定。\n\n保持两只狗位置、手机、沙发和食品，非画外旁白。\n\n0到3秒左侧狗开口，右侧狗闭嘴；3到6秒右侧狗开口，左侧狗闭嘴。\n(S1) 左侧狗在画面内开口说出<d>[Chinese]太搞笑了。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。\n(S2) 右侧狗在画面内开口说出<d>[Chinese]去现场看。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。\n可见角色按上述绑定依次发言并同步口型，声音来自发言角色，禁止用一个画外旁白朗读全部对白。On-screen speaker lip sync, one speaker at a time; no off-screen narration.\n(S1) 左侧狗, identity and screen position fully preserved; (S2) 右侧狗, identity and screen position fully preserved\nClean video, no on-screen captions, no subtitles, no burned-in text overlays.\n\noverall_soundscape: 仅狗在画面内的中文对白，口型同步，轻微衣物摩擦声。\n\nnon_diegetic_music: None. No background music or soundtrack.",
+    "model": "studio:minimax-h3",
+    "reference": {
+      "file": "reference-dogs.png",
+      "bytes": 1579017,
+      "sha256": "9255a407d3d19769cb3ddac036333340d006a2560502ad962be9f87d26c78231",
+      "mode": "first_frame"
+    },
+    "aspectRatio": "1:1",
+    "resolution": "384p",
+    "options": {
+      "width": 384,
+      "height": 384,
+      "seconds": 6,
+      "steps": 8,
+      "cfg": 1,
+      "fps": 24,
+      "seed": 912611,
+      "low_vram": true,
+      "background_music": false,
+      "audio": true,
+      "preserve_source_audio": false,
+      "acceleration": "turbo8",
+      "second_pass": true,
+      "second_pass_steps": 4,
+      "second_pass_denoise": 0.2
+    },
+    "engineGraph": {
+      "1": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "bbtv/bbtv-7fb80182-ae82-4b2a-a4e5-474a18a4e97c.png"
+        }
+      },
+      "2": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "3": {
+        "class_type": "LoraLoaderModelOnly",
+        "inputs": {
+          "model": [
+            "2",
+            0
+          ],
+          "lora_name": "minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+          "strength_model": 1
+        }
+      },
+      "4": {
+        "class_type": "MiniMaxChunkFeedForward",
+        "inputs": {
+          "model": [
+            "3",
+            0
+          ],
+          "chunks": 4,
+          "seq_threshold": 4096
+        }
+      },
+      "5": {
+        "class_type": "MiniMaxH3SigmaShift",
+        "inputs": {
+          "model": [
+            "4",
+            0
+          ],
+          "shift_video": 12,
+          "shift_audio": 3
+        }
+      },
+      "6": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+          "type": "minimax",
+          "device": "default"
+        }
+      },
+      "7": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "minimax_h3_video_vae_int8_convrot.safetensors"
+        }
+      },
+      "8": {
+        "class_type": "MiniMaxH3ImageToVideo",
+        "inputs": {
+          "clip": [
+            "6",
+            0
+          ],
+          "vae": [
+            "7",
+            0
+          ],
+          "prompt": "integrated_multimodal_description: 左侧浅棕白吉娃娃与右侧黑棕吉娃娃，身份与参考图保持一致。\n\n两只狗在沙发上看手机后依次用中文交谈，镜头固定。\n\n保持两只狗位置、手机、沙发和食品，非画外旁白。\n\n0到3秒左侧狗开口，右侧狗闭嘴；3到6秒右侧狗开口，左侧狗闭嘴。\n(S1) 左侧狗在画面内开口说出<d>[Chinese]太搞笑了。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。\n(S2) 右侧狗在画面内开口说出<d>[Chinese]去现场看。</d>，只驱动该角色的嘴部，其他角色闭口倾听，非画外旁白。\n可见角色按上述绑定依次发言并同步口型，声音来自发言角色，禁止用一个画外旁白朗读全部对白。On-screen speaker lip sync, one speaker at a time; no off-screen narration.\n(S1) 左侧狗, identity and screen position fully preserved; (S2) 右侧狗, identity and screen position fully preserved\nClean video, no on-screen captions, no subtitles, no burned-in text overlays.\n\noverall_soundscape: 仅狗在画面内的中文对白，口型同步，轻微衣物摩擦声。\n\nnon_diegetic_music: None. No background music or soundtrack.",
+          "width": 384,
+          "height": 384,
+          "length": 158,
+          "first_frame": [
+            "1",
+            0
+          ]
+        }
+      },
+      "9": {
+        "class_type": "BasicScheduler",
+        "inputs": {
+          "model": [
+            "5",
+            0
+          ],
+          "scheduler": "simple",
+          "steps": 8,
+          "denoise": 1
+        }
+      },
+      "10": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 912611
+        }
+      },
+      "11": {
+        "class_type": "BasicGuider",
+        "inputs": {
+          "model": [
+            "5",
+            0
+          ],
+          "conditioning": [
+            "8",
+            0
+          ]
+        }
+      },
+      "12": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "res_multistep"
+        }
+      },
+      "13": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "10",
+            0
+          ],
+          "guider": [
+            "11",
+            0
+          ],
+          "sampler": [
+            "12",
+            0
+          ],
+          "sigmas": [
+            "9",
+            0
+          ],
+          "latent_image": [
+            "8",
+            1
+          ]
+        }
+      },
+      "14": {
+        "class_type": "BBTVH3DetailRefine",
+        "inputs": {
+          "model": [
+            "5",
+            0
+          ],
+          "positive": [
+            "8",
+            0
+          ],
+          "latent": [
+            "13",
+            0
+          ],
+          "steps": 4,
+          "denoise": 0.2,
+          "seed": 912612
+        }
+      },
+      "15": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "14",
+            0
+          ],
+          "vae": [
+            "7",
+            0
+          ]
+        }
+      },
+      "16": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+        }
+      },
+      "17": {
+        "class_type": "VAEDecodeAudio",
+        "inputs": {
+          "samples": [
+            "14",
+            0
+          ],
+          "vae": [
+            "16",
+            0
+          ]
+        }
+      },
+      "18": {
+        "class_type": "CreateVideo",
+        "inputs": {
+          "images": [
+            "15",
+            0
+          ],
+          "fps": 24,
+          "audio": [
+            "17",
+            0
+          ],
+          "bit_depth": 8,
+          "color_space": "sRGB",
+          "codec": "none"
+        }
+      },
+      "19": {
+        "class_type": "Video Slice",
+        "inputs": {
+          "video": [
+            "18",
+            0
+          ],
+          "start_time": 0,
+          "duration": 6,
+          "strict_duration": true
+        }
+      },
+      "20": {
+        "class_type": "SaveVideo",
+        "inputs": {
+          "video": [
+            "19",
+            0
+          ],
+          "filename_prefix": "BBTV/video",
+          "format": "mp4",
+          "format.codec": "auto"
+        }
+      }
+    },
+    "portableGraphFile": "dialogue-portable-graph.json",
+    "output": {
+      "video": "../prd3-media/refine-result.mp4",
+      "audio": "../prd3-media/refine-audio.wav",
+      "contactSheet": "../prd3-media/refine-contact-sheet.png",
+      "generationSeconds": 119.959,
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 384,
+            "height": 384
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "6.000000"
+        }
+      }
+    },
+    "quality": {
+      "technicalPass": true,
+      "secondPassExecuted": true,
+      "strictDialoguePass": false,
+      "asr": {
+        "realASR": true,
+        "model": "SenseVoice Small",
+        "device": "cpu",
+        "targetLines": [
+          "太搞笑了。",
+          "去现场看。"
+        ],
+        "results": [
+          {
+            "window": "all",
+            "start": 0,
+            "end": 6,
+            "text": "太搞笑了，去现场。",
+            "elapsed": 6.172,
+            "model": "SenseVoice Small",
+            "duration": 6
+          },
+          {
+            "window": "left-window",
+            "start": 0,
+            "end": 3,
+            "text": "太搞笑了。",
+            "elapsed": 0.109,
+            "model": "SenseVoice Small",
+            "duration": 3
+          },
+          {
+            "window": "right-window",
+            "start": 3,
+            "end": 6,
+            "text": "去现场。",
+            "elapsed": 0.125,
+            "model": "SenseVoice Small",
+            "duration": 3
+          }
+        ],
+        "musicAbsentVerified": false
+      },
+      "review": {
+        "technicalPass": true,
+        "qualityPassed": false,
+        "visual": "首中尾及12帧contact sheet可见两只狗位置、手机和背景稳定；前半左狗嘴部变化，后半左狗闭嘴且右狗尾段张嘴。未出现字幕。",
+        "audio": "真实SenseVoice CPU识别：0–3秒“太搞笑了。”；3–6秒“去现场。”，第二句未识别出末字“看”，不能宣称逐字对白与完整口型严格通过。",
+        "music": "最终提交wire明确None / No background music；本次没有用听觉验收判定BGM完全不存在。",
+        "comparison": "仅本次8步+4步二采样本，未另跑同seed首轮基线，不能据此量化二采提升。",
+        "artifacts": [
+          "refine-result.mp4",
+          "refine-audio.wav",
+          "refine-contact-sheet.png",
+          "refine-first.png",
+          "refine-middle.png",
+          "refine-last.png",
+          "refine-audio-asr.json"
+        ],
+        "secondPassExecuted": true
+      },
+      "limitations": [
+        "6秒样本第二句ASR为“去现场。”，未识别末字“看”。",
+        "没有同seed的首轮基线，不能据此量化二采提升。",
+        "连续帧只支持口部运动的人工观察，未提供定量口型评分。",
+        "未做听觉确认，不能宣称完全无背景音乐。"
+      ]
+    }
+  },
+  "savedUserFifteenSecondDraft": {
+    "sourcePrompt": "两个小狗哈哈大笑，看着手机。然后左边的狗说，太搞笑了，居然有人在黄果短剧上看狗片，然后右边那只黑狗又说，哎，也不是全黑的那只，反正那只狗说说对呀，为什么不去现场看。然后说完之后，左边那只狗它就把手机转过来，然后把屏幕转过来，然后面向我们这个镜头这边，然后往镜头越来越近，也就屏手机屏幕就会在这个画幅中就会感觉比较大了嘛。然后这两只狗看向对方。鄙夷地笑了，当然，这屏幕转过来之后的确是两只狗在打架的那种，像UFC在打架的那种。比赛的画面",
+    "optimizedPrompt": "主体定义\n画面核心为两只拟人化的吉娃娃犬，左侧为浅棕白毛色的吉娃娃，右侧为黑棕相间毛色的吉娃娃。它们并排坐在一把深灰色的布艺扶手椅中，椅子靠背有纽扣装饰，材质呈现织物纹理。两只狗均直立坐姿，前爪搭在椅面上，神态夸张地张大嘴巴大笑，眼睛眯起，露出牙齿和舌头，表情生动且富有感染力。\n\n概要\n两只小狗正专注地观看手机屏幕，周围散落着快餐食物，营造出一种轻松幽默的观影氛围。随着剧情推进，左侧的狗将手机翻转，展示屏幕内容，最终两只狗对视并露出鄙夷的笑容，暗示屏幕中正在播放激烈的格斗比赛画面。\n\n保留分析\n主体数量明确为两只，动作连贯，从共同观看手机到左侧狗单独操作翻转手机，再到双方对视，空间关系清晰。左侧狗手持一根薯条，右侧狗前爪搭在椅背上，姿态自然。手机为白色，背面有三摄镜头模组，细节清晰。背景为室内环境，光线柔和，色彩以暖色调为主，突出主体的毛发质感和食物的诱人色泽。\n\n详细描述\n两只吉娃娃坐在深灰色布艺扶手椅上，左侧的浅棕色吉娃娃右手握着一根薯条，左手扶着手机，身体微微前倾，表情夸张地大笑，眼睛眯成一条线，露出洁白的牙齿和粉嫩的舌头。右侧的黑棕色吉娃娃同样张大嘴巴，前爪搭在椅背上，显得非常投入。手机屏幕朝向观众，显示着两只狗在激烈搏斗的画面，仿佛是一场UFC级别的比赛。随着左侧狗将手机翻转，屏幕逐渐靠近镜头，最终占据画面中心，增强了视觉冲击力。两只狗对视，嘴角上扬，露出鄙夷的笑容，仿佛在嘲笑屏幕中的激烈战斗。\n\n整体声景\n左侧狗：“太搞笑了，居然有人在黄果短剧上看狗片。”\n右侧狗：“哎，也不是全黑的那只，反正那只狗说说对呀，为什么不去现场看。”\n左侧狗翻转手机时，伴随轻微的摩擦声和屏幕亮起的音效。\n两只狗对视时，发出低沉的笑声，声音略带嘲讽。\n背景中隐约传来远处人群的嘈杂声，增加了场景的真实感。\n\n画外配乐\nN/A",
+    "active": "optimized",
+    "model": "studio:minimax-h3",
+    "options": {
+      "width": 384,
+      "height": 384,
+      "seconds": 15,
+      "fps": 24,
+      "steps": 8,
+      "cfg": 1,
+      "acceleration": "turbo8",
+      "low_vram": true,
+      "audio": true,
+      "background_music": false,
+      "second_pass": true,
+      "second_pass_steps": 4,
+      "second_pass_denoise": 0.2,
+      "generate_subtitles": false,
+      "caption_only": false
+    },
+    "originalSubmittedWireCaptured": false,
+    "note": "此段为用户保存的15秒任务稿及参数，和此前6秒验收样本不同；历史实际wire未单独捕获，不用当前重编译稿冒称历史提交。",
+    "fixedWireFiles": [
+      "dialogue-user-wire-fl2va.txt",
+      "dialogue-user-wire-ref2va.txt"
+    ],
+    "currentFullDraftVerification": {
+      "evidence": "dialogue-original15.json",
+      "video": "dialogue-original15.mp4",
+      "actualWire": "dialogue-original15-wire.txt",
+      "portableGraph": "dialogue-original15-graph.json",
+      "reference": "dialogue-original15-reference.png",
+      "contactSheet": "dialogue-original15-frames.png",
+      "usesActualOriginalReference": true,
+      "activePromptVersion": "optimized",
+      "savedSixPartDraftUnchanged": true,
+      "seedAddedForReproducibility": 912611,
+      "qualityPassed": false,
+      "summary": "完整两句按实际发言窗口识别；黄果被ASR写成同音黄国，部分笑时双狗张嘴，严格逐字/互斥口型未全通过。"
+    }
+  }
+}

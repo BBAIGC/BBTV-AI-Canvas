@@ -4,7 +4,7 @@
 
 ### 图片、视频与声音，在一张画布中创作
 
-[![版本 v0.1.18](https://img.shields.io/badge/版本-v0.1.18-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
+[![版本 v0.1.19](https://img.shields.io/badge/版本-v0.1.19-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
 [![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%2F%2011-0078d4)](https://bbtv.ainivox.cn)
 [![本地永久免费](https://img.shields.io/badge/本地功能-永久免费-16a34a)](#开始使用下载与安装)
 [![无需购买 API](https://img.shields.io/badge/API-无需购买-0891b2)](#开始使用下载与安装)
@@ -21,7 +21,7 @@
 [![SeedVR2](https://img.shields.io/badge/SeedVR2-放大-278a6a)](https://huggingface.co/numz/SeedVR2_comfyUI)
 [![Qwen 视觉](https://img.shields.io/badge/Qwen-视觉反推-615ced)](https://huggingface.co/Qwen)
 
-[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.18.md)
+[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.19.md)
 
 </div>
 
@@ -34,7 +34,7 @@
 3. **连接本地引擎。** 在设置中选择引擎目录，并参考 [MODELS.md](MODELS.md) 核对所选模型的编码器、VAE 和其他依赖。
 4. **开始第一次创作。** 新建项目，导入参考图片，选择模型，输入要求并生成。
 
-[v0.1.18 更新内容](release-notes/0.1.18.md)
+[v0.1.19 更新内容](release-notes/0.1.19.md)
 
 
 
@@ -48,9 +48,40 @@
 
 MiniMax H3 在远景、小脸画面中可能出现面部细节失真。可在视频节点的更多菜单中使用**修复人脸**；模型细节恢复和严格身份一致性需按实际结果核对。
 
+### MiniMax H3 Image 细节增强
+
+从低清原图继续恢复毛发、牙齿、布料和食品细节。MiniMax H3 Image 使用原生图生图，既能围绕参考图编辑，也能生成更清晰的画面。下面是作者提供的完整实机截图。
+
+![MiniMax H3 Image 原生图生图与狗狗细节增强的完整实机截图](docs/assets/prd4/h3-image-detail.png)
+
+在 BBTV 导入 628 × 628 原图，选择 **MiniMax H3 Image · 图生图**，输入「高清放大图像，增加画面细节，消除噪点」，生成 2048 × 2048 结果，再用对比节点检查。该次真实记录为 **6 步、CFG 1、denoise 1、seed 859403524、euler_ancestral / sgm_uniform，259.933 秒**；完整模型输入见[提示词与参数](docs/assets/prd4/parameters.json)。
+
+<table align="center">
+<tr><th align="center">原始低清图片</th><th align="center">H3 Image 细节增强</th></tr>
+<tr><td><a href="https://bbtv.ainivox.cn/review/prd4/#image"><img src="docs/assets/prd4/photo-original.png" width="420" alt="628×628 原始低清图片" /></a></td><td><a href="https://bbtv.ainivox.cn/review/prd4/#image"><img src="docs/assets/prd4/photo-detail.png" width="420" alt="2048×2048 H3 Image 细节增强结果" /></a></td></tr>
+</table>
+
+<p align="center"><a href="https://bbtv.ainivox.cn/review/prd4/#image"><strong>打开滑动对比 · 拖动查看原图与增强结果</strong></a> · <a href="https://bbtv.ainivox.cn/review/prd4/parameters.json">完整提示词与参数</a></p>
+
+生成式细节增强可能局部重绘手机、手部或食品；需要逐像素保留原图时，可选择专用高清放大模型。
+
 ![从剧本、镜头提示词到 MiniMax H3 视频的画布创作](docs/assets/story-to-video.png)
 
 从故事构思出发，把剧本、角色、场景、图片提示词和视频结果放在同一张画布上。右侧助手整理创作内容，左侧节点承接素材与结果，创作脉络始终可见。
+
+### MiniMax H3 视频人物替换
+
+让参考照中的人物跟随原片动作。下面的真实样本截取公开舞蹈视频的 3 秒片段，保留紫色光线、镜头以及手、肩和头部动作，换成参考人物的面容、卷发和菱形衬衫。点击原片或结果画面即可播放。
+
+<table align="center">
+<tr><th align="center">舞蹈原片</th><th align="center">人物参考照</th><th align="center">替换结果</th></tr>
+<tr><td><a href="https://bbtv.ainivox.cn/review/prd4/dance-source.mp4"><img src="docs/assets/prd4/dance-source.jpg" width="260" alt="3秒舞蹈原片" /></a></td><td><a href="docs/assets/prd4/reference-woman.jpg"><img src="docs/assets/prd4/reference-woman.jpg" width="260" alt="成年女性参考照" /></a></td><td><a href="https://bbtv.ainivox.cn/review/prd4/dance-result.mp4"><img src="docs/assets/prd4/dance-result.jpg" width="260" alt="H3 人物替换视频结果" /></a></td></tr>
+<tr><td align="center"><a href="docs/assets/prd4/dance-source.mp4">下载原片</a></td><td align="center"><a href="docs/assets/prd4/reference-woman.jpg">下载参考照</a></td><td align="center"><a href="docs/assets/prd4/dance-result.mp4">下载结果</a></td></tr>
+</table>
+
+**384 × 672 · 3 秒 · 24 FPS · 原生 20 步 · CFG 1 · seed 912611 · 生成 369.003 秒。** 局部五官仍有变化；这次单人短片未覆盖全身快动作或多人遮挡。[同步播放与完整参数](https://bbtv.ainivox.cn/review/prd4/#dance) · [素材来源与说明](docs/H3图片与视频示例.md)
+
+狗对白的[原 15 秒完整六段稿实测](https://bbtv.ainivox.cn/review/prd4/#dialogue)保留用户原稿、实际原图与原参数，仅固定测试种子。两句台词均完整识别，但「黄果」被识别为同音的「黄国」，部分笑的画面两狗同时张嘴，严格逐字与口型验收仍有限制。[完整提示词与参数](docs/assets/prd4/dialogue-original15.json) · [可复现工作流](docs/assets/prd4/dialogue-original15-graph.json)。此前 6 秒和本轮 8 秒短句样本分别保留，参考图、时长及稿件不同，不作为单变量对照。
 
 以下展示均为作者提供的软件实机截图。
 

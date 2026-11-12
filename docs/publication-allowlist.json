@@ -29,7 +29,40 @@
     "output/public-repo-assets/image-tools.png",
     "output/public-repo-assets/canvas-preferences.png",
     "output/public-repo-assets/engine-models.png",
-    "output/public-repo-assets/about-updates.png"
+    "output/public-repo-assets/about-updates.png",
+    "output/prd4-public-media/h3-image-detail.png",
+    "output/prd4-public-media/photo-original.png",
+    "output/prd4-public-media/photo-detail.png",
+    "output/prd4-public-media/photo-restored.png",
+    "output/prd4-public-media/reference-dogs.png",
+    "output/prd4-public-media/dance-source.mp4",
+    "output/prd4-public-media/dance-result.mp4",
+    "output/prd4-public-media/reference-woman.jpg",
+    "output/prd4-public-media/dance-source.jpg",
+    "output/prd4-public-media/dance-result.jpg",
+    "output/prd4-public-media/dialogue-result.mp4",
+    "output/prd4-public-media/parameters.json",
+    "output/prd4-public-media/dialogue-reproduction.json",
+    "output/prd4-public-media/dialogue-portable-graph.json",
+    "output/prd4-public-media/dialogue-actual-wire.txt",
+    "output/prd4-public-media/dialogue-current.json",
+    "output/prd4-public-media/dialogue-current-graph.json",
+    "output/prd4-public-media/dialogue-current-wire.txt",
+    "output/prd4-public-media/dialogue-current.mp4",
+    "output/prd4-public-media/dialogue-current-frames.png",
+    "output/prd4-public-media/dialogue-current-audio.wav",
+    "output/prd4-public-media/dialogue-user-wire-fl2va.txt",
+    "output/prd4-public-media/dialogue-user-wire-ref2va.txt",
+    "output/prd4-public-media/dialogue-original15.json",
+    "output/prd4-public-media/dialogue-original15-graph.json",
+    "output/prd4-public-media/dialogue-original15-wire.txt",
+    "output/prd4-public-media/dialogue-original15.mp4",
+    "output/prd4-public-media/dialogue-original15-frames.png",
+    "output/prd4-public-media/dialogue-original15-reference.png",
+    "output/prd4-public-media/dialogue-original15-audio.wav",
+    "output/prd4-public-media/dialogue-original15-poster.jpg",
+    "output/prd4-public-media/dialogue-current-poster.jpg",
+    "output/prd4-public-media/dialogue-previous-poster.jpg"
   ],
   "outputAllowlist": [
     "README.md",
@@ -44,6 +77,7 @@
     "release-notes/0.1.16.md",
     "release-notes/0.1.17.md",
     "release-notes/0.1.18.md",
+    "release-notes/0.1.19.md",
     "docs/model-distribution-inventory.json",
     "docs/模型安装说明.txt",
     "docs/licenses/Real-ESRGAN-LICENSE.txt",
@@ -69,7 +103,41 @@
     "docs/assets/image-tools.png",
     "docs/assets/canvas-preferences.png",
     "docs/assets/engine-models.png",
-    "docs/assets/about-updates.png"
+    "docs/assets/about-updates.png",
+    "docs/H3图片与视频示例.md",
+    "docs/assets/prd4/h3-image-detail.png",
+    "docs/assets/prd4/photo-original.png",
+    "docs/assets/prd4/photo-detail.png",
+    "docs/assets/prd4/photo-restored.png",
+    "docs/assets/prd4/reference-dogs.png",
+    "docs/assets/prd4/dance-source.mp4",
+    "docs/assets/prd4/dance-result.mp4",
+    "docs/assets/prd4/reference-woman.jpg",
+    "docs/assets/prd4/dance-source.jpg",
+    "docs/assets/prd4/dance-result.jpg",
+    "docs/assets/prd4/dialogue-result.mp4",
+    "docs/assets/prd4/parameters.json",
+    "docs/assets/prd4/dialogue-reproduction.json",
+    "docs/assets/prd4/dialogue-portable-graph.json",
+    "docs/assets/prd4/dialogue-actual-wire.txt",
+    "docs/assets/prd4/dialogue-current.json",
+    "docs/assets/prd4/dialogue-current-graph.json",
+    "docs/assets/prd4/dialogue-current-wire.txt",
+    "docs/assets/prd4/dialogue-current.mp4",
+    "docs/assets/prd4/dialogue-current-frames.png",
+    "docs/assets/prd4/dialogue-current-audio.wav",
+    "docs/assets/prd4/dialogue-user-wire-fl2va.txt",
+    "docs/assets/prd4/dialogue-user-wire-ref2va.txt",
+    "docs/assets/prd4/dialogue-original15.json",
+    "docs/assets/prd4/dialogue-original15-graph.json",
+    "docs/assets/prd4/dialogue-original15-wire.txt",
+    "docs/assets/prd4/dialogue-original15.mp4",
+    "docs/assets/prd4/dialogue-original15-frames.png",
+    "docs/assets/prd4/dialogue-original15-reference.png",
+    "docs/assets/prd4/dialogue-original15-audio.wav",
+    "docs/assets/prd4/dialogue-original15-poster.jpg",
+    "docs/assets/prd4/dialogue-current-poster.jpg",
+    "docs/assets/prd4/dialogue-previous-poster.jpg"
   ],
   "prohibitedContent": [
     "program source",
@@ -78,7 +146,7 @@
     "unapproved user project media",
     "internal task logs"
   ],
-  "screenshotPolicy": "Only the eight author-authorized screenshots are published byte-for-byte; the new video-generation screenshot was explicitly approved on 2026-11-11; no diagnostic screenshots or synthetic UI captures.",
+  "screenshotPolicy": "The eight existing author-authorized screenshots remain byte-for-byte unchanged. PRD4 explicitly adds one full original H3 Image screenshot plus the exact dog-image, dance-replacement and dialogue-reproduction examples; no diagnostic screenshots or synthetic UI captures.",
   "sanitizedInventoryFields": [
     "relative model paths",
     "sizes",
@@ -86,7 +154,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.18",
+  "generatedFromVersion": "0.1.19",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -110,8 +178,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 23398,
-      "sha256": "6f9e69cd519e4121e5a9c5edff5e04397f69478d456f3416f5c57579b5e6bc7f"
+      "bytes": 27148,
+      "sha256": "15812eb173ae30c298b4c4ff8327892d793034b3ca33f8611107ab7886a8df67"
+    },
+    {
+      "path": "docs/H3图片与视频示例.md",
+      "bytes": 4647,
+      "sha256": "1f47378beb05cf66e4653a1f11d95688a614ecb431cdacf19558a302e977805f"
     },
     {
       "path": "docs/assets/about-updates.png",
@@ -142,6 +215,171 @@
       "path": "docs/assets/multi-angle-video.png",
       "bytes": 1954226,
       "sha256": "e210a77b19da9757b7334220067db07b58a7ffb967d08b24bff52649e7ace868"
+    },
+    {
+      "path": "docs/assets/prd4/dance-result.jpg",
+      "bytes": 14510,
+      "sha256": "4a9c3fff49c9b4425a991bda40b3b0dba02bd4ad9407a83c19aa0fa48e367331"
+    },
+    {
+      "path": "docs/assets/prd4/dance-result.mp4",
+      "bytes": 611726,
+      "sha256": "d7126f423c6295e23247f5601f5bde5719c4897c46945bb716cff456cdcaafed"
+    },
+    {
+      "path": "docs/assets/prd4/dance-source.jpg",
+      "bytes": 12299,
+      "sha256": "0a4ad6b2663394c148a81c64d1c02545daa9827534c2b94a401ba734b06c550b"
+    },
+    {
+      "path": "docs/assets/prd4/dance-source.mp4",
+      "bytes": 407367,
+      "sha256": "134ea907dfee36e3076958968519141e9f02d582d39cba1acd1d98de2ecde9da"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-actual-wire.txt",
+      "bytes": 1218,
+      "sha256": "58810893900fc052f6706d6c1f695364d3630aadf829831e67538d4f5e22ad1f"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-current-audio.wav",
+      "bytes": 256078,
+      "sha256": "28113d3157a5db23df0c6492bf55bf3f6e59e061bcd93ac965f181f98e2ff71c"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-current-frames.png",
+      "bytes": 4617511,
+      "sha256": "91d056e8d717512d593fa8012a24d40a4fbf40515bd10b4ceabe9db903f47e71"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-current-graph.json",
+      "bytes": 5371,
+      "sha256": "ae4b1c34f3e99f0833607387d18127d7a088e99e8b7bfa540330e60f57547ae3"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-current-poster.jpg",
+      "bytes": 19613,
+      "sha256": "16567588ce5b5ed928042c5d97361d76c76c297e7af3b9562f968ba1064e9420"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-current-wire.txt",
+      "bytes": 1541,
+      "sha256": "0ab11d57d7e5d95ade65d767f63958069fe53731a0bac13efd13f1685daacb1c"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-current.json",
+      "bytes": 6644,
+      "sha256": "57931cddfba00de61ff79e092f97500683cb08f59347f43db306725242f3f23a"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-current.mp4",
+      "bytes": 990895,
+      "sha256": "50ede0445337cab53d3e5a1b673e78134d2c064cf0ff63e25c53e83522af163c"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-original15-audio.wav",
+      "bytes": 480078,
+      "sha256": "80d2dcb26ebe5dbb410a17ab1b50944a36943d34bfbaed35748194970c941ada"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-original15-frames.png",
+      "bytes": 4183237,
+      "sha256": "13af8f3019007d0965eecaccb1f1a2a8266711c1bee78f9e980cf78aa08ae4b9"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-original15-graph.json",
+      "bytes": 6963,
+      "sha256": "ce14d4d64e4f9e436de74e69ab69b56e66cb2f8a8a161f4d23e9d95aa8cd9358"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-original15-poster.jpg",
+      "bytes": 19018,
+      "sha256": "445e8f810596d1bb17eb057b5d5afefa84b075d55c9dccac000d03580651b3ea"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-original15-reference.png",
+      "bytes": 2934512,
+      "sha256": "215338ca35da9f6ef0ac79de660a0cb082a7c51e38e778290139eb97b9f6ab48"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-original15-wire.txt",
+      "bytes": 3114,
+      "sha256": "d038a5a6672e4dd967c5a731778ccfe60036092460630027d08ef9806d3fe8c8"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-original15.json",
+      "bytes": 10024,
+      "sha256": "5671335243d68c04c25e029448219cabb81d8fc6c9b8151086375e3bea93fc2c"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-original15.mp4",
+      "bytes": 2866021,
+      "sha256": "0d2ece530fd50ae111389d6b73608ba57e8ff63a9e3fee78550c3b894e13eaf1"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-portable-graph.json",
+      "bytes": 5046,
+      "sha256": "2ed4f4982b33cb52722faabe735d50cda892640cd9aa2e7a87b93ac5692f9736"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-previous-poster.jpg",
+      "bytes": 19480,
+      "sha256": "19f6ef446c39f2d88f50d6a27a7f6d9e3e8b8c05b3dae5f3448dc9197bf11d69"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-reproduction.json",
+      "bytes": 16359,
+      "sha256": "6ece02ef6756c83051f1a3267dde0e1df54b5722637606bc3c1f70783257be17"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-result.mp4",
+      "bytes": 747082,
+      "sha256": "cddcebc39bb625b23a3e9d28ac0598c3ddd04596d60783a53cc8c66b880ebaae"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-user-wire-fl2va.txt",
+      "bytes": 3114,
+      "sha256": "d038a5a6672e4dd967c5a731778ccfe60036092460630027d08ef9806d3fe8c8"
+    },
+    {
+      "path": "docs/assets/prd4/dialogue-user-wire-ref2va.txt",
+      "bytes": 3605,
+      "sha256": "7382d7f6a12907cd2290a0f787d14c9490b270f1a4903bbb1fbd7f78fad0d7b7"
+    },
+    {
+      "path": "docs/assets/prd4/h3-image-detail.png",
+      "bytes": 2816136,
+      "sha256": "875fbd8780e921edf98775518e367ef06d0c23ab89c9365db921dbd3079574a2"
+    },
+    {
+      "path": "docs/assets/prd4/parameters.json",
+      "bytes": 24453,
+      "sha256": "0e518f8d1a0f063470eb9ae9634f0122d81cb422f7844f775d40de125d34253d"
+    },
+    {
+      "path": "docs/assets/prd4/photo-detail.png",
+      "bytes": 6424834,
+      "sha256": "45156f3160b3cc03845b944a5dfe061f75846dd0ed4398ad65f719cc0acf96cd"
+    },
+    {
+      "path": "docs/assets/prd4/photo-original.png",
+      "bytes": 548691,
+      "sha256": "b1ca242c1d969ce87fd53e5a20b40f992da06de0011dfa429e804f80452aad12"
+    },
+    {
+      "path": "docs/assets/prd4/photo-restored.png",
+      "bytes": 6616518,
+      "sha256": "df214d2dbb2ed24817508117f818fce51c6d7f71e9934390a65c9cebc668f801"
+    },
+    {
+      "path": "docs/assets/prd4/reference-dogs.png",
+      "bytes": 1579017,
+      "sha256": "9255a407d3d19769cb3ddac036333340d006a2560502ad962be9f87d26c78231"
+    },
+    {
+      "path": "docs/assets/prd4/reference-woman.jpg",
+      "bytes": 120960,
+      "sha256": "fadee2311305700e0fe1fdac13b0ff9a053db79438c197d679a4eceb671ebae3"
     },
     {
       "path": "docs/assets/prompt-upscale-compare.png",
@@ -272,6 +510,11 @@
       "path": "release-notes/0.1.18.md",
       "bytes": 1327,
       "sha256": "66c515fe98f6e7856a40777a6f7d79a4e17cc72b7ceed484ecce29b50e78b6c1"
+    },
+    {
+      "path": "release-notes/0.1.19.md",
+      "bytes": 1765,
+      "sha256": "2a69f3f8f8e46f6d914e10f97bd76f6e4d178d905ee3b3080ea1f8fba7888b15"
     }
   ],
   "auditResult": {
