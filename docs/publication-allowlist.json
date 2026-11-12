@@ -79,6 +79,7 @@
     "release-notes/0.1.18.md",
     "release-notes/0.1.19.md",
     "release-notes/0.1.20.md",
+    "release-notes/0.1.21.md",
     "docs/model-distribution-inventory.json",
     "docs/模型安装说明.txt",
     "docs/licenses/Real-ESRGAN-LICENSE.txt",
@@ -155,12 +156,12 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.20",
+  "generatedFromVersion": "0.1.21",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
-      "bytes": 13341,
-      "sha256": "1b83dcfff78e617aa01fe7d81a849a1d67c2c15434d163bcfedd5f2fb4c8bc97"
+      "bytes": 13767,
+      "sha256": "0955ecaffb57051479251b008bdcb3605f50c1cfe837942123a82f0e74f92ee8"
     },
     {
       "path": "LICENSES/open-canvas-MIT.txt",
@@ -170,7 +171,7 @@
     {
       "path": "MODELS.md",
       "bytes": 14958,
-      "sha256": "6e9513c98b34f26854c6b6dc2d963bb095287e9f2cc4edcc5b9af686d0985ad3"
+      "sha256": "20fd54b25286f884db8be092bc32d307677d5c5a2cdb68d73a9c285c3b966f80"
     },
     {
       "path": "NOTICE.md",
@@ -179,8 +180,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 27148,
-      "sha256": "32ecdd9d403ffc4dae3a4dfd52ca50171f6fec7982fc02c783b509cad8cb04ea"
+      "bytes": 27574,
+      "sha256": "43ced3a8ec302a6da6fcae4ebd7cfe0e26498de8664337b33e8149d6f884d55b"
     },
     {
       "path": "docs/H3图片与视频示例.md",
@@ -399,8 +400,8 @@
     },
     {
       "path": "docs/distribution-resources.json",
-      "bytes": 10897,
-      "sha256": "7698c63227340abdbb2b055281a3c914ef346967c7c0dff17a61df36b439cb7a"
+      "bytes": 11039,
+      "sha256": "f262839fee87e124247ec0a7747cc0d3237f1b5638ee87672670243214e774b2"
     },
     {
       "path": "docs/licenses/Character-Swap-H3-LICENSE.txt",
@@ -464,8 +465,8 @@
     },
     {
       "path": "docs/model-distribution-inventory.json",
-      "bytes": 163394,
-      "sha256": "2a361d0657e79101455640ab50f837621b9d6878f65f62ac44df1d4ccf75b7b4"
+      "bytes": 217780,
+      "sha256": "70a3cf98ebb3a4b8f4320641402318d7b3684329b360e4b2ee886f6d3767a7c2"
     },
     {
       "path": "docs/performance-reference.json",
@@ -474,8 +475,8 @@
     },
     {
       "path": "docs/模型安装说明.txt",
-      "bytes": 2419,
-      "sha256": "b686c574bedb5457c9aaf20acfe66f2dece162c47d9fa2d616cc28f96ca6305f"
+      "bytes": 2492,
+      "sha256": "67cb57d41112533fac89ca7b0dec99692520f4fc73c95dd6caa4b78beb9b9cbf"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -521,6 +522,11 @@
       "path": "release-notes/0.1.20.md",
       "bytes": 427,
       "sha256": "b5e119dc5877bddc116dc7cb4b1c49488b9b2592f8d2bf782375a64cfb9a165a"
+    },
+    {
+      "path": "release-notes/0.1.21.md",
+      "bytes": 2093,
+      "sha256": "05fe9282373a828289b49aea1f42e3c8a6961c0eaff74b1e40d6b50596ec42bf"
     }
   ],
   "auditResult": {

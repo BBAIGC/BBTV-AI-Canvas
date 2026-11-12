@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedDate": "2026-11-12",
+  "generatedDate": "2026-11-13",
   "totals": {
     "engine": {
       "files": 4,
@@ -112,7 +112,7 @@
     {
       "id": "file-005",
       "relativePath": "模型库/01-图片生成/diffusion_models/jibMixMossRealistic_v2RealityRenew.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/diffusion_models/jibMixMossRealistic_v2RealityRenew.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/MOSS Image · Jib V2/diffusion_models/jibMixMossRealistic_v2RealityRenew.safetensors",
       "installRelativePath": "diffusion_models/jibMixMossRealistic_v2RealityRenew.safetensors",
       "downloadTier": "optional",
       "bytes": 5414035750,
@@ -126,6 +126,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:moss"
+      ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/diffusion_models/jibMixMossRealistic_v2RealityRenew.safetensors",
+        "模型库/01-图片生成/diffusion_models/jibMixMossRealistic_v2RealityRenew.safetensors",
+        "04-可选扩展/01-图片生成/diffusion_models/jibMixMossRealistic_v2RealityRenew.safetensors"
       ],
       "sources": [
         {
@@ -143,7 +148,7 @@
     {
       "id": "file-006",
       "relativePath": "模型库/01-图片生成/diffusion_models/krea2_turbo_fp8_scaled.safetensors",
-      "targetRelativePath": "03-基础模型/01-图片生成/diffusion_models/krea2_turbo_fp8_scaled.safetensors",
+      "targetRelativePath": "03-基础模型/01-图片生成/Krea 2 Turbo/diffusion_models/krea2_turbo_fp8_scaled.safetensors",
       "installRelativePath": "diffusion_models/krea2_turbo_fp8_scaled.safetensors",
       "downloadTier": "mandatory",
       "bytes": 13141730784,
@@ -157,6 +162,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:krea-2-turbo"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/01-图片生成/diffusion_models/krea2_turbo_fp8_scaled.safetensors",
+        "模型库/01-图片生成/diffusion_models/krea2_turbo_fp8_scaled.safetensors",
+        "03-基础模型/01-图片生成/diffusion_models/krea2_turbo_fp8_scaled.safetensors"
       ],
       "sources": [
         {
@@ -172,7 +182,7 @@
     {
       "id": "file-007",
       "relativePath": "模型库/01-图片生成/diffusion_models/moss_image_sft_bf16.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/diffusion_models/moss_image_sft_bf16.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/00-共享配套/diffusion_models/moss_image_sft_bf16.safetensors",
       "installRelativePath": "diffusion_models/moss_image_sft_bf16.safetensors",
       "downloadTier": "optional",
       "bytes": 10164655808,
@@ -188,6 +198,11 @@
         "studio:moss-sft",
         "studio:moss-sft:edit"
       ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/diffusion_models/moss_image_sft_bf16.safetensors",
+        "模型库/01-图片生成/diffusion_models/moss_image_sft_bf16.safetensors",
+        "04-可选扩展/01-图片生成/diffusion_models/moss_image_sft_bf16.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MOSS-Image",
@@ -202,7 +217,7 @@
     {
       "id": "file-008",
       "relativePath": "模型库/01-图片生成/diffusion_models/qwen-image-2.1-UC-Q6_K.gguf",
-      "targetRelativePath": "04-可选扩展/01-图片生成/diffusion_models/qwen-image-2.1-UC-Q6_K.gguf",
+      "targetRelativePath": "04-可选扩展/01-图片生成/00-共享配套/diffusion_models/qwen-image-2.1-UC-Q6_K.gguf",
       "installRelativePath": "diffusion_models/qwen-image-2.1-UC-Q6_K.gguf",
       "downloadTier": "optional",
       "bytes": 5876556576,
@@ -216,6 +231,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:qwen-2.1"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/01-图片生成/diffusion_models/qwen-image-2.1-UC-Q6_K.gguf",
+        "模型库/01-图片生成/diffusion_models/qwen-image-2.1-UC-Q6_K.gguf",
+        "04-可选扩展/01-图片生成/diffusion_models/qwen-image-2.1-UC-Q6_K.gguf"
       ],
       "sources": [
         {
@@ -231,7 +251,7 @@
     {
       "id": "file-009",
       "relativePath": "模型库/01-图片生成/diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/Qwen Image 2.1 Turbo/diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors",
       "installRelativePath": "diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors",
       "downloadTier": "optional",
       "bytes": 7256787829,
@@ -245,6 +265,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:qwen-2.1-turbo"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/01-图片生成/diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors",
+        "模型库/01-图片生成/diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors",
+        "04-可选扩展/01-图片生成/diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors"
       ],
       "sources": [
         {
@@ -260,7 +285,7 @@
     {
       "id": "file-010",
       "relativePath": "模型库/01-图片生成/diffusion_models/z_image_bf16.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/diffusion_models/z_image_bf16.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/Z-Image/diffusion_models/z_image_bf16.safetensors",
       "installRelativePath": "diffusion_models/z_image_bf16.safetensors",
       "downloadTier": "optional",
       "bytes": 12309866400,
@@ -273,12 +298,17 @@
       "group": "01-图片生成",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/diffusion_models/z_image_bf16.safetensors",
+        "模型库/01-图片生成/diffusion_models/z_image_bf16.safetensors",
+        "04-可选扩展/01-图片生成/diffusion_models/z_image_bf16.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-011",
       "relativePath": "模型库/01-图片生成/diffusion_models/z_image_turbo_bf16.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/diffusion_models/z_image_turbo_bf16.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/Z-Image Turbo/diffusion_models/z_image_turbo_bf16.safetensors",
       "installRelativePath": "diffusion_models/z_image_turbo_bf16.safetensors",
       "downloadTier": "optional",
       "bytes": 12309866400,
@@ -291,12 +321,17 @@
       "group": "01-图片生成",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/diffusion_models/z_image_turbo_bf16.safetensors",
+        "模型库/01-图片生成/diffusion_models/z_image_turbo_bf16.safetensors",
+        "04-可选扩展/01-图片生成/diffusion_models/z_image_turbo_bf16.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-012",
       "relativePath": "模型库/01-图片生成/text_encoders/qwen3.5_9b_bf16.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/text_encoders/qwen3.5_9b_bf16.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/00-共享配套/text_encoders/qwen3.5_9b_bf16.safetensors",
       "installRelativePath": "text_encoders/qwen3.5_9b_bf16.safetensors",
       "downloadTier": "optional",
       "bytes": 19306312328,
@@ -318,6 +353,11 @@
         "studio:moss-qaq-v1",
         "studio:moss-qaq-v2"
       ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/text_encoders/qwen3.5_9b_bf16.safetensors",
+        "模型库/01-图片生成/text_encoders/qwen3.5_9b_bf16.safetensors",
+        "04-可选扩展/01-图片生成/text_encoders/qwen3.5_9b_bf16.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MOSS-Image",
@@ -332,7 +372,7 @@
     {
       "id": "file-013",
       "relativePath": "模型库/01-图片生成/text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
-      "targetRelativePath": "03-基础模型/01-图片生成/text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+      "targetRelativePath": "03-基础模型/01-图片生成/Krea 2 Turbo/text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
       "installRelativePath": "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
       "downloadTier": "mandatory",
       "bytes": 5242467968,
@@ -346,6 +386,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:krea-2-turbo"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/01-图片生成/text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+        "模型库/01-图片生成/text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+        "03-基础模型/01-图片生成/text_encoders/qwen3vl_4b_fp8_scaled.safetensors"
       ],
       "sources": [
         {
@@ -361,7 +406,7 @@
     {
       "id": "file-014",
       "relativePath": "模型库/01-图片生成/text_encoders/qwen3vl_8b_int8_convrot.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/text_encoders/qwen3vl_8b_int8_convrot.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/00-共享配套/text_encoders/qwen3vl_8b_int8_convrot.safetensors",
       "installRelativePath": "text_encoders/qwen3vl_8b_int8_convrot.safetensors",
       "downloadTier": "optional",
       "bytes": 9350798360,
@@ -377,6 +422,11 @@
       "dependenciesFor": [
         "studio:qwen-2.1",
         "studio:qwen-2.1-turbo"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/01-图片生成/text_encoders/qwen3vl_8b_int8_convrot.safetensors",
+        "模型库/01-图片生成/text_encoders/qwen3vl_8b_int8_convrot.safetensors",
+        "04-可选扩展/01-图片生成/text_encoders/qwen3vl_8b_int8_convrot.safetensors"
       ],
       "sources": [
         {
@@ -400,7 +450,7 @@
     {
       "id": "file-015",
       "relativePath": "模型库/01-图片生成/text_encoders/qwen_3_4b.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/text_encoders/qwen_3_4b.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/00-共享配套/text_encoders/qwen_3_4b.safetensors",
       "installRelativePath": "text_encoders/qwen_3_4b.safetensors",
       "downloadTier": "optional",
       "bytes": 8044982048,
@@ -414,12 +464,17 @@
       "group": "01-图片生成",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/text_encoders/qwen_3_4b.safetensors",
+        "模型库/01-图片生成/text_encoders/qwen_3_4b.safetensors",
+        "04-可选扩展/01-图片生成/text_encoders/qwen_3_4b.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-016",
       "relativePath": "模型库/01-图片生成/vae/ae.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/vae/ae.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/00-共享配套/vae/ae.safetensors",
       "installRelativePath": "vae/ae.safetensors",
       "downloadTier": "optional",
       "bytes": 335304388,
@@ -433,12 +488,17 @@
       "group": "01-图片生成",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/vae/ae.safetensors",
+        "模型库/01-图片生成/vae/ae.safetensors",
+        "04-可选扩展/01-图片生成/vae/ae.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-017",
       "relativePath": "模型库/01-图片生成/vae/flux2-vae_small.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/vae/flux2-vae_small.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/00-共享配套/vae/flux2-vae_small.safetensors",
       "installRelativePath": "vae/flux2-vae_small.safetensors",
       "downloadTier": "optional",
       "bytes": 249521340,
@@ -460,6 +520,11 @@
         "studio:moss-qaq-v1",
         "studio:moss-qaq-v2"
       ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/vae/flux2-vae_small.safetensors",
+        "模型库/01-图片生成/vae/flux2-vae_small.safetensors",
+        "04-可选扩展/01-图片生成/vae/flux2-vae_small.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MOSS-Image",
@@ -474,7 +539,7 @@
     {
       "id": "file-018",
       "relativePath": "模型库/01-图片生成/vae/qwen_image_2.1_vae_bf16.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/vae/qwen_image_2.1_vae_bf16.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/00-共享配套/vae/qwen_image_2.1_vae_bf16.safetensors",
       "installRelativePath": "vae/qwen_image_2.1_vae_bf16.safetensors",
       "downloadTier": "optional",
       "bytes": 675509688,
@@ -490,6 +555,11 @@
       "dependenciesFor": [
         "studio:qwen-2.1",
         "studio:qwen-2.1-turbo"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/01-图片生成/vae/qwen_image_2.1_vae_bf16.safetensors",
+        "模型库/01-图片生成/vae/qwen_image_2.1_vae_bf16.safetensors",
+        "04-可选扩展/01-图片生成/vae/qwen_image_2.1_vae_bf16.safetensors"
       ],
       "sources": [
         {
@@ -513,7 +583,7 @@
     {
       "id": "file-019",
       "relativePath": "模型库/01-图片生成/vae/qwen_image_vae.safetensors",
-      "targetRelativePath": "03-基础模型/01-图片生成/vae/qwen_image_vae.safetensors",
+      "targetRelativePath": "03-基础模型/01-图片生成/Krea 2 Turbo/vae/qwen_image_vae.safetensors",
       "installRelativePath": "vae/qwen_image_vae.safetensors",
       "downloadTier": "mandatory",
       "bytes": 253806246,
@@ -527,6 +597,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:krea-2-turbo"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/01-图片生成/vae/qwen_image_vae.safetensors",
+        "模型库/01-图片生成/vae/qwen_image_vae.safetensors",
+        "03-基础模型/01-图片生成/vae/qwen_image_vae.safetensors"
       ],
       "sources": [
         {
@@ -542,7 +617,7 @@
     {
       "id": "file-020",
       "relativePath": "模型库/02-视频生成/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
-      "targetRelativePath": "03-基础模型/02-视频生成/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "targetRelativePath": "03-基础模型/02-视频生成/00-共享配套/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
       "installRelativePath": "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
       "downloadTier": "mandatory",
       "bytes": 20970379616,
@@ -556,6 +631,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:minimax-h3:base"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/02-视频生成/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "模型库/02-视频生成/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "03-基础模型/02-视频生成/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors"
       ],
       "sources": [
         {
@@ -571,7 +651,7 @@
     {
       "id": "file-021",
       "relativePath": "模型库/02-视频生成/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
-      "targetRelativePath": "04-可选扩展/02-视频生成/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "targetRelativePath": "04-可选扩展/02-视频生成/00-共享配套/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
       "installRelativePath": "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
       "downloadTier": "optional",
       "bytes": 20970379616,
@@ -585,6 +665,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:minimax-h3:reference"
+      ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "模型库/02-视频生成/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "04-可选扩展/02-视频生成/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
       ],
       "sources": [
         {
@@ -600,7 +685,7 @@
     {
       "id": "file-022",
       "relativePath": "模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
-      "targetRelativePath": "04-可选扩展/02-视频生成/loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+      "targetRelativePath": "04-可选扩展/02-视频生成/H3 加速-延长 LoRA/loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
       "installRelativePath": "loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
       "downloadTier": "optional",
       "bytes": 1956192992,
@@ -613,6 +698,11 @@
       "group": "02-视频生成",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+        "模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+        "04-可选扩展/02-视频生成/loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MiniMax-H3",
@@ -627,7 +717,7 @@
     {
       "id": "file-023",
       "relativePath": "模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
-      "targetRelativePath": "03-基础模型/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+      "targetRelativePath": "03-基础模型/02-视频生成/H3 加速-延长 LoRA/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
       "installRelativePath": "loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
       "downloadTier": "mandatory",
       "bytes": 1956193000,
@@ -641,6 +731,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:minimax-h3:base"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+        "模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+        "03-基础模型/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors"
       ],
       "sources": [
         {
@@ -656,7 +751,7 @@
     {
       "id": "file-024",
       "relativePath": "模型库/02-视频生成/loras/minimax_h3_temporal_expansion_step375_r16.safetensors",
-      "targetRelativePath": "04-可选扩展/02-视频生成/loras/minimax_h3_temporal_expansion_step375_r16.safetensors",
+      "targetRelativePath": "04-可选扩展/02-视频生成/H3 加速-延长 LoRA/loras/minimax_h3_temporal_expansion_step375_r16.safetensors",
       "installRelativePath": "loras/minimax_h3_temporal_expansion_step375_r16.safetensors",
       "downloadTier": "optional",
       "bytes": 63103776,
@@ -669,12 +764,17 @@
       "group": "02-视频生成",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/loras/minimax_h3_temporal_expansion_step375_r16.safetensors",
+        "模型库/02-视频生成/loras/minimax_h3_temporal_expansion_step375_r16.safetensors",
+        "04-可选扩展/02-视频生成/loras/minimax_h3_temporal_expansion_step375_r16.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-025",
       "relativePath": "模型库/02-视频生成/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
-      "targetRelativePath": "03-基础模型/02-视频生成/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "targetRelativePath": "03-基础模型/02-视频生成/00-共享配套/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
       "installRelativePath": "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
       "downloadTier": "mandatory",
       "bytes": 15687142551,
@@ -692,6 +792,11 @@
         "studio:minimax-h3:reference",
         "studio:minimax-h3-image"
       ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/02-视频生成/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "模型库/02-视频生成/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "03-基础模型/02-视频生成/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MiniMax-H3",
@@ -706,7 +811,7 @@
     {
       "id": "file-026",
       "relativePath": "模型库/02-视频生成/vae/minimax_h3_audio_vae_fp32.safetensors",
-      "targetRelativePath": "03-基础模型/02-视频生成/vae/minimax_h3_audio_vae_fp32.safetensors",
+      "targetRelativePath": "03-基础模型/02-视频生成/00-共享配套/vae/minimax_h3_audio_vae_fp32.safetensors",
       "installRelativePath": "vae/minimax_h3_audio_vae_fp32.safetensors",
       "downloadTier": "mandatory",
       "bytes": 605254808,
@@ -722,6 +827,11 @@
         "studio:minimax-h3:base",
         "studio:minimax-h3:reference"
       ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/02-视频生成/vae/minimax_h3_audio_vae_fp32.safetensors",
+        "模型库/02-视频生成/vae/minimax_h3_audio_vae_fp32.safetensors",
+        "03-基础模型/02-视频生成/vae/minimax_h3_audio_vae_fp32.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MiniMax-H3",
@@ -736,7 +846,7 @@
     {
       "id": "file-027",
       "relativePath": "模型库/02-视频生成/vae/minimax_h3_video_vae_int8_convrot.safetensors",
-      "targetRelativePath": "03-基础模型/02-视频生成/vae/minimax_h3_video_vae_int8_convrot.safetensors",
+      "targetRelativePath": "03-基础模型/02-视频生成/00-共享配套/vae/minimax_h3_video_vae_int8_convrot.safetensors",
       "installRelativePath": "vae/minimax_h3_video_vae_int8_convrot.safetensors",
       "downloadTier": "mandatory",
       "bytes": 2811065184,
@@ -752,6 +862,11 @@
         "studio:minimax-h3:base",
         "studio:minimax-h3:reference"
       ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/02-视频生成/vae/minimax_h3_video_vae_int8_convrot.safetensors",
+        "模型库/02-视频生成/vae/minimax_h3_video_vae_int8_convrot.safetensors",
+        "03-基础模型/02-视频生成/vae/minimax_h3_video_vae_int8_convrot.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MiniMax-H3",
@@ -766,7 +881,7 @@
     {
       "id": "file-028",
       "relativePath": "模型库/03-图片放大/SEEDVR2/ema_vae_fp16.safetensors",
-      "targetRelativePath": "04-可选扩展/03-图片放大/SEEDVR2/ema_vae_fp16.safetensors",
+      "targetRelativePath": "04-可选扩展/03-图片放大/SeedVR2 3B/SEEDVR2/ema_vae_fp16.safetensors",
       "installRelativePath": "SEEDVR2/ema_vae_fp16.safetensors",
       "downloadTier": "optional",
       "bytes": 501324814,
@@ -779,6 +894,11 @@
       "group": "03-图片放大",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/SEEDVR2/ema_vae_fp16.safetensors",
+        "模型库/03-图片放大/SEEDVR2/ema_vae_fp16.safetensors",
+        "04-可选扩展/03-图片放大/SEEDVR2/ema_vae_fp16.safetensors"
+      ],
       "sources": [
         {
           "repository": "numz/SeedVR2_comfyUI",
@@ -793,7 +913,7 @@
     {
       "id": "file-029",
       "relativePath": "模型库/03-图片放大/SEEDVR2/seedvr2_ema_3b_fp8_e4m3fn.safetensors",
-      "targetRelativePath": "04-可选扩展/03-图片放大/SEEDVR2/seedvr2_ema_3b_fp8_e4m3fn.safetensors",
+      "targetRelativePath": "04-可选扩展/03-图片放大/SeedVR2 3B/SEEDVR2/seedvr2_ema_3b_fp8_e4m3fn.safetensors",
       "installRelativePath": "SEEDVR2/seedvr2_ema_3b_fp8_e4m3fn.safetensors",
       "downloadTier": "optional",
       "bytes": 3391544696,
@@ -806,6 +926,11 @@
       "group": "03-图片放大",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/SEEDVR2/seedvr2_ema_3b_fp8_e4m3fn.safetensors",
+        "模型库/03-图片放大/SEEDVR2/seedvr2_ema_3b_fp8_e4m3fn.safetensors",
+        "04-可选扩展/03-图片放大/SEEDVR2/seedvr2_ema_3b_fp8_e4m3fn.safetensors"
+      ],
       "sources": [
         {
           "repository": "numz/SeedVR2_comfyUI",
@@ -820,7 +945,7 @@
     {
       "id": "file-030",
       "relativePath": "模型库/03-图片放大/diffusion_models/seedvr2_3b_int8_convrot.safetensors",
-      "targetRelativePath": "04-可选扩展/03-图片放大/diffusion_models/seedvr2_3b_int8_convrot.safetensors",
+      "targetRelativePath": "04-可选扩展/03-图片放大/00-共享配套/diffusion_models/seedvr2_3b_int8_convrot.safetensors",
       "installRelativePath": "diffusion_models/seedvr2_3b_int8_convrot.safetensors",
       "downloadTier": "optional",
       "bytes": 3458259704,
@@ -833,12 +958,17 @@
       "group": "03-图片放大",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/diffusion_models/seedvr2_3b_int8_convrot.safetensors",
+        "模型库/03-图片放大/diffusion_models/seedvr2_3b_int8_convrot.safetensors",
+        "04-可选扩展/03-图片放大/diffusion_models/seedvr2_3b_int8_convrot.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-031",
       "relativePath": "模型库/03-图片放大/upscale_models/OmniSR_X2_DIV2K.safetensors",
-      "targetRelativePath": "03-基础模型/03-图片放大/upscale_models/OmniSR_X2_DIV2K.safetensors",
+      "targetRelativePath": "03-基础模型/03-图片放大/OmniSR X2/upscale_models/OmniSR_X2_DIV2K.safetensors",
       "installRelativePath": "upscale_models/OmniSR_X2_DIV2K.safetensors",
       "downloadTier": "mandatory",
       "bytes": 1655992,
@@ -851,6 +981,11 @@
       "group": "03-图片放大",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/03-图片放大/upscale_models/OmniSR_X2_DIV2K.safetensors",
+        "模型库/03-图片放大/upscale_models/OmniSR_X2_DIV2K.safetensors",
+        "03-基础模型/03-图片放大/upscale_models/OmniSR_X2_DIV2K.safetensors"
+      ],
       "sources": [
         {
           "repository": "Acly/Omni-SR",
@@ -862,7 +997,7 @@
     {
       "id": "file-032",
       "relativePath": "模型库/03-图片放大/vae/seedvr2_ema_vae_fp16.safetensors",
-      "targetRelativePath": "04-可选扩展/03-图片放大/vae/seedvr2_ema_vae_fp16.safetensors",
+      "targetRelativePath": "04-可选扩展/03-图片放大/00-共享配套/vae/seedvr2_ema_vae_fp16.safetensors",
       "installRelativePath": "vae/seedvr2_ema_vae_fp16.safetensors",
       "downloadTier": "optional",
       "bytes": 501324814,
@@ -876,6 +1011,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
       "identicalContentTo": "file-028",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/vae/seedvr2_ema_vae_fp16.safetensors",
+        "模型库/03-图片放大/vae/seedvr2_ema_vae_fp16.safetensors",
+        "04-可选扩展/03-图片放大/vae/seedvr2_ema_vae_fp16.safetensors"
+      ],
       "sources": [
         {
           "repository": "numz/SeedVR2_comfyUI",
@@ -890,7 +1030,7 @@
     {
       "id": "file-033",
       "relativePath": "模型库/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/config.json",
-      "targetRelativePath": "03-基础模型/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/config.json",
+      "targetRelativePath": "03-基础模型/03-图片放大/VOSR2/vosr2/VOSR2/Qwen-Image-vae-2d/config.json",
       "installRelativePath": "vosr2/VOSR2/Qwen-Image-vae-2d/config.json",
       "downloadTier": "mandatory",
       "bytes": 811,
@@ -905,12 +1045,17 @@
       "dependenciesFor": [
         "studio:vosr2"
       ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/config.json",
+        "模型库/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/config.json",
+        "03-基础模型/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-034",
       "relativePath": "模型库/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/diffusion_pytorch_model.safetensors",
-      "targetRelativePath": "03-基础模型/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/diffusion_pytorch_model.safetensors",
+      "targetRelativePath": "03-基础模型/03-图片放大/VOSR2/vosr2/VOSR2/Qwen-Image-vae-2d/diffusion_pytorch_model.safetensors",
       "installRelativePath": "vosr2/VOSR2/Qwen-Image-vae-2d/diffusion_pytorch_model.safetensors",
       "downloadTier": "mandatory",
       "bytes": 178418892,
@@ -924,6 +1069,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:vosr2"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/diffusion_pytorch_model.safetensors",
+        "模型库/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/diffusion_pytorch_model.safetensors",
+        "03-基础模型/03-图片放大/vosr2/VOSR2/Qwen-Image-vae-2d/diffusion_pytorch_model.safetensors"
       ],
       "sources": [
         {
@@ -939,7 +1089,7 @@
     {
       "id": "file-035",
       "relativePath": "模型库/03-图片放大/vosr2/VOSR2/args.json",
-      "targetRelativePath": "03-基础模型/03-图片放大/vosr2/VOSR2/args.json",
+      "targetRelativePath": "03-基础模型/03-图片放大/VOSR2/vosr2/VOSR2/args.json",
       "installRelativePath": "vosr2/VOSR2/args.json",
       "downloadTier": "mandatory",
       "bytes": 816,
@@ -954,12 +1104,17 @@
       "dependenciesFor": [
         "studio:vosr2"
       ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/03-图片放大/vosr2/VOSR2/args.json",
+        "模型库/03-图片放大/vosr2/VOSR2/args.json",
+        "03-基础模型/03-图片放大/vosr2/VOSR2/args.json"
+      ],
       "sources": []
     },
     {
       "id": "file-036",
       "relativePath": "模型库/03-图片放大/vosr2/VOSR2/checkpoints/ema_model.safetensors",
-      "targetRelativePath": "03-基础模型/03-图片放大/vosr2/VOSR2/checkpoints/ema_model.safetensors",
+      "targetRelativePath": "03-基础模型/03-图片放大/VOSR2/vosr2/VOSR2/checkpoints/ema_model.safetensors",
       "installRelativePath": "vosr2/VOSR2/checkpoints/ema_model.safetensors",
       "downloadTier": "mandatory",
       "bytes": 5576385424,
@@ -973,6 +1128,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:vosr2"
+      ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/03-图片放大/vosr2/VOSR2/checkpoints/ema_model.safetensors",
+        "模型库/03-图片放大/vosr2/VOSR2/checkpoints/ema_model.safetensors",
+        "03-基础模型/03-图片放大/vosr2/VOSR2/checkpoints/ema_model.safetensors"
       ],
       "sources": [
         {
@@ -988,7 +1148,7 @@
     {
       "id": "file-037",
       "relativePath": "模型库/03-图片放大/vosr2/VOSR2/dinov2_vitl14.safetensors",
-      "targetRelativePath": "03-基础模型/03-图片放大/vosr2/VOSR2/dinov2_vitl14.safetensors",
+      "targetRelativePath": "03-基础模型/03-图片放大/VOSR2/vosr2/VOSR2/dinov2_vitl14.safetensors",
       "installRelativePath": "vosr2/VOSR2/dinov2_vitl14.safetensors",
       "downloadTier": "mandatory",
       "bytes": 1217506936,
@@ -1003,6 +1163,11 @@
       "dependenciesFor": [
         "studio:vosr2"
       ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/03-图片放大/vosr2/VOSR2/dinov2_vitl14.safetensors",
+        "模型库/03-图片放大/vosr2/VOSR2/dinov2_vitl14.safetensors",
+        "03-基础模型/03-图片放大/vosr2/VOSR2/dinov2_vitl14.safetensors"
+      ],
       "sources": [
         {
           "url": "https://huggingface.co/CSWRY/VOSR/blob/f24b3061b7f350b81e1907bdcfc27f71fb4ff3f3/README.md",
@@ -1013,7 +1178,7 @@
     {
       "id": "file-038",
       "relativePath": "模型库/03-图片放大/vosr2/VOSR2/source_revision.json",
-      "targetRelativePath": "03-基础模型/03-图片放大/vosr2/VOSR2/source_revision.json",
+      "targetRelativePath": "03-基础模型/03-图片放大/VOSR2/vosr2/VOSR2/source_revision.json",
       "installRelativePath": "vosr2/VOSR2/source_revision.json",
       "downloadTier": "mandatory",
       "bytes": 620,
@@ -1028,12 +1193,17 @@
       "dependenciesFor": [
         "studio:vosr2"
       ],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/03-图片放大/vosr2/VOSR2/source_revision.json",
+        "模型库/03-图片放大/vosr2/VOSR2/source_revision.json",
+        "03-基础模型/03-图片放大/vosr2/VOSR2/source_revision.json"
+      ],
       "sources": []
     },
     {
       "id": "file-039",
       "relativePath": "模型库/04-音频配音/demucs/955717e8-8726e21a.th",
-      "targetRelativePath": "04-可选扩展/04-音频配音/demucs/955717e8-8726e21a.th",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Demucs HTDemucs/demucs/955717e8-8726e21a.th",
       "installRelativePath": "demucs/955717e8-8726e21a.th",
       "downloadTier": "optional",
       "bytes": 84141911,
@@ -1046,12 +1216,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/demucs/955717e8-8726e21a.th",
+        "模型库/04-音频配音/demucs/955717e8-8726e21a.th",
+        "04-可选扩展/04-音频配音/demucs/955717e8-8726e21a.th"
+      ],
       "sources": []
     },
     {
       "id": "file-040",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/README.md",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/README.md",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-Base/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/README.md",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/README.md",
       "downloadTier": "optional",
       "bytes": 3640,
@@ -1064,12 +1239,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/README.md",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/README.md",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/README.md"
+      ],
       "sources": []
     },
     {
       "id": "file-041",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-Base/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/config.json",
       "downloadTier": "optional",
       "bytes": 4494,
@@ -1082,12 +1262,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-042",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/generation_config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/generation_config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-Base/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/generation_config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/generation_config.json",
       "downloadTier": "optional",
       "bytes": 245,
@@ -1100,12 +1285,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/generation_config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/generation_config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/generation_config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-043",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/merges.txt",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/merges.txt",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-Base/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/merges.txt",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/merges.txt",
       "downloadTier": "optional",
       "bytes": 1671839,
@@ -1118,12 +1308,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/merges.txt",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/merges.txt",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/merges.txt"
+      ],
       "sources": []
     },
     {
       "id": "file-044",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/model.safetensors",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/model.safetensors",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-Base/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/model.safetensors",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/model.safetensors",
       "downloadTier": "optional",
       "bytes": 1829344272,
@@ -1136,12 +1331,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/model.safetensors",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/model.safetensors",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/model.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-045",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/preprocessor_config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/preprocessor_config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-Base/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/preprocessor_config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/preprocessor_config.json",
       "downloadTier": "optional",
       "bytes": 127,
@@ -1154,12 +1354,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/preprocessor_config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/preprocessor_config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/preprocessor_config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-046",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/tokenizer_config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/tokenizer_config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-Base/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/tokenizer_config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/tokenizer_config.json",
       "downloadTier": "optional",
       "bytes": 7344,
@@ -1172,12 +1377,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/tokenizer_config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/tokenizer_config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/tokenizer_config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-047",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/vocab.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/vocab.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-Base/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/vocab.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/vocab.json",
       "downloadTier": "optional",
       "bytes": 2776833,
@@ -1190,12 +1400,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/vocab.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/vocab.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/vocab.json"
+      ],
       "sources": []
     },
     {
       "id": "file-048",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/config.json",
       "downloadTier": "optional",
       "bytes": 4908,
@@ -1208,12 +1423,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-049",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/generation_config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/generation_config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/generation_config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/generation_config.json",
       "downloadTier": "optional",
       "bytes": 245,
@@ -1227,12 +1447,17 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
       "identicalContentTo": "file-042",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/generation_config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/generation_config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/generation_config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-050",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/merges.txt",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/merges.txt",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/merges.txt",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/merges.txt",
       "downloadTier": "optional",
       "bytes": 1671839,
@@ -1245,12 +1470,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/merges.txt",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/merges.txt",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/merges.txt"
+      ],
       "sources": []
     },
     {
       "id": "file-051",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/model.safetensors",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/model.safetensors",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/model.safetensors",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/model.safetensors",
       "downloadTier": "optional",
       "bytes": 1811626576,
@@ -1263,12 +1493,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/model.safetensors",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/model.safetensors",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/model.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-052",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/preprocessor_config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/preprocessor_config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/preprocessor_config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/preprocessor_config.json",
       "downloadTier": "optional",
       "bytes": 127,
@@ -1282,12 +1517,17 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
       "identicalContentTo": "file-045",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/preprocessor_config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/preprocessor_config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/preprocessor_config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-053",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/config.json",
       "downloadTier": "optional",
       "bytes": 2336,
@@ -1300,12 +1540,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-054",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/config.json",
       "downloadTier": "optional",
       "bytes": 2336,
@@ -1319,12 +1564,17 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
       "identicalContentTo": "file-053",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-055",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/configuration.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/configuration.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/configuration.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/configuration.json",
       "downloadTier": "optional",
       "bytes": 76,
@@ -1337,12 +1587,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/configuration.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/configuration.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/configuration.json"
+      ],
       "sources": []
     },
     {
       "id": "file-056",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/configuration.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/configuration.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/configuration.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/configuration.json",
       "downloadTier": "optional",
       "bytes": 76,
@@ -1356,12 +1611,17 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
       "identicalContentTo": "file-055",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/configuration.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/configuration.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/configuration.json"
+      ],
       "sources": []
     },
     {
       "id": "file-057",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/model.safetensors",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/model.safetensors",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/model.safetensors",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/model.safetensors",
       "downloadTier": "optional",
       "bytes": 682293092,
@@ -1374,12 +1634,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/model.safetensors",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/model.safetensors",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/model.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-058",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/model.safetensors",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/model.safetensors",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/model.safetensors",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/model.safetensors",
       "downloadTier": "optional",
       "bytes": 682293092,
@@ -1393,12 +1658,17 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
       "identicalContentTo": "file-057",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/model.safetensors",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/model.safetensors",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/model.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-059",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/preprocessor_config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/preprocessor_config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/preprocessor_config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/preprocessor_config.json",
       "downloadTier": "optional",
       "bytes": 234,
@@ -1411,12 +1681,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/preprocessor_config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/preprocessor_config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/preprocessor_config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-060",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/preprocessor_config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/preprocessor_config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/preprocessor_config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/preprocessor_config.json",
       "downloadTier": "optional",
       "bytes": 234,
@@ -1430,12 +1705,17 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
       "identicalContentTo": "file-059",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/preprocessor_config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/preprocessor_config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/preprocessor_config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-061",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/tokenizer_config.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/tokenizer_config.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/tokenizer_config.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/tokenizer_config.json",
       "downloadTier": "optional",
       "bytes": 7344,
@@ -1449,12 +1729,17 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
       "identicalContentTo": "file-046",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/tokenizer_config.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/tokenizer_config.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/tokenizer_config.json"
+      ],
       "sources": []
     },
     {
       "id": "file-062",
       "relativePath": "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/vocab.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/vocab.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/Qwen3-TTS-12Hz-0.6B-CustomVoice/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/vocab.json",
       "installRelativePath": "qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/vocab.json",
       "downloadTier": "optional",
       "bytes": 2776833,
@@ -1467,12 +1752,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/vocab.json",
+        "模型库/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/vocab.json",
+        "04-可选扩展/04-音频配音/qwen-tts/Qwen3-TTS-12Hz-0.6B-CustomVoice/vocab.json"
+      ],
       "sources": []
     },
     {
       "id": "file-063",
       "relativePath": "模型库/04-音频配音/sensevoice-small/config.yaml",
-      "targetRelativePath": "04-可选扩展/04-音频配音/sensevoice-small/config.yaml",
+      "targetRelativePath": "04-可选扩展/04-音频配音/SenseVoice Small/sensevoice-small/config.yaml",
       "installRelativePath": "sensevoice-small/config.yaml",
       "downloadTier": "optional",
       "bytes": 1855,
@@ -1485,12 +1775,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/sensevoice-small/config.yaml",
+        "模型库/04-音频配音/sensevoice-small/config.yaml",
+        "04-可选扩展/04-音频配音/sensevoice-small/config.yaml"
+      ],
       "sources": []
     },
     {
       "id": "file-064",
       "relativePath": "模型库/04-音频配音/sensevoice-small/model.onnx",
-      "targetRelativePath": "04-可选扩展/04-音频配音/sensevoice-small/model.onnx",
+      "targetRelativePath": "04-可选扩展/04-音频配音/SenseVoice Small/sensevoice-small/model.onnx",
       "installRelativePath": "sensevoice-small/model.onnx",
       "downloadTier": "optional",
       "bytes": 937615562,
@@ -1503,12 +1798,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/sensevoice-small/model.onnx",
+        "模型库/04-音频配音/sensevoice-small/model.onnx",
+        "04-可选扩展/04-音频配音/sensevoice-small/model.onnx"
+      ],
       "sources": []
     },
     {
       "id": "file-065",
       "relativePath": "模型库/04-音频配音/sensevoice-small/tokens.json",
-      "targetRelativePath": "04-可选扩展/04-音频配音/sensevoice-small/tokens.json",
+      "targetRelativePath": "04-可选扩展/04-音频配音/SenseVoice Small/sensevoice-small/tokens.json",
       "installRelativePath": "sensevoice-small/tokens.json",
       "downloadTier": "optional",
       "bytes": 352064,
@@ -1521,12 +1821,17 @@
       "group": "04-音频配音",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/04-音频配音/sensevoice-small/tokens.json",
+        "模型库/04-音频配音/sensevoice-small/tokens.json",
+        "04-可选扩展/04-音频配音/sensevoice-small/tokens.json"
+      ],
       "sources": []
     },
     {
       "id": "file-066",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-0447bbaea9f2844b9ca5fa975c04d56d44a5e53deb37ae4497e46194fde508cf",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-0447bbaea9f2844b9ca5fa975c04d56d44a5e53deb37ae4497e46194fde508cf",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3-vl-8b-aggressive/models/blobs/sha256-0447bbaea9f2844b9ca5fa975c04d56d44a5e53deb37ae4497e46194fde508cf",
       "installRelativePath": "models/blobs/sha256-0447bbaea9f2844b9ca5fa975c04d56d44a5e53deb37ae4497e46194fde508cf",
       "downloadTier": "optional",
       "bytes": 6725900384,
@@ -1539,12 +1844,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-0447bbaea9f2844b9ca5fa975c04d56d44a5e53deb37ae4497e46194fde508cf",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-0447bbaea9f2844b9ca5fa975c04d56d44a5e53deb37ae4497e46194fde508cf",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-0447bbaea9f2844b9ca5fa975c04d56d44a5e53deb37ae4497e46194fde508cf"
+      ],
       "sources": []
     },
     {
       "id": "file-067",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-05f662501f8bd45607b079723a3e238a4e888fd085a10a53f4057a0e250f6934",
-      "targetRelativePath": "03-基础模型/05-文字视觉与提示词/Ollama/models/blobs/sha256-05f662501f8bd45607b079723a3e238a4e888fd085a10a53f4057a0e250f6934",
+      "targetRelativePath": "03-基础模型/05-文字视觉与提示词/uncensored-qwen3.5-9b-aggressive/models/blobs/sha256-05f662501f8bd45607b079723a3e238a4e888fd085a10a53f4057a0e250f6934",
       "installRelativePath": "models/blobs/sha256-05f662501f8bd45607b079723a3e238a4e888fd085a10a53f4057a0e250f6934",
       "downloadTier": "mandatory",
       "bytes": 921704448,
@@ -1557,12 +1867,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-05f662501f8bd45607b079723a3e238a4e888fd085a10a53f4057a0e250f6934",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-05f662501f8bd45607b079723a3e238a4e888fd085a10a53f4057a0e250f6934",
+        "03-基础模型/05-文字视觉与提示词/Ollama/models/blobs/sha256-05f662501f8bd45607b079723a3e238a4e888fd085a10a53f4057a0e250f6934"
+      ],
       "sources": []
     },
     {
       "id": "file-068",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-082ca68e4a53ce72ae934a11cdd54cf18d3dde6ac63c5d5a75a92bfacf7db430",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-082ca68e4a53ce72ae934a11cdd54cf18d3dde6ac63c5d5a75a92bfacf7db430",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.6-27b-aggressive-q3_k_p/models/blobs/sha256-082ca68e4a53ce72ae934a11cdd54cf18d3dde6ac63c5d5a75a92bfacf7db430",
       "installRelativePath": "models/blobs/sha256-082ca68e4a53ce72ae934a11cdd54cf18d3dde6ac63c5d5a75a92bfacf7db430",
       "downloadTier": "optional",
       "bytes": 927606976,
@@ -1575,12 +1890,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-082ca68e4a53ce72ae934a11cdd54cf18d3dde6ac63c5d5a75a92bfacf7db430",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-082ca68e4a53ce72ae934a11cdd54cf18d3dde6ac63c5d5a75a92bfacf7db430",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-082ca68e4a53ce72ae934a11cdd54cf18d3dde6ac63c5d5a75a92bfacf7db430"
+      ],
       "sources": []
     },
     {
       "id": "file-069",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-10097abcf15b56d1bd97cf945d231e85855e713775c2684be5c4a7b01a9083b8",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-10097abcf15b56d1bd97cf945d231e85855e713775c2684be5c4a7b01a9083b8",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3-vl-8b-balanced/models/blobs/sha256-10097abcf15b56d1bd97cf945d231e85855e713775c2684be5c4a7b01a9083b8",
       "installRelativePath": "models/blobs/sha256-10097abcf15b56d1bd97cf945d231e85855e713775c2684be5c4a7b01a9083b8",
       "downloadTier": "optional",
       "bytes": 6725900384,
@@ -1593,12 +1913,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-10097abcf15b56d1bd97cf945d231e85855e713775c2684be5c4a7b01a9083b8",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-10097abcf15b56d1bd97cf945d231e85855e713775c2684be5c4a7b01a9083b8",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-10097abcf15b56d1bd97cf945d231e85855e713775c2684be5c4a7b01a9083b8"
+      ],
       "sources": []
     },
     {
       "id": "file-070",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-2017480c0866cb5e56cd8426829558999d191ac6fc2f658653404b1c8aec87e0",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-2017480c0866cb5e56cd8426829558999d191ac6fc2f658653404b1c8aec87e0",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-e4b-aggressive/models/blobs/sha256-2017480c0866cb5e56cd8426829558999d191ac6fc2f658653404b1c8aec87e0",
       "installRelativePath": "models/blobs/sha256-2017480c0866cb5e56cd8426829558999d191ac6fc2f658653404b1c8aec87e0",
       "downloadTier": "optional",
       "bytes": 153,
@@ -1611,12 +1936,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-2017480c0866cb5e56cd8426829558999d191ac6fc2f658653404b1c8aec87e0",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-2017480c0866cb5e56cd8426829558999d191ac6fc2f658653404b1c8aec87e0",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-2017480c0866cb5e56cd8426829558999d191ac6fc2f658653404b1c8aec87e0"
+      ],
       "sources": []
     },
     {
       "id": "file-071",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-207cba6a657bc50abd5ce6b35eee4e69c258b00acb80e2babf74f826ba26a313",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-207cba6a657bc50abd5ce6b35eee4e69c258b00acb80e2babf74f826ba26a313",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3-vl-8b-balanced/models/blobs/sha256-207cba6a657bc50abd5ce6b35eee4e69c258b00acb80e2babf74f826ba26a313",
       "installRelativePath": "models/blobs/sha256-207cba6a657bc50abd5ce6b35eee4e69c258b00acb80e2babf74f826ba26a313",
       "downloadTier": "optional",
       "bytes": 1162568832,
@@ -1629,12 +1959,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-207cba6a657bc50abd5ce6b35eee4e69c258b00acb80e2babf74f826ba26a313",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-207cba6a657bc50abd5ce6b35eee4e69c258b00acb80e2babf74f826ba26a313",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-207cba6a657bc50abd5ce6b35eee4e69c258b00acb80e2babf74f826ba26a313"
+      ],
       "sources": []
     },
     {
       "id": "file-072",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-20f018da5e1c0182701dc6a92a0eaa93f332b6cf3f36bb9c5d35e4768e29f2f0",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-20f018da5e1c0182701dc6a92a0eaa93f332b6cf3f36bb9c5d35e4768e29f2f0",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/00-共享配套/models/blobs/sha256-20f018da5e1c0182701dc6a92a0eaa93f332b6cf3f36bb9c5d35e4768e29f2f0",
       "installRelativePath": "models/blobs/sha256-20f018da5e1c0182701dc6a92a0eaa93f332b6cf3f36bb9c5d35e4768e29f2f0",
       "downloadTier": "optional",
       "bytes": 118,
@@ -1648,12 +1983,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-20f018da5e1c0182701dc6a92a0eaa93f332b6cf3f36bb9c5d35e4768e29f2f0",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-20f018da5e1c0182701dc6a92a0eaa93f332b6cf3f36bb9c5d35e4768e29f2f0",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-20f018da5e1c0182701dc6a92a0eaa93f332b6cf3f36bb9c5d35e4768e29f2f0"
+      ],
       "sources": []
     },
     {
       "id": "file-073",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-2b-aggressive/models/blobs/sha256-3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793",
       "installRelativePath": "models/blobs/sha256-3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793",
       "downloadTier": "optional",
       "bytes": 2012012000,
@@ -1666,12 +2006,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793"
+      ],
       "sources": []
     },
     {
       "id": "file-074",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-40cd5fd37e47267f4b15d30702807d93fff3402e7a3d393e28dcce2c77b50c95",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-40cd5fd37e47267f4b15d30702807d93fff3402e7a3d393e28dcce2c77b50c95",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/00-共享配套/models/blobs/sha256-40cd5fd37e47267f4b15d30702807d93fff3402e7a3d393e28dcce2c77b50c95",
       "installRelativePath": "models/blobs/sha256-40cd5fd37e47267f4b15d30702807d93fff3402e7a3d393e28dcce2c77b50c95",
       "downloadTier": "optional",
       "bytes": 117,
@@ -1685,12 +2030,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-40cd5fd37e47267f4b15d30702807d93fff3402e7a3d393e28dcce2c77b50c95",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-40cd5fd37e47267f4b15d30702807d93fff3402e7a3d393e28dcce2c77b50c95",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-40cd5fd37e47267f4b15d30702807d93fff3402e7a3d393e28dcce2c77b50c95"
+      ],
       "sources": []
     },
     {
       "id": "file-075",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-43f4ae68ac690deb1c515aa8bece41fe366c9771c465e96cd2519895c375958d",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-43f4ae68ac690deb1c515aa8bece41fe366c9771c465e96cd2519895c375958d",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-e2b-aggressive/models/blobs/sha256-43f4ae68ac690deb1c515aa8bece41fe366c9771c465e96cd2519895c375958d",
       "installRelativePath": "models/blobs/sha256-43f4ae68ac690deb1c515aa8bece41fe366c9771c465e96cd2519895c375958d",
       "downloadTier": "optional",
       "bytes": 153,
@@ -1703,12 +2053,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-43f4ae68ac690deb1c515aa8bece41fe366c9771c465e96cd2519895c375958d",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-43f4ae68ac690deb1c515aa8bece41fe366c9771c465e96cd2519895c375958d",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-43f4ae68ac690deb1c515aa8bece41fe366c9771c465e96cd2519895c375958d"
+      ],
       "sources": []
     },
     {
       "id": "file-076",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-5681b690bcb8eb10cd28d62d078cb4e01521a3ea4880a3fc7d54de72de2dd142",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-5681b690bcb8eb10cd28d62d078cb4e01521a3ea4880a3fc7d54de72de2dd142",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.8-27b-aggressive-q3_k_p/models/blobs/sha256-5681b690bcb8eb10cd28d62d078cb4e01521a3ea4880a3fc7d54de72de2dd142",
       "installRelativePath": "models/blobs/sha256-5681b690bcb8eb10cd28d62d078cb4e01521a3ea4880a3fc7d54de72de2dd142",
       "downloadTier": "optional",
       "bytes": 931146624,
@@ -1721,12 +2076,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-5681b690bcb8eb10cd28d62d078cb4e01521a3ea4880a3fc7d54de72de2dd142",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-5681b690bcb8eb10cd28d62d078cb4e01521a3ea4880a3fc7d54de72de2dd142",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-5681b690bcb8eb10cd28d62d078cb4e01521a3ea4880a3fc7d54de72de2dd142"
+      ],
       "sources": []
     },
     {
       "id": "file-077",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-582b80812df428af61cd77891c703b4f0ac388fc22759a159a6c408886ba7a2b",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-582b80812df428af61cd77891c703b4f0ac388fc22759a159a6c408886ba7a2b",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.8-27b-aggressive-q3_k_p/models/blobs/sha256-582b80812df428af61cd77891c703b4f0ac388fc22759a159a6c408886ba7a2b",
       "installRelativePath": "models/blobs/sha256-582b80812df428af61cd77891c703b4f0ac388fc22759a159a6c408886ba7a2b",
       "downloadTier": "optional",
       "bytes": 13441058944,
@@ -1739,12 +2099,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-582b80812df428af61cd77891c703b4f0ac388fc22759a159a6c408886ba7a2b",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-582b80812df428af61cd77891c703b4f0ac388fc22759a159a6c408886ba7a2b",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-582b80812df428af61cd77891c703b4f0ac388fc22759a159a6c408886ba7a2b"
+      ],
       "sources": []
     },
     {
       "id": "file-078",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-59656d7494d6376ca97e9e20b64ea2e16cd97f12ec6d47bfccba91cb785b5134",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-59656d7494d6376ca97e9e20b64ea2e16cd97f12ec6d47bfccba91cb785b5134",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-12b-balanced/models/blobs/sha256-59656d7494d6376ca97e9e20b64ea2e16cd97f12ec6d47bfccba91cb785b5134",
       "installRelativePath": "models/blobs/sha256-59656d7494d6376ca97e9e20b64ea2e16cd97f12ec6d47bfccba91cb785b5134",
       "downloadTier": "optional",
       "bytes": 7381381760,
@@ -1757,12 +2122,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-59656d7494d6376ca97e9e20b64ea2e16cd97f12ec6d47bfccba91cb785b5134",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-59656d7494d6376ca97e9e20b64ea2e16cd97f12ec6d47bfccba91cb785b5134",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-59656d7494d6376ca97e9e20b64ea2e16cd97f12ec6d47bfccba91cb785b5134"
+      ],
       "sources": []
     },
     {
       "id": "file-079",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-628b7e999f89beef70b32396ae84f59c096e867747d7901f0134064ff672e290",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-628b7e999f89beef70b32396ae84f59c096e867747d7901f0134064ff672e290",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-e2b-aggressive/models/blobs/sha256-628b7e999f89beef70b32396ae84f59c096e867747d7901f0134064ff672e290",
       "installRelativePath": "models/blobs/sha256-628b7e999f89beef70b32396ae84f59c096e867747d7901f0134064ff672e290",
       "downloadTier": "optional",
       "bytes": 985570240,
@@ -1775,12 +2145,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-628b7e999f89beef70b32396ae84f59c096e867747d7901f0134064ff672e290",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-628b7e999f89beef70b32396ae84f59c096e867747d7901f0134064ff672e290",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-628b7e999f89beef70b32396ae84f59c096e867747d7901f0134064ff672e290"
+      ],
       "sources": []
     },
     {
       "id": "file-080",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-62eb2dbd9c3484d2886a6e0a03bad446ea1a8bcf05f5fd7c1b9e3e44296225ad",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-62eb2dbd9c3484d2886a6e0a03bad446ea1a8bcf05f5fd7c1b9e3e44296225ad",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-12b-balanced/models/blobs/sha256-62eb2dbd9c3484d2886a6e0a03bad446ea1a8bcf05f5fd7c1b9e3e44296225ad",
       "installRelativePath": "models/blobs/sha256-62eb2dbd9c3484d2886a6e0a03bad446ea1a8bcf05f5fd7c1b9e3e44296225ad",
       "downloadTier": "optional",
       "bytes": 156,
@@ -1793,12 +2168,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-62eb2dbd9c3484d2886a6e0a03bad446ea1a8bcf05f5fd7c1b9e3e44296225ad",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-62eb2dbd9c3484d2886a6e0a03bad446ea1a8bcf05f5fd7c1b9e3e44296225ad",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-62eb2dbd9c3484d2886a6e0a03bad446ea1a8bcf05f5fd7c1b9e3e44296225ad"
+      ],
       "sources": []
     },
     {
       "id": "file-081",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-72d1629343d2d70f5811ba495ccdab7237dbf5cefda9d30ffc3675355c9e588e",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-72d1629343d2d70f5811ba495ccdab7237dbf5cefda9d30ffc3675355c9e588e",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-4b-aggressive/models/blobs/sha256-72d1629343d2d70f5811ba495ccdab7237dbf5cefda9d30ffc3675355c9e588e",
       "installRelativePath": "models/blobs/sha256-72d1629343d2d70f5811ba495ccdab7237dbf5cefda9d30ffc3675355c9e588e",
       "downloadTier": "optional",
       "bytes": 115,
@@ -1811,12 +2191,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-72d1629343d2d70f5811ba495ccdab7237dbf5cefda9d30ffc3675355c9e588e",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-72d1629343d2d70f5811ba495ccdab7237dbf5cefda9d30ffc3675355c9e588e",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-72d1629343d2d70f5811ba495ccdab7237dbf5cefda9d30ffc3675355c9e588e"
+      ],
       "sources": []
     },
     {
       "id": "file-082",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-76ada76b335bd30aee3111335283230be4eec88b028015324676f19f0efb01c8",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-76ada76b335bd30aee3111335283230be4eec88b028015324676f19f0efb01c8",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/00-共享配套/models/blobs/sha256-76ada76b335bd30aee3111335283230be4eec88b028015324676f19f0efb01c8",
       "installRelativePath": "models/blobs/sha256-76ada76b335bd30aee3111335283230be4eec88b028015324676f19f0efb01c8",
       "downloadTier": "optional",
       "bytes": 31,
@@ -1831,12 +2216,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-76ada76b335bd30aee3111335283230be4eec88b028015324676f19f0efb01c8",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-76ada76b335bd30aee3111335283230be4eec88b028015324676f19f0efb01c8",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-76ada76b335bd30aee3111335283230be4eec88b028015324676f19f0efb01c8"
+      ],
       "sources": []
     },
     {
       "id": "file-083",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-a1e32e86ea99aa7a56f3dcfe7e63c1d0be9439d31fd07087099f15bc0fda0f22",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-a1e32e86ea99aa7a56f3dcfe7e63c1d0be9439d31fd07087099f15bc0fda0f22",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-4b-aggressive/models/blobs/sha256-a1e32e86ea99aa7a56f3dcfe7e63c1d0be9439d31fd07087099f15bc0fda0f22",
       "installRelativePath": "models/blobs/sha256-a1e32e86ea99aa7a56f3dcfe7e63c1d0be9439d31fd07087099f15bc0fda0f22",
       "downloadTier": "optional",
       "bytes": 675568768,
@@ -1849,12 +2239,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-a1e32e86ea99aa7a56f3dcfe7e63c1d0be9439d31fd07087099f15bc0fda0f22",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-a1e32e86ea99aa7a56f3dcfe7e63c1d0be9439d31fd07087099f15bc0fda0f22",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-a1e32e86ea99aa7a56f3dcfe7e63c1d0be9439d31fd07087099f15bc0fda0f22"
+      ],
       "sources": []
     },
     {
       "id": "file-084",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-a36cc092c85e262bc7339a81c4940bd8866e27a1eb004a8ceb2f03a3d9b8a2b8",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-a36cc092c85e262bc7339a81c4940bd8866e27a1eb004a8ceb2f03a3d9b8a2b8",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3-vl-8b-aggressive/models/blobs/sha256-a36cc092c85e262bc7339a81c4940bd8866e27a1eb004a8ceb2f03a3d9b8a2b8",
       "installRelativePath": "models/blobs/sha256-a36cc092c85e262bc7339a81c4940bd8866e27a1eb004a8ceb2f03a3d9b8a2b8",
       "downloadTier": "optional",
       "bytes": 1162568832,
@@ -1867,12 +2262,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-a36cc092c85e262bc7339a81c4940bd8866e27a1eb004a8ceb2f03a3d9b8a2b8",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-a36cc092c85e262bc7339a81c4940bd8866e27a1eb004a8ceb2f03a3d9b8a2b8",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-a36cc092c85e262bc7339a81c4940bd8866e27a1eb004a8ceb2f03a3d9b8a2b8"
+      ],
       "sources": []
     },
     {
       "id": "file-085",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-a94c61c09809ee3119593ecd85e6521840d409b29c871a0b18ad679381165c74",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-a94c61c09809ee3119593ecd85e6521840d409b29c871a0b18ad679381165c74",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-2b-aggressive/models/blobs/sha256-a94c61c09809ee3119593ecd85e6521840d409b29c871a0b18ad679381165c74",
       "installRelativePath": "models/blobs/sha256-a94c61c09809ee3119593ecd85e6521840d409b29c871a0b18ad679381165c74",
       "downloadTier": "optional",
       "bytes": 115,
@@ -1885,12 +2285,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-a94c61c09809ee3119593ecd85e6521840d409b29c871a0b18ad679381165c74",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-a94c61c09809ee3119593ecd85e6521840d409b29c871a0b18ad679381165c74",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-a94c61c09809ee3119593ecd85e6521840d409b29c871a0b18ad679381165c74"
+      ],
       "sources": []
     },
     {
       "id": "file-086",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-b59e815479b7e5f0665bd29e6784c104a368092bcbc63120148c606f9276ab8e",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-b59e815479b7e5f0665bd29e6784c104a368092bcbc63120148c606f9276ab8e",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-12b-balanced/models/blobs/sha256-b59e815479b7e5f0665bd29e6784c104a368092bcbc63120148c606f9276ab8e",
       "installRelativePath": "models/blobs/sha256-b59e815479b7e5f0665bd29e6784c104a368092bcbc63120148c606f9276ab8e",
       "downloadTier": "optional",
       "bytes": 175115264,
@@ -1903,12 +2308,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-b59e815479b7e5f0665bd29e6784c104a368092bcbc63120148c606f9276ab8e",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-b59e815479b7e5f0665bd29e6784c104a368092bcbc63120148c606f9276ab8e",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-b59e815479b7e5f0665bd29e6784c104a368092bcbc63120148c606f9276ab8e"
+      ],
       "sources": []
     },
     {
       "id": "file-087",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-ba93c21300854075ab42655bc30dca82c7c6c958f511d1ec9ea2b3e750b4b75f",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-ba93c21300854075ab42655bc30dca82c7c6c958f511d1ec9ea2b3e750b4b75f",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-4b-aggressive/models/blobs/sha256-ba93c21300854075ab42655bc30dca82c7c6c958f511d1ec9ea2b3e750b4b75f",
       "installRelativePath": "models/blobs/sha256-ba93c21300854075ab42655bc30dca82c7c6c958f511d1ec9ea2b3e750b4b75f",
       "downloadTier": "optional",
       "bytes": 3464055136,
@@ -1921,12 +2331,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-ba93c21300854075ab42655bc30dca82c7c6c958f511d1ec9ea2b3e750b4b75f",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-ba93c21300854075ab42655bc30dca82c7c6c958f511d1ec9ea2b3e750b4b75f",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-ba93c21300854075ab42655bc30dca82c7c6c958f511d1ec9ea2b3e750b4b75f"
+      ],
       "sources": []
     },
     {
       "id": "file-088",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-c0ba7beb68fd3fe47891bd549486d38dcf62d00817296ea314ad37017f5a4986",
-      "targetRelativePath": "03-基础模型/05-文字视觉与提示词/Ollama/models/blobs/sha256-c0ba7beb68fd3fe47891bd549486d38dcf62d00817296ea314ad37017f5a4986",
+      "targetRelativePath": "03-基础模型/05-文字视觉与提示词/uncensored-qwen3.5-9b-aggressive/models/blobs/sha256-c0ba7beb68fd3fe47891bd549486d38dcf62d00817296ea314ad37017f5a4986",
       "installRelativePath": "models/blobs/sha256-c0ba7beb68fd3fe47891bd549486d38dcf62d00817296ea314ad37017f5a4986",
       "downloadTier": "mandatory",
       "bytes": 7359259008,
@@ -1939,12 +2354,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-c0ba7beb68fd3fe47891bd549486d38dcf62d00817296ea314ad37017f5a4986",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-c0ba7beb68fd3fe47891bd549486d38dcf62d00817296ea314ad37017f5a4986",
+        "03-基础模型/05-文字视觉与提示词/Ollama/models/blobs/sha256-c0ba7beb68fd3fe47891bd549486d38dcf62d00817296ea314ad37017f5a4986"
+      ],
       "sources": []
     },
     {
       "id": "file-089",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-d15bba8aab7452c4ed7ea8aba6f135dd69de279bec4c2b22af82949394d9dd2a",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-d15bba8aab7452c4ed7ea8aba6f135dd69de279bec4c2b22af82949394d9dd2a",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-27b-aggressive-q3_k_m/models/blobs/sha256-d15bba8aab7452c4ed7ea8aba6f135dd69de279bec4c2b22af82949394d9dd2a",
       "installRelativePath": "models/blobs/sha256-d15bba8aab7452c4ed7ea8aba6f135dd69de279bec4c2b22af82949394d9dd2a",
       "downloadTier": "optional",
       "bytes": 13289645152,
@@ -1957,12 +2377,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-d15bba8aab7452c4ed7ea8aba6f135dd69de279bec4c2b22af82949394d9dd2a",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-d15bba8aab7452c4ed7ea8aba6f135dd69de279bec4c2b22af82949394d9dd2a",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-d15bba8aab7452c4ed7ea8aba6f135dd69de279bec4c2b22af82949394d9dd2a"
+      ],
       "sources": []
     },
     {
       "id": "file-090",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-d76249796d274ef9d7969be814b24c5737eb4c31270c8c19e30c71832066f168",
-      "targetRelativePath": "03-基础模型/05-文字视觉与提示词/Ollama/models/blobs/sha256-d76249796d274ef9d7969be814b24c5737eb4c31270c8c19e30c71832066f168",
+      "targetRelativePath": "03-基础模型/05-文字视觉与提示词/uncensored-qwen3.5-9b-aggressive/models/blobs/sha256-d76249796d274ef9d7969be814b24c5737eb4c31270c8c19e30c71832066f168",
       "installRelativePath": "models/blobs/sha256-d76249796d274ef9d7969be814b24c5737eb4c31270c8c19e30c71832066f168",
       "downloadTier": "mandatory",
       "bytes": 115,
@@ -1975,12 +2400,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-d76249796d274ef9d7969be814b24c5737eb4c31270c8c19e30c71832066f168",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-d76249796d274ef9d7969be814b24c5737eb4c31270c8c19e30c71832066f168",
+        "03-基础模型/05-文字视觉与提示词/Ollama/models/blobs/sha256-d76249796d274ef9d7969be814b24c5737eb4c31270c8c19e30c71832066f168"
+      ],
       "sources": []
     },
     {
       "id": "file-091",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-d94c86ae1fda106e026bc3dc04305d7abb7285315b54f12d2d1d5ef59f3a3fc6",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-d94c86ae1fda106e026bc3dc04305d7abb7285315b54f12d2d1d5ef59f3a3fc6",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.6-27b-aggressive-q3_k_p/models/blobs/sha256-d94c86ae1fda106e026bc3dc04305d7abb7285315b54f12d2d1d5ef59f3a3fc6",
       "installRelativePath": "models/blobs/sha256-d94c86ae1fda106e026bc3dc04305d7abb7285315b54f12d2d1d5ef59f3a3fc6",
       "downloadTier": "optional",
       "bytes": 14301709536,
@@ -1993,12 +2423,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-d94c86ae1fda106e026bc3dc04305d7abb7285315b54f12d2d1d5ef59f3a3fc6",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-d94c86ae1fda106e026bc3dc04305d7abb7285315b54f12d2d1d5ef59f3a3fc6",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-d94c86ae1fda106e026bc3dc04305d7abb7285315b54f12d2d1d5ef59f3a3fc6"
+      ],
       "sources": []
     },
     {
       "id": "file-092",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-debad39ab9c1152ab67695a674fb35e8375b2320c57bfd5075835d3ccb16c7db",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-debad39ab9c1152ab67695a674fb35e8375b2320c57bfd5075835d3ccb16c7db",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-e4b-aggressive/models/blobs/sha256-debad39ab9c1152ab67695a674fb35e8375b2320c57bfd5075835d3ccb16c7db",
       "installRelativePath": "models/blobs/sha256-debad39ab9c1152ab67695a674fb35e8375b2320c57bfd5075835d3ccb16c7db",
       "downloadTier": "optional",
       "bytes": 990288832,
@@ -2011,12 +2446,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-debad39ab9c1152ab67695a674fb35e8375b2320c57bfd5075835d3ccb16c7db",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-debad39ab9c1152ab67695a674fb35e8375b2320c57bfd5075835d3ccb16c7db",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-debad39ab9c1152ab67695a674fb35e8375b2320c57bfd5075835d3ccb16c7db"
+      ],
       "sources": []
     },
     {
       "id": "file-093",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-dfee358c38cc41419dd538d9afe2e22245738c752a2e6b5adb9a6654cf30d67b",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-dfee358c38cc41419dd538d9afe2e22245738c752a2e6b5adb9a6654cf30d67b",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-e2b-aggressive/models/blobs/sha256-dfee358c38cc41419dd538d9afe2e22245738c752a2e6b5adb9a6654cf30d67b",
       "installRelativePath": "models/blobs/sha256-dfee358c38cc41419dd538d9afe2e22245738c752a2e6b5adb9a6654cf30d67b",
       "downloadTier": "optional",
       "bytes": 5036057536,
@@ -2029,12 +2469,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-dfee358c38cc41419dd538d9afe2e22245738c752a2e6b5adb9a6654cf30d67b",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-dfee358c38cc41419dd538d9afe2e22245738c752a2e6b5adb9a6654cf30d67b",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-dfee358c38cc41419dd538d9afe2e22245738c752a2e6b5adb9a6654cf30d67b"
+      ],
       "sources": []
     },
     {
       "id": "file-094",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-f28b0ae262158af10d847c3f01bfdb943161dd31320f3aed20775ee2ad6c67a6",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-f28b0ae262158af10d847c3f01bfdb943161dd31320f3aed20775ee2ad6c67a6",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-e4b-aggressive/models/blobs/sha256-f28b0ae262158af10d847c3f01bfdb943161dd31320f3aed20775ee2ad6c67a6",
       "installRelativePath": "models/blobs/sha256-f28b0ae262158af10d847c3f01bfdb943161dd31320f3aed20775ee2ad6c67a6",
       "downloadTier": "optional",
       "bytes": 6249794528,
@@ -2047,12 +2492,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-f28b0ae262158af10d847c3f01bfdb943161dd31320f3aed20775ee2ad6c67a6",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-f28b0ae262158af10d847c3f01bfdb943161dd31320f3aed20775ee2ad6c67a6",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-f28b0ae262158af10d847c3f01bfdb943161dd31320f3aed20775ee2ad6c67a6"
+      ],
       "sources": []
     },
     {
       "id": "file-095",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-fab37563334149096ae5ab36112ac78a885f144d6f494224426f9d8eac72bd71",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-fab37563334149096ae5ab36112ac78a885f144d6f494224426f9d8eac72bd71",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.8-27b-aggressive-q3_k_p/models/blobs/sha256-fab37563334149096ae5ab36112ac78a885f144d6f494224426f9d8eac72bd71",
       "installRelativePath": "models/blobs/sha256-fab37563334149096ae5ab36112ac78a885f144d6f494224426f9d8eac72bd71",
       "downloadTier": "optional",
       "bytes": 118,
@@ -2065,12 +2515,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-fab37563334149096ae5ab36112ac78a885f144d6f494224426f9d8eac72bd71",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-fab37563334149096ae5ab36112ac78a885f144d6f494224426f9d8eac72bd71",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-fab37563334149096ae5ab36112ac78a885f144d6f494224426f9d8eac72bd71"
+      ],
       "sources": []
     },
     {
       "id": "file-096",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-fcd4e139e023ad357934a72e1d743d476bd0a48e5d21a1ab6215e5a792207f90",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-fcd4e139e023ad357934a72e1d743d476bd0a48e5d21a1ab6215e5a792207f90",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-27b-aggressive-q3_k_m/models/blobs/sha256-fcd4e139e023ad357934a72e1d743d476bd0a48e5d21a1ab6215e5a792207f90",
       "installRelativePath": "models/blobs/sha256-fcd4e139e023ad357934a72e1d743d476bd0a48e5d21a1ab6215e5a792207f90",
       "downloadTier": "optional",
       "bytes": 927606912,
@@ -2083,12 +2538,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-fcd4e139e023ad357934a72e1d743d476bd0a48e5d21a1ab6215e5a792207f90",
+        "模型库/05-文字视觉与提示词/Ollama/models/blobs/sha256-fcd4e139e023ad357934a72e1d743d476bd0a48e5d21a1ab6215e5a792207f90",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/blobs/sha256-fcd4e139e023ad357934a72e1d743d476bd0a48e5d21a1ab6215e5a792207f90"
+      ],
       "sources": []
     },
     {
       "id": "file-097",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/12b-balanced",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/12b-balanced",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-12b-balanced/models/manifests/registry.ollama.ai/library/uncensored-gemma4/12b-balanced",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-gemma4/12b-balanced",
       "downloadTier": "optional",
       "bytes": 851,
@@ -2101,12 +2561,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/12b-balanced",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/12b-balanced",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/12b-balanced"
+      ],
       "sources": []
     },
     {
       "id": "file-098",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e2b-aggressive",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e2b-aggressive",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-e2b-aggressive/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e2b-aggressive",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-gemma4/e2b-aggressive",
       "downloadTier": "optional",
       "bytes": 848,
@@ -2119,12 +2584,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e2b-aggressive",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e2b-aggressive",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e2b-aggressive"
+      ],
       "sources": []
     },
     {
       "id": "file-099",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e4b-aggressive",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e4b-aggressive",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-gemma4-e4b-aggressive/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e4b-aggressive",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-gemma4/e4b-aggressive",
       "downloadTier": "optional",
       "bytes": 848,
@@ -2137,12 +2607,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e4b-aggressive",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e4b-aggressive",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-gemma4/e4b-aggressive"
+      ],
       "sources": []
     },
     {
       "id": "file-100",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-aggressive",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-aggressive",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3-vl-8b-aggressive/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-aggressive",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-aggressive",
       "downloadTier": "optional",
       "bytes": 700,
@@ -2155,12 +2630,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-aggressive",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-aggressive",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-aggressive"
+      ],
       "sources": []
     },
     {
       "id": "file-101",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-balanced",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-balanced",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3-vl-8b-balanced/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-balanced",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-balanced",
       "downloadTier": "optional",
       "bytes": 696,
@@ -2173,12 +2653,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-balanced",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-balanced",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3-vl/8b-balanced"
+      ],
       "sources": []
     },
     {
       "id": "file-102",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/27b-aggressive-q3_k_m",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/27b-aggressive-q3_k_m",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-27b-aggressive-q3_k_m/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/27b-aggressive-q3_k_m",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/27b-aggressive-q3_k_m",
       "downloadTier": "optional",
       "bytes": 704,
@@ -2191,12 +2676,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/27b-aggressive-q3_k_m",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/27b-aggressive-q3_k_m",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/27b-aggressive-q3_k_m"
+      ],
       "sources": []
     },
     {
       "id": "file-103",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/2b-aggressive",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/2b-aggressive",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-2b-aggressive/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/2b-aggressive",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/2b-aggressive",
       "downloadTier": "optional",
       "bytes": 477,
@@ -2209,12 +2699,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/2b-aggressive",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/2b-aggressive",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/2b-aggressive"
+      ],
       "sources": []
     },
     {
       "id": "file-104",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/4b-aggressive",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/4b-aggressive",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.5-4b-aggressive/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/4b-aggressive",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/4b-aggressive",
       "downloadTier": "optional",
       "bytes": 700,
@@ -2227,12 +2722,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/4b-aggressive",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/4b-aggressive",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/4b-aggressive"
+      ],
       "sources": []
     },
     {
       "id": "file-105",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/9b-aggressive",
-      "targetRelativePath": "03-基础模型/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/9b-aggressive",
+      "targetRelativePath": "03-基础模型/05-文字视觉与提示词/uncensored-qwen3.5-9b-aggressive/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/9b-aggressive",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/9b-aggressive",
       "downloadTier": "mandatory",
       "bytes": 700,
@@ -2245,12 +2745,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/9b-aggressive",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/9b-aggressive",
+        "03-基础模型/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.5/9b-aggressive"
+      ],
       "sources": []
     },
     {
       "id": "file-106",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.6/27b-aggressive-q3_k_p",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.6/27b-aggressive-q3_k_p",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.6-27b-aggressive-q3_k_p/models/manifests/registry.ollama.ai/library/uncensored-qwen3.6/27b-aggressive-q3_k_p",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-qwen3.6/27b-aggressive-q3_k_p",
       "downloadTier": "optional",
       "bytes": 704,
@@ -2263,12 +2768,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.6/27b-aggressive-q3_k_p",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.6/27b-aggressive-q3_k_p",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.6/27b-aggressive-q3_k_p"
+      ],
       "sources": []
     },
     {
       "id": "file-107",
       "relativePath": "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.8/27b-aggressive-q3_k_p",
-      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.8/27b-aggressive-q3_k_p",
+      "targetRelativePath": "04-可选扩展/05-文字视觉与提示词/uncensored-qwen3.8-27b-aggressive-q3_k_p/models/manifests/registry.ollama.ai/library/uncensored-qwen3.8/27b-aggressive-q3_k_p",
       "installRelativePath": "models/manifests/registry.ollama.ai/library/uncensored-qwen3.8/27b-aggressive-q3_k_p",
       "downloadTier": "optional",
       "bytes": 705,
@@ -2281,12 +2791,17 @@
       "group": "05-文字视觉与提示词",
       "installRoot": "OllamaStore",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.8/27b-aggressive-q3_k_p",
+        "模型库/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.8/27b-aggressive-q3_k_p",
+        "04-可选扩展/05-文字视觉与提示词/Ollama/models/manifests/registry.ollama.ai/library/uncensored-qwen3.8/27b-aggressive-q3_k_p"
+      ],
       "sources": []
     },
     {
       "id": "file-108",
       "relativePath": "模型库/06-抠图分层与视频工具/custom_nodes/comfyui_controlnet_aux/ckpts/depth-anything/Depth-Anything-V2-Small/depth_anything_v2_vits.pth",
-      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/custom_nodes/comfyui_controlnet_aux/ckpts/depth-anything/Depth-Anything-V2-Small/depth_anything_v2_vits.pth",
+      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/Depth Anything V2 Small/custom_nodes/comfyui_controlnet_aux/ckpts/depth-anything/Depth-Anything-V2-Small/depth_anything_v2_vits.pth",
       "installRelativePath": "custom_nodes/comfyui_controlnet_aux/ckpts/depth-anything/Depth-Anything-V2-Small/depth_anything_v2_vits.pth",
       "downloadTier": "optional",
       "bytes": 99218434,
@@ -2299,12 +2814,17 @@
       "group": "06-抠图分层与视频工具",
       "installRoot": "ComfyRoot",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/06-抠图分层与视频工具/custom_nodes/comfyui_controlnet_aux/ckpts/depth-anything/Depth-Anything-V2-Small/depth_anything_v2_vits.pth",
+        "模型库/06-抠图分层与视频工具/custom_nodes/comfyui_controlnet_aux/ckpts/depth-anything/Depth-Anything-V2-Small/depth_anything_v2_vits.pth",
+        "04-可选扩展/06-抠图分层与视频工具/custom_nodes/comfyui_controlnet_aux/ckpts/depth-anything/Depth-Anything-V2-Small/depth_anything_v2_vits.pth"
+      ],
       "sources": []
     },
     {
       "id": "file-109",
       "relativePath": "模型库/06-抠图分层与视频工具/insightface/models/buffalo_l/det_10g.onnx",
-      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/insightface/models/buffalo_l/det_10g.onnx",
+      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/人脸替换依赖/insightface/models/buffalo_l/det_10g.onnx",
       "installRelativePath": "insightface/models/buffalo_l/det_10g.onnx",
       "downloadTier": "optional",
       "bytes": 16923827,
@@ -2317,12 +2837,17 @@
       "group": "06-抠图分层与视频工具",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/06-抠图分层与视频工具/insightface/models/buffalo_l/det_10g.onnx",
+        "模型库/06-抠图分层与视频工具/insightface/models/buffalo_l/det_10g.onnx",
+        "04-可选扩展/06-抠图分层与视频工具/insightface/models/buffalo_l/det_10g.onnx"
+      ],
       "sources": []
     },
     {
       "id": "file-110",
       "relativePath": "模型库/06-抠图分层与视频工具/insightface/models/buffalo_l/w600k_r50.onnx",
-      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/insightface/models/buffalo_l/w600k_r50.onnx",
+      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/人脸替换依赖/insightface/models/buffalo_l/w600k_r50.onnx",
       "installRelativePath": "insightface/models/buffalo_l/w600k_r50.onnx",
       "downloadTier": "optional",
       "bytes": 174383860,
@@ -2335,12 +2860,17 @@
       "group": "06-抠图分层与视频工具",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/06-抠图分层与视频工具/insightface/models/buffalo_l/w600k_r50.onnx",
+        "模型库/06-抠图分层与视频工具/insightface/models/buffalo_l/w600k_r50.onnx",
+        "04-可选扩展/06-抠图分层与视频工具/insightface/models/buffalo_l/w600k_r50.onnx"
+      ],
       "sources": []
     },
     {
       "id": "file-111",
       "relativePath": "模型库/06-抠图分层与视频工具/rembg/u2net.onnx",
-      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/rembg/u2net.onnx",
+      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/U2Net - U2NetP/rembg/u2net.onnx",
       "installRelativePath": "rembg/u2net.onnx",
       "downloadTier": "optional",
       "bytes": 175997641,
@@ -2353,12 +2883,17 @@
       "group": "06-抠图分层与视频工具",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/06-抠图分层与视频工具/rembg/u2net.onnx",
+        "模型库/06-抠图分层与视频工具/rembg/u2net.onnx",
+        "04-可选扩展/06-抠图分层与视频工具/rembg/u2net.onnx"
+      ],
       "sources": []
     },
     {
       "id": "file-112",
       "relativePath": "模型库/06-抠图分层与视频工具/rembg/u2netp.onnx",
-      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/rembg/u2netp.onnx",
+      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/U2Net - U2NetP/rembg/u2netp.onnx",
       "installRelativePath": "rembg/u2netp.onnx",
       "downloadTier": "optional",
       "bytes": 4574861,
@@ -2371,12 +2906,17 @@
       "group": "06-抠图分层与视频工具",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/06-抠图分层与视频工具/rembg/u2netp.onnx",
+        "模型库/06-抠图分层与视频工具/rembg/u2netp.onnx",
+        "04-可选扩展/06-抠图分层与视频工具/rembg/u2netp.onnx"
+      ],
       "sources": []
     },
     {
       "id": "file-113",
       "relativePath": "模型库/06-抠图分层与视频工具/sams/sam_vit_b_01ec64.pth",
-      "targetRelativePath": "03-基础模型/06-抠图分层与视频工具/sams/sam_vit_b_01ec64.pth",
+      "targetRelativePath": "03-基础模型/06-抠图分层与视频工具/SAM ViT-B - ViT-H/sams/sam_vit_b_01ec64.pth",
       "installRelativePath": "sams/sam_vit_b_01ec64.pth",
       "downloadTier": "mandatory",
       "bytes": 375042383,
@@ -2389,6 +2929,11 @@
       "group": "06-抠图分层与视频工具",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "01-基础必需/模型库/06-抠图分层与视频工具/sams/sam_vit_b_01ec64.pth",
+        "模型库/06-抠图分层与视频工具/sams/sam_vit_b_01ec64.pth",
+        "03-基础模型/06-抠图分层与视频工具/sams/sam_vit_b_01ec64.pth"
+      ],
       "sources": [
         {
           "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
@@ -2400,7 +2945,7 @@
     {
       "id": "file-114",
       "relativePath": "模型库/06-抠图分层与视频工具/sams/sam_vit_h_4b8939.pth",
-      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/sams/sam_vit_h_4b8939.pth",
+      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/SAM ViT-B - ViT-H/sams/sam_vit_h_4b8939.pth",
       "installRelativePath": "sams/sam_vit_h_4b8939.pth",
       "downloadTier": "optional",
       "bytes": 2564550879,
@@ -2413,12 +2958,17 @@
       "group": "06-抠图分层与视频工具",
       "installRoot": "ComfyModels",
       "dependenciesFor": [],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/06-抠图分层与视频工具/sams/sam_vit_h_4b8939.pth",
+        "模型库/06-抠图分层与视频工具/sams/sam_vit_h_4b8939.pth",
+        "04-可选扩展/06-抠图分层与视频工具/sams/sam_vit_h_4b8939.pth"
+      ],
       "sources": []
     },
     {
       "id": "file-115",
       "relativePath": "模型库/01-图片生成/loras/MOSS-Image/moss_image_edit_lora_rank_64_bf16.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/loras/MOSS-Image/moss_image_edit_lora_rank_64_bf16.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/MOSS Image · 官方 SFT 原生编辑/loras/MOSS-Image/moss_image_edit_lora_rank_64_bf16.safetensors",
       "installRelativePath": "loras/MOSS-Image/moss_image_edit_lora_rank_64_bf16.safetensors",
       "downloadTier": "optional",
       "bytes": 297382216,
@@ -2432,6 +2982,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:moss-sft:edit"
+      ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/loras/MOSS-Image/moss_image_edit_lora_rank_64_bf16.safetensors",
+        "模型库/01-图片生成/loras/MOSS-Image/moss_image_edit_lora_rank_64_bf16.safetensors",
+        "04-可选扩展/01-图片生成/loras/MOSS-Image/moss_image_edit_lora_rank_64_bf16.safetensors"
       ],
       "sources": [
         {
@@ -2447,7 +3002,7 @@
     {
       "id": "file-116",
       "relativePath": "模型库/01-图片生成/diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/MOSS（小红书特调 V1）/diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors",
       "installRelativePath": "diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors",
       "downloadTier": "optional",
       "bytes": 5413698814,
@@ -2462,12 +3017,17 @@
       "dependenciesFor": [
         "studio:moss-qaq-v1"
       ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors",
+        "模型库/01-图片生成/diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors",
+        "04-可选扩展/01-图片生成/diffusion_models/QAQMoss_merging_8steps_int8_v1.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-117",
       "relativePath": "模型库/01-图片生成/diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/MOSS（小红书特调 V2）/diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors",
       "installRelativePath": "diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors",
       "downloadTier": "optional",
       "bytes": 5413698814,
@@ -2482,12 +3042,17 @@
       "dependenciesFor": [
         "studio:moss-qaq-v2"
       ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors",
+        "模型库/01-图片生成/diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors",
+        "04-可选扩展/01-图片生成/diffusion_models/QAQ_MOSS_v2_8steps_int8.safetensors"
+      ],
       "sources": []
     },
     {
       "id": "file-118",
       "relativePath": "模型库/01-图片生成/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/MiniMax H3 Image · W4A8/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
       "installRelativePath": "diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
       "downloadTier": "optional",
       "bytes": 12549794530,
@@ -2501,6 +3066,11 @@
       "installRoot": "ComfyModels",
       "dependenciesFor": [
         "studio:minimax-h3-image"
+      ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
+        "模型库/01-图片生成/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors",
+        "04-可选扩展/01-图片生成/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors"
       ],
       "sources": [
         {
@@ -2516,7 +3086,7 @@
     {
       "id": "file-119",
       "relativePath": "模型库/01-图片生成/vae/minimax_h3_image_vae_fp16.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/vae/minimax_h3_image_vae_fp16.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/MiniMax H3 Image · W4A8/vae/minimax_h3_image_vae_fp16.safetensors",
       "installRelativePath": "vae/minimax_h3_image_vae_fp16.safetensors",
       "downloadTier": "optional",
       "bytes": 1168505312,
@@ -2532,6 +3102,11 @@
       "dependenciesFor": [
         "studio:minimax-h3-image"
       ],
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/vae/minimax_h3_image_vae_fp16.safetensors",
+        "模型库/01-图片生成/vae/minimax_h3_image_vae_fp16.safetensors",
+        "04-可选扩展/01-图片生成/vae/minimax_h3_image_vae_fp16.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MiniMax-H3-Image",
@@ -2546,7 +3121,7 @@
     {
       "id": "file-120",
       "relativePath": "模型库/03-图片放大/upscale_models/RealESRGAN_x4plus.pth",
-      "targetRelativePath": "04-可选扩展/03-图片放大/upscale_models/RealESRGAN_x4plus.pth",
+      "targetRelativePath": "04-可选扩展/03-图片放大/Real-ESRGAN x4plus/upscale_models/RealESRGAN_x4plus.pth",
       "installRelativePath": "upscale_models/RealESRGAN_x4plus.pth",
       "downloadTier": "optional",
       "bytes": 67040989,
@@ -2562,6 +3137,11 @@
       "license": "BSD-3-Clause",
       "licensePath": "docs/licenses/Real-ESRGAN-LICENSE.txt",
       "distributionStatus": "NAS SHA256 matched; Baidu ordered block MD5 matched",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/upscale_models/RealESRGAN_x4plus.pth",
+        "模型库/03-图片放大/upscale_models/RealESRGAN_x4plus.pth",
+        "04-可选扩展/03-图片放大/upscale_models/RealESRGAN_x4plus.pth"
+      ],
       "sources": [
         {
           "repository": "xinntao/Real-ESRGAN",
@@ -2574,7 +3154,7 @@
     {
       "id": "file-121",
       "relativePath": "模型库/03-图片放大/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
-      "targetRelativePath": "04-可选扩展/03-图片放大/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+      "targetRelativePath": "04-可选扩展/03-图片放大/Real-ESRGAN x4plus 动漫 6B/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
       "installRelativePath": "upscale_models/RealESRGAN_x4plus_anime_6B.pth",
       "downloadTier": "optional",
       "bytes": 17938799,
@@ -2590,6 +3170,11 @@
       "license": "BSD-3-Clause",
       "licensePath": "docs/licenses/Real-ESRGAN-LICENSE.txt",
       "distributionStatus": "NAS SHA256 matched; Baidu ordered block MD5 matched",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+        "模型库/03-图片放大/upscale_models/RealESRGAN_x4plus_anime_6B.pth",
+        "04-可选扩展/03-图片放大/upscale_models/RealESRGAN_x4plus_anime_6B.pth"
+      ],
       "sources": [
         {
           "repository": "xinntao/Real-ESRGAN",
@@ -2602,7 +3187,7 @@
     {
       "id": "file-122",
       "relativePath": "模型库/03-图片放大/upscale_models/Real-ESRGAN-LICENSE.txt",
-      "targetRelativePath": "04-可选扩展/03-图片放大/upscale_models/Real-ESRGAN-LICENSE.txt",
+      "targetRelativePath": "04-可选扩展/03-图片放大/00-共享配套/upscale_models/Real-ESRGAN-LICENSE.txt",
       "installRelativePath": "upscale_models/Real-ESRGAN-LICENSE.txt",
       "downloadTier": "optional",
       "bytes": 1519,
@@ -2621,6 +3206,11 @@
       ],
       "license": "BSD-3-Clause",
       "distributionStatus": "NAS SHA256 matched; Baidu ordered block MD5 matched",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/upscale_models/Real-ESRGAN-LICENSE.txt",
+        "模型库/03-图片放大/upscale_models/Real-ESRGAN-LICENSE.txt",
+        "04-可选扩展/03-图片放大/upscale_models/Real-ESRGAN-LICENSE.txt"
+      ],
       "sources": [
         {
           "repository": "xinntao/Real-ESRGAN",
@@ -2632,7 +3222,7 @@
     {
       "id": "file-123",
       "relativePath": "模型库/01-图片生成/loras/qwen21_multiple_angles_v2_step1500.safetensors",
-      "targetRelativePath": "04-可选扩展/01-图片生成/loras/qwen21_multiple_angles_v2_step1500.safetensors",
+      "targetRelativePath": "04-可选扩展/01-图片生成/Qwen 2.1 相机控制 V2/loras/qwen21_multiple_angles_v2_step1500.safetensors",
       "installRelativePath": "loras/qwen21_multiple_angles_v2_step1500.safetensors",
       "downloadTier": "optional",
       "bytes": 318819792,
@@ -2645,6 +3235,11 @@
       "group": "01-图片生成",
       "installRoot": "models",
       "license": "Apache-2.0",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/loras/qwen21_multiple_angles_v2_step1500.safetensors",
+        "模型库/01-图片生成/loras/qwen21_multiple_angles_v2_step1500.safetensors",
+        "04-可选扩展/01-图片生成/loras/qwen21_multiple_angles_v2_step1500.safetensors"
+      ],
       "sources": [
         {
           "repository": "akhaliq/Qwen-Image-2.1-Multiple-Angles-LoRA",
@@ -2656,7 +3251,7 @@
     {
       "id": "file-124",
       "relativePath": "模型库/02-视频生成/loras/h3_character_swap_v1.5.safetensors",
-      "targetRelativePath": "04-可选扩展/02-视频生成/loras/h3_character_swap_v1.5.safetensors",
+      "targetRelativePath": "04-可选扩展/02-视频生成/00-共享配套/loras/h3_character_swap_v1.5.safetensors",
       "installRelativePath": "loras/h3_character_swap_v1.5.safetensors",
       "downloadTier": "optional",
       "bytes": 155110792,
@@ -2669,6 +3264,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "MiniMax-H3 Community License",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/loras/h3_character_swap_v1.5.safetensors",
+        "模型库/02-视频生成/loras/h3_character_swap_v1.5.safetensors",
+        "04-可选扩展/02-视频生成/loras/h3_character_swap_v1.5.safetensors"
+      ],
       "sources": [
         {
           "repository": "akatz-ai/MiniMax-H3-Character-Swap-LoRA",
@@ -2680,7 +3280,7 @@
     {
       "id": "file-125",
       "relativePath": "模型库/02-视频生成/model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
-      "targetRelativePath": "04-可选扩展/02-视频生成/model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
+      "targetRelativePath": "04-可选扩展/02-视频生成/H3 FunControl Union 2.0/model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
       "installRelativePath": "model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
       "downloadTier": "optional",
       "bytes": 4531220608,
@@ -2693,6 +3293,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "MiniMax-H3 Community License",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
+        "模型库/02-视频生成/model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
+        "04-可选扩展/02-视频生成/model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MiniMax-H3",
@@ -2704,7 +3309,7 @@
     {
       "id": "file-126",
       "relativePath": "模型库/02-视频生成/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
-      "targetRelativePath": "04-可选扩展/02-视频生成/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
+      "targetRelativePath": "04-可选扩展/02-视频生成/FastH3 Omni 8步/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
       "installRelativePath": "diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
       "downloadTier": "optional",
       "bytes": 22213723064,
@@ -2723,6 +3328,11 @@
         "officialDirectDownloadAvailable": true,
         "reason": "Baidu单文件超过20GiB限制，后台分包同步；可使用已核验的官方固定版本直链或现有本地模型。"
       },
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
+        "模型库/02-视频生成/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
+        "04-可选扩展/02-视频生成/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors"
+      ],
       "sources": [
         {
           "repository": "FastVideo/FastH3-Omni-Comfy",
@@ -2734,7 +3344,7 @@
     {
       "id": "file-127",
       "relativePath": "模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
-      "targetRelativePath": "04-可选扩展/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+      "targetRelativePath": "04-可选扩展/02-视频生成/H3 人物替换 V1.5 官方8步/loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
       "installRelativePath": "loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
       "downloadTier": "optional",
       "bytes": 1956193000,
@@ -2747,6 +3357,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "MiniMax-H3 Community License",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+        "模型库/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+        "04-可选扩展/02-视频生成/loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors"
+      ],
       "sources": [
         {
           "repository": "lightx2v/Minimax-h3-Turbo",
@@ -2758,7 +3373,7 @@
     {
       "id": "file-128",
       "relativePath": "模型库/03-图片放大/facerestore_models/GFPGANv1.4.pth",
-      "targetRelativePath": "04-可选扩展/03-图片放大/facerestore_models/GFPGANv1.4.pth",
+      "targetRelativePath": "04-可选扩展/03-图片放大/GFPGAN 视频人脸预修复/facerestore_models/GFPGANv1.4.pth",
       "installRelativePath": "facerestore_models/GFPGANv1.4.pth",
       "downloadTier": "optional",
       "bytes": 348632874,
@@ -2771,6 +3386,11 @@
       "group": "03-图片放大",
       "installRoot": "models",
       "license": "Apache-2.0 + upstream notices",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/facerestore_models/GFPGANv1.4.pth",
+        "模型库/03-图片放大/facerestore_models/GFPGANv1.4.pth",
+        "04-可选扩展/03-图片放大/facerestore_models/GFPGANv1.4.pth"
+      ],
       "sources": [
         {
           "url": "https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth"
@@ -2780,7 +3400,7 @@
     {
       "id": "file-129",
       "relativePath": "模型库/03-图片放大/facedetection/detection_mobilenet0.25_Final.pth",
-      "targetRelativePath": "04-可选扩展/03-图片放大/facedetection/detection_mobilenet0.25_Final.pth",
+      "targetRelativePath": "04-可选扩展/03-图片放大/GFPGAN 视频人脸预修复/facedetection/detection_mobilenet0.25_Final.pth",
       "installRelativePath": "facedetection/detection_mobilenet0.25_Final.pth",
       "downloadTier": "optional",
       "bytes": 1789735,
@@ -2793,6 +3413,11 @@
       "group": "03-图片放大",
       "installRoot": "models",
       "license": "facexlib MIT project; retain upstream model provenance",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/facedetection/detection_mobilenet0.25_Final.pth",
+        "模型库/03-图片放大/facedetection/detection_mobilenet0.25_Final.pth",
+        "04-可选扩展/03-图片放大/facedetection/detection_mobilenet0.25_Final.pth"
+      ],
       "sources": [
         {
           "url": "https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_mobilenet0.25_Final.pth"
@@ -2802,7 +3427,7 @@
     {
       "id": "file-130",
       "relativePath": "模型库/02-视频生成/dwpose/dw-ll_ucoco_384.onnx",
-      "targetRelativePath": "04-可选扩展/02-视频生成/dwpose/dw-ll_ucoco_384.onnx",
+      "targetRelativePath": "04-可选扩展/02-视频生成/DWPose 动作骨架/dwpose/dw-ll_ucoco_384.onnx",
       "installRelativePath": "dwpose/dw-ll_ucoco_384.onnx",
       "downloadTier": "optional",
       "bytes": 134399116,
@@ -2815,6 +3440,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "Apache-2.0 model card; OpenPose renderer excluded",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/dwpose/dw-ll_ucoco_384.onnx",
+        "模型库/02-视频生成/dwpose/dw-ll_ucoco_384.onnx",
+        "04-可选扩展/02-视频生成/dwpose/dw-ll_ucoco_384.onnx"
+      ],
       "sources": [
         {
           "repository": "yzd-v/DWPose",
@@ -2826,7 +3456,7 @@
     {
       "id": "file-131",
       "relativePath": "模型库/02-视频生成/dwpose/yolox_l.onnx",
-      "targetRelativePath": "04-可选扩展/02-视频生成/dwpose/yolox_l.onnx",
+      "targetRelativePath": "04-可选扩展/02-视频生成/DWPose 动作骨架/dwpose/yolox_l.onnx",
       "installRelativePath": "dwpose/yolox_l.onnx",
       "downloadTier": "optional",
       "bytes": 216746733,
@@ -2839,6 +3469,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "Apache-2.0 model card; OpenPose renderer excluded",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/dwpose/yolox_l.onnx",
+        "模型库/02-视频生成/dwpose/yolox_l.onnx",
+        "04-可选扩展/02-视频生成/dwpose/yolox_l.onnx"
+      ],
       "sources": [
         {
           "repository": "yzd-v/DWPose",
@@ -2850,7 +3485,7 @@
     {
       "id": "file-132",
       "relativePath": "模型库/02-视频生成/licenses/Character-Swap-H3-LICENSE.txt",
-      "targetRelativePath": "04-可选扩展/02-视频生成/licenses/Character-Swap-H3-LICENSE.txt",
+      "targetRelativePath": "04-可选扩展/02-视频生成/00-共享配套/licenses/Character-Swap-H3-LICENSE.txt",
       "installRelativePath": "licenses/Character-Swap-H3-LICENSE.txt",
       "downloadTier": "optional",
       "bytes": 17604,
@@ -2863,6 +3498,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "MiniMax-H3 Community License",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/licenses/Character-Swap-H3-LICENSE.txt",
+        "模型库/02-视频生成/licenses/Character-Swap-H3-LICENSE.txt",
+        "04-可选扩展/02-视频生成/licenses/Character-Swap-H3-LICENSE.txt"
+      ],
       "sources": [
         {
           "url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA/resolve/96ea3407b230b6f7df71c58c70e31df96bd7e533/LICENSE"
@@ -2872,7 +3512,7 @@
     {
       "id": "file-133",
       "relativePath": "模型库/02-视频生成/licenses/Character-Swap-H3-NOTICE.txt",
-      "targetRelativePath": "04-可选扩展/02-视频生成/licenses/Character-Swap-H3-NOTICE.txt",
+      "targetRelativePath": "04-可选扩展/02-视频生成/00-共享配套/licenses/Character-Swap-H3-NOTICE.txt",
       "installRelativePath": "licenses/Character-Swap-H3-NOTICE.txt",
       "downloadTier": "optional",
       "bytes": 444,
@@ -2885,6 +3525,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "MiniMax-H3 Community License",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/licenses/Character-Swap-H3-NOTICE.txt",
+        "模型库/02-视频生成/licenses/Character-Swap-H3-NOTICE.txt",
+        "04-可选扩展/02-视频生成/licenses/Character-Swap-H3-NOTICE.txt"
+      ],
       "sources": [
         {
           "url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA/resolve/96ea3407b230b6f7df71c58c70e31df96bd7e533/NOTICE"
@@ -2894,7 +3539,7 @@
     {
       "id": "file-134",
       "relativePath": "模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
-      "targetRelativePath": "04-可选扩展/01-图片生成/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+      "targetRelativePath": "04-可选扩展/01-图片生成/Qwen 2.1 相机控制 V2/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
       "installRelativePath": "licenses/Qwen21-Multiple-Angles-LICENSE.txt",
       "downloadTier": "optional",
       "bytes": 11358,
@@ -2907,6 +3552,11 @@
       "group": "01-图片生成",
       "installRoot": "models",
       "license": "Apache-2.0",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+        "模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
+        "04-可选扩展/01-图片生成/licenses/Qwen21-Multiple-Angles-LICENSE.txt"
+      ],
       "sources": [
         {
           "url": "https://huggingface.co/akhaliq/Qwen-Image-2.1-Multiple-Angles-LoRA/blob/175b29b6eb41307473eebc363fca8fc198216b60/README.md",
@@ -2917,7 +3567,7 @@
     {
       "id": "file-135",
       "relativePath": "模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
-      "targetRelativePath": "04-可选扩展/01-图片生成/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
+      "targetRelativePath": "04-可选扩展/01-图片生成/Qwen 2.1 相机控制 V2/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
       "installRelativePath": "licenses/Qwen21-Multiple-Angles-NOTICE.txt",
       "downloadTier": "optional",
       "bytes": 392,
@@ -2930,6 +3580,11 @@
       "group": "01-图片生成",
       "installRoot": "models",
       "license": "Apache-2.0",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
+        "模型库/01-图片生成/licenses/Qwen21-Multiple-Angles-NOTICE.txt",
+        "04-可选扩展/01-图片生成/licenses/Qwen21-Multiple-Angles-NOTICE.txt"
+      ],
       "sources": [
         {
           "verification": "local reviewed attribution notice; references pinned upstream in body"
@@ -2939,7 +3594,7 @@
     {
       "id": "file-136",
       "relativePath": "模型库/02-视频生成/licenses/MiniMax-H3-Community-LICENSE.txt",
-      "targetRelativePath": "04-可选扩展/02-视频生成/licenses/MiniMax-H3-Community-LICENSE.txt",
+      "targetRelativePath": "04-可选扩展/02-视频生成/00-共享配套/licenses/MiniMax-H3-Community-LICENSE.txt",
       "installRelativePath": "licenses/MiniMax-H3-Community-LICENSE.txt",
       "downloadTier": "optional",
       "bytes": 17604,
@@ -2952,6 +3607,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "MiniMax-H3 Community License",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/licenses/MiniMax-H3-Community-LICENSE.txt",
+        "模型库/02-视频生成/licenses/MiniMax-H3-Community-LICENSE.txt",
+        "04-可选扩展/02-视频生成/licenses/MiniMax-H3-Community-LICENSE.txt"
+      ],
       "sources": [
         {
           "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/resolve/main/LICENSE"
@@ -2961,7 +3621,7 @@
     {
       "id": "file-137",
       "relativePath": "模型库/03-图片放大/licenses/GFPGAN-LICENSE.txt",
-      "targetRelativePath": "04-可选扩展/03-图片放大/licenses/GFPGAN-LICENSE.txt",
+      "targetRelativePath": "04-可选扩展/03-图片放大/GFPGAN 视频人脸预修复/licenses/GFPGAN-LICENSE.txt",
       "installRelativePath": "licenses/GFPGAN-LICENSE.txt",
       "downloadTier": "optional",
       "bytes": 22990,
@@ -2974,6 +3634,11 @@
       "group": "03-图片放大",
       "installRoot": "models",
       "license": "Apache-2.0 + third-party notices",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/licenses/GFPGAN-LICENSE.txt",
+        "模型库/03-图片放大/licenses/GFPGAN-LICENSE.txt",
+        "04-可选扩展/03-图片放大/licenses/GFPGAN-LICENSE.txt"
+      ],
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/TencentARC/GFPGAN/master/LICENSE"
@@ -2983,7 +3648,7 @@
     {
       "id": "file-138",
       "relativePath": "模型库/03-图片放大/licenses/facexlib-LICENSE.txt",
-      "targetRelativePath": "04-可选扩展/03-图片放大/licenses/facexlib-LICENSE.txt",
+      "targetRelativePath": "04-可选扩展/03-图片放大/GFPGAN 视频人脸预修复/licenses/facexlib-LICENSE.txt",
       "installRelativePath": "licenses/facexlib-LICENSE.txt",
       "downloadTier": "optional",
       "bytes": 1068,
@@ -2996,6 +3661,11 @@
       "group": "03-图片放大",
       "installRoot": "models",
       "license": "MIT",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/03-图片放大/licenses/facexlib-LICENSE.txt",
+        "模型库/03-图片放大/licenses/facexlib-LICENSE.txt",
+        "04-可选扩展/03-图片放大/licenses/facexlib-LICENSE.txt"
+      ],
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/xinntao/facexlib/master/LICENSE"
@@ -3005,7 +3675,7 @@
     {
       "id": "file-139",
       "relativePath": "模型库/02-视频生成/licenses/DWPose-LICENSE.txt",
-      "targetRelativePath": "04-可选扩展/02-视频生成/licenses/DWPose-LICENSE.txt",
+      "targetRelativePath": "04-可选扩展/02-视频生成/DWPose 动作骨架/licenses/DWPose-LICENSE.txt",
       "installRelativePath": "licenses/DWPose-LICENSE.txt",
       "downloadTier": "optional",
       "bytes": 11996,
@@ -3018,6 +3688,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "Apache-2.0",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/licenses/DWPose-LICENSE.txt",
+        "模型库/02-视频生成/licenses/DWPose-LICENSE.txt",
+        "04-可选扩展/02-视频生成/licenses/DWPose-LICENSE.txt"
+      ],
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/IDEA-Research/DWPose/main/LICENSE"
@@ -3027,7 +3702,7 @@
     {
       "id": "file-140",
       "relativePath": "模型库/02-视频生成/licenses/YOLOX-LICENSE.txt",
-      "targetRelativePath": "04-可选扩展/02-视频生成/licenses/YOLOX-LICENSE.txt",
+      "targetRelativePath": "04-可选扩展/02-视频生成/DWPose 动作骨架/licenses/YOLOX-LICENSE.txt",
       "installRelativePath": "licenses/YOLOX-LICENSE.txt",
       "downloadTier": "optional",
       "bytes": 11371,
@@ -3040,6 +3715,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "Apache-2.0",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/licenses/YOLOX-LICENSE.txt",
+        "模型库/02-视频生成/licenses/YOLOX-LICENSE.txt",
+        "04-可选扩展/02-视频生成/licenses/YOLOX-LICENSE.txt"
+      ],
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/Megvii-BaseDetection/YOLOX/main/LICENSE"
@@ -3049,7 +3729,7 @@
     {
       "id": "file-141",
       "relativePath": "模型库/02-视频生成/loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
-      "targetRelativePath": "04-可选扩展/02-视频生成/loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
+      "targetRelativePath": "04-可选扩展/02-视频生成/Pika H3 Flex 6步/loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
       "installRelativePath": "loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
       "downloadTier": "optional",
       "bytes": 1956172304,
@@ -3062,6 +3742,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "MiniMax-H3 Community License + Pika upstream notices",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
+        "模型库/02-视频生成/loras/pika_h3_flex_fl2va_v1_bf16.safetensors",
+        "04-可选扩展/02-视频生成/loras/pika_h3_flex_fl2va_v1_bf16.safetensors"
+      ],
       "sources": [
         {
           "repository": "Comfy-Org/MiniMax-H3",
@@ -3073,7 +3758,7 @@
     {
       "id": "file-142",
       "relativePath": "模型库/02-视频生成/licenses/pika-license-fixed.txt",
-      "targetRelativePath": "04-可选扩展/02-视频生成/licenses/pika-license-fixed.txt",
+      "targetRelativePath": "04-可选扩展/02-视频生成/00-共享配套/licenses/pika-license-fixed.txt",
       "installRelativePath": "licenses/pika-license-fixed.txt",
       "downloadTier": "optional",
       "bytes": 17604,
@@ -3086,6 +3771,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "MiniMax-H3 Community License",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/licenses/pika-license-fixed.txt",
+        "模型库/02-视频生成/licenses/pika-license-fixed.txt",
+        "04-可选扩展/02-视频生成/licenses/pika-license-fixed.txt"
+      ],
       "sources": [
         {
           "repository": "Pika-Labs/Pika-H3-Flex",
@@ -3097,7 +3787,7 @@
     {
       "id": "file-143",
       "relativePath": "模型库/02-视频生成/licenses/pika-notice-fixed.txt",
-      "targetRelativePath": "04-可选扩展/02-视频生成/licenses/pika-notice-fixed.txt",
+      "targetRelativePath": "04-可选扩展/02-视频生成/00-共享配套/licenses/pika-notice-fixed.txt",
       "installRelativePath": "licenses/pika-notice-fixed.txt",
       "downloadTier": "optional",
       "bytes": 397,
@@ -3110,6 +3800,11 @@
       "group": "02-视频生成",
       "installRoot": "models",
       "license": "Pika upstream attribution",
+      "legacyRelativePaths": [
+        "02-可选扩展/模型库/02-视频生成/licenses/pika-notice-fixed.txt",
+        "模型库/02-视频生成/licenses/pika-notice-fixed.txt",
+        "04-可选扩展/02-视频生成/licenses/pika-notice-fixed.txt"
+      ],
       "sources": [
         {
           "repository": "Pika-Labs/Pika-H3-Flex",
@@ -3121,7 +3816,7 @@
     {
       "id": "file-144",
       "relativePath": "模型库/06-抠图分层与视频工具/insightface/inswapper_128.onnx",
-      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/insightface/inswapper_128.onnx",
+      "targetRelativePath": "04-可选扩展/06-抠图分层与视频工具/人脸替换依赖/insightface/inswapper_128.onnx",
       "installRelativePath": "insightface/inswapper_128.onnx",
       "downloadTier": "optional",
       "bytes": 554253681,
@@ -3134,6 +3829,9 @@
       "group": "06-抠图分层与视频工具",
       "installRoot": "ComfyModels",
       "license": "InsightFace pretrained models are for non-commercial research; follow upstream terms.",
+      "legacyRelativePaths": [
+        "04-可选扩展/06-抠图分层与视频工具/insightface/inswapper_128.onnx"
+      ],
       "sources": []
     }
   ],
