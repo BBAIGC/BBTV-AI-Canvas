@@ -8,6 +8,7 @@
 [![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%2F%2011-0078d4)](https://bbtv.ainivox.cn)
 [![本地永久免费](https://img.shields.io/badge/本地功能-永久免费-16a34a)](#开始使用下载与安装)
 [![无需购买 API](https://img.shields.io/badge/API-无需购买-0891b2)](#开始使用下载与安装)
+[![MCP Agent 控制](https://img.shields.io/badge/MCP-Agent%E6%8E%A7%E5%88%B6-3b82f6)](#agent-control)
 
 **支持的本地模型**
 
@@ -21,81 +22,13 @@
 [![SeedVR2](https://img.shields.io/badge/SeedVR2-放大-278a6a)](https://huggingface.co/numz/SeedVR2_comfyUI)
 [![Qwen 视觉](https://img.shields.io/badge/Qwen-视觉反推-615ced)](https://huggingface.co/Qwen)
 
-[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.27.md)
+[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.27.md) · [Agent 控制](#agent-control)
 
 </div>
 
-<!-- BBTV_MCP_README_START -->
-## 让 AI 通过 MCP 操作画布
-
-BBTV 提供标准 MCP，让智能体直接操作**正在打开的真实画布**。创建节点、填写提示词、连接素材、选择模型、加入生成队列，都会即时显示在软件里；生成结果也保存在同一画布中。
-
-顶部蓝色控制条显示正在操作的智能体名称，发光光标跟随操作。九档速度从极速到逐步演示，可随时调整或停止后续操作。模型任务是否完成，以节点和队列的实际状态为准。
-
-**[下载通用 BBTV MCP Skill](https://bbtv.ainivox.cn/download/bbtv-canvas-mcp-skill.zip)** · [GitHub 备用下载](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/download/v0.1.27/bbtv-canvas-mcp-skill.zip)，交给支持 Skill 的智能体安装。它包含真实画布操作、素材保护、模型选择与任务恢复规则，不含密钥或模型权重；不支持持久 Skill 的产品可在当前对话读取使用。
-
-### 连接 Codex、Claude Code 或其他智能体
-
-1. 启动 BBTV，进入**设置 → MCP**，开启连接。
-2. 复制软件提供的 HTTP 或 stdio 配置，添加到智能体的 MCP 设置。
-3. 打开目标画布，让智能体先读取状态，再执行创作任务。
-
-Codex、Claude Code 及其他支持标准 MCP 的客户端可接入。豆包需要所用版本提供 MCP 服务连接能力；未提供 MCP 接口的版本无法直接连接。各客户端配置格式可能不同，以软件复制的服务地址、启动命令和连接令牌为准。
-
-**HTTP：** 使用软件给出的本机 `/api/mcp` 地址和连接令牌，支持 Streamable HTTP。服务默认只在本机开放，令牌不要放进提示词、截图或公共仓库。地址示意：
-
-```text
-http://127.0.0.1:3210/api/mcp
-Authorization: Bearer <软件内复制的连接令牌>
-```
-
-**stdio：** 安装包已包含轻量桥接脚本，可使用 BBTV 自带的运行时，无需另外安装 Node.js。配置结构示意如下，路径请使用软件复制的实际值：
-
-```json
-{
-  "mcpServers": {
-    "bbtv": {
-      "command": "<BBTV安装目录>/BBTV.exe",
-      "args": [
-        "--max-old-space-size=128",
-        "<BBTV安装目录>/resources/mcp/bbtv-canvas-mcp.cjs",
-        "--base-url",
-        "http://127.0.0.1:3210"
-      ],
-      "env": {
-        "ELECTRON_RUN_AS_NODE": "1",
-        "NODE_OPTIONS": "",
-        "BBTV_MCP_TOKEN": "<软件内复制的连接令牌>"
-      }
-    }
-  }
-}
-```
-
-### 从读取到生成
-
-| 步骤 | MCP 操作 |
-|---|---|
-| 查看真实窗口与画布 | `bbtv_live_status`、`bbtv_live_read` |
-| 查看已配置模型 | `bbtv_live_batch` 中的 `models` 动作 |
-| 准备节点与连线 | `bbtv_live_batch`，支持节点别名、编辑、连接、选择和保存 |
-| 导入本机素材 | `bbtv_live_import`；指定真实文件，可按目录筛选后逐项导入 |
-| 配置云端 API | `bbtv_configure_api`；保存用户提供的连接并读取实际模型目录 |
-| 开始生成 | `generate` 先加入可见队列，再用 `queue/start` 开始 |
-| 查看图片与其他功能 | `bbtv_live_image` 返回当前节点图片；`bbtv_live_ui` 操作可见控件 |
-
-可以这样交代任务：
-
-> 先读取当前画布和可用模型，把我指定目录中的参考图片导入画布。保留原图，整理角色、场景和分镜，连接好参考后加入生成队列；先让我在画布里查看准备结果。
-
-模型与接口沿用这台电脑的软件配置。需要设置云端 API 时，使用软件提供的专用配置工具输入密钥；工具只返回连接状态与模型信息，不回显已有密钥。不要把密钥写进节点提示词、普通文本动作或公开文档。
-
-`bbtv_configure_api` 的参数包括唯一 `requestId`、连接名称 `name`、接口地址 `baseUrl` 和用户明确提供的 `apiKey`；`purpose` 可选图片、文字、音频或全部，`discover` 控制是否读取接口模型目录。需要更新现有连接时，先确认其 `connectionId` 再指定；手动模型可通过 `models` 保留准确名称与类型。保存由可见软件窗口确认，回执不包含密钥，也不会启动生成。
-
-目录导入由智能体先筛选目录中的真实媒体文件，再逐文件调用 `bbtv_live_import`，为每个文件使用独立 `requestId`。该工具接收普通媒体文件，不把目录路径当成图片，不执行文件，也不会偷偷替换成示例素材。
-
-批量调用可用 `requestId` 防止同一操作重复提交。页面断线或超时后，先检查实际画布，避免重复生成。停止 MCP 会中止后续画布操作；已经提交的模型任务仍应在生成队列中检查或取消。
-<!-- BBTV_MCP_README_END -->
+<!-- BBTV_MCP_ANNOUNCEMENT_START -->
+**v0.1.27 · 2026年11月14日发布**，已接入 MCP，可让智能体直接操作画布。[查看 Agent 控制与接入方式](#agent-control)。
+<!-- BBTV_MCP_ANNOUNCEMENT_END -->
 
 ## 开始使用：下载与安装
 
@@ -200,6 +133,80 @@ MiniMax H3 在远景、小脸画面中可能出现面部细节失真。可在视
 环境页集中显示当前硬件、引擎连接和本地模型资源，支持导入引擎、导入模型、在线下载与刷新检测。已经存在的 ComfyUI 与模型可以复用；下载前先选需要的功能，再按公开清单检查配套依赖。
 
 ![本地创作环境、模型列表与资源准备](docs/assets/engine-models.png)
+
+<!-- BBTV_MCP_README_START -->
+<a id="agent-control"></a>
+
+## 让 AI 通过 MCP 操作画布
+
+BBTV 提供标准 MCP，让智能体直接操作**正在打开的真实画布**。创建节点、填写提示词、连接素材、选择模型、加入生成队列，都会即时显示在软件里；生成结果也保存在同一画布中。
+
+顶部蓝色控制条显示正在操作的智能体名称，发光光标跟随操作。九档速度从极速到逐步演示，可随时调整或停止后续操作。模型任务是否完成，以节点和队列的实际状态为准。
+
+**[下载通用 BBTV MCP Skill](https://bbtv.ainivox.cn/download/bbtv-canvas-mcp-skill.zip)** · [GitHub 备用下载](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/download/v0.1.27/bbtv-canvas-mcp-skill.zip)，交给支持 Skill 的智能体安装。它包含真实画布操作、素材保护、模型选择与任务恢复规则，不含密钥或模型权重；不支持持久 Skill 的产品可在当前对话读取使用。
+
+### 连接 Codex、Claude Code 或其他智能体
+
+1. 启动 BBTV，进入**设置 → MCP**，开启连接。
+2. 复制软件提供的 HTTP 或 stdio 配置，添加到智能体的 MCP 设置。
+3. 打开目标画布，让智能体先读取状态，再执行创作任务。
+
+Codex、Claude Code 及其他支持标准 MCP 的客户端可接入。豆包需要所用版本提供 MCP 服务连接能力；未提供 MCP 接口的版本无法直接连接。各客户端配置格式可能不同，以软件复制的服务地址、启动命令和连接令牌为准。
+
+**HTTP：** 使用软件给出的本机 `/api/mcp` 地址和连接令牌，支持 Streamable HTTP。服务默认只在本机开放，令牌不要放进提示词、截图或公共仓库。地址示意：
+
+```text
+http://127.0.0.1:3210/api/mcp
+Authorization: Bearer <软件内复制的连接令牌>
+```
+
+**stdio：** 安装包已包含轻量桥接脚本，可使用 BBTV 自带的运行时，无需另外安装 Node.js。配置结构示意如下，路径请使用软件复制的实际值：
+
+```json
+{
+  "mcpServers": {
+    "bbtv": {
+      "command": "<BBTV安装目录>/BBTV.exe",
+      "args": [
+        "--max-old-space-size=128",
+        "<BBTV安装目录>/resources/mcp/bbtv-canvas-mcp.cjs",
+        "--base-url",
+        "http://127.0.0.1:3210"
+      ],
+      "env": {
+        "ELECTRON_RUN_AS_NODE": "1",
+        "NODE_OPTIONS": "",
+        "BBTV_MCP_TOKEN": "<软件内复制的连接令牌>"
+      }
+    }
+  }
+}
+```
+
+### 从读取到生成
+
+| 步骤 | MCP 操作 |
+|---|---|
+| 查看真实窗口与画布 | `bbtv_live_status`、`bbtv_live_read` |
+| 查看已配置模型 | `bbtv_live_batch` 中的 `models` 动作 |
+| 准备节点与连线 | `bbtv_live_batch`，支持节点别名、编辑、连接、选择和保存 |
+| 导入本机素材 | `bbtv_live_import`；指定真实文件，可按目录筛选后逐项导入 |
+| 配置云端 API | `bbtv_configure_api`；保存用户提供的连接并读取实际模型目录 |
+| 开始生成 | `generate` 先加入可见队列，再用 `queue/start` 开始 |
+| 查看图片与其他功能 | `bbtv_live_image` 返回当前节点图片；`bbtv_live_ui` 操作可见控件 |
+
+可以这样交代任务：
+
+> 先读取当前画布和可用模型，把我指定目录中的参考图片导入画布。保留原图，整理角色、场景和分镜，连接好参考后加入生成队列；先让我在画布里查看准备结果。
+
+模型与接口沿用这台电脑的软件配置。需要设置云端 API 时，使用软件提供的专用配置工具输入密钥；工具只返回连接状态与模型信息，不回显已有密钥。不要把密钥写进节点提示词、普通文本动作或公开文档。
+
+`bbtv_configure_api` 的参数包括唯一 `requestId`、连接名称 `name`、接口地址 `baseUrl` 和用户明确提供的 `apiKey`；`purpose` 可选图片、文字、音频或全部，`discover` 控制是否读取接口模型目录。需要更新现有连接时，先确认其 `connectionId` 再指定；手动模型可通过 `models` 保留准确名称与类型。保存由可见软件窗口确认，回执不包含密钥，也不会启动生成。
+
+目录导入由智能体先筛选目录中的真实媒体文件，再逐文件调用 `bbtv_live_import`，为每个文件使用独立 `requestId`。该工具接收普通媒体文件，不把目录路径当成图片，不执行文件，也不会偷偷替换成示例素材。
+
+批量调用可用 `requestId` 防止同一操作重复提交。页面断线或超时后，先检查实际画布，避免重复生成。停止 MCP 会中止后续画布操作；已经提交的模型任务仍应在生成队列中检查或取消。
+<!-- BBTV_MCP_README_END -->
 
 ## 让智能体协助部署
 

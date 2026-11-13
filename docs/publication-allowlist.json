@@ -64,7 +64,8 @@
     "output/prd4-public-media/dialogue-current-poster.jpg",
     "output/prd4-public-media/dialogue-previous-poster.jpg",
     "docs/2026-11-13-0.1.23-更新说明.md",
-    "docs/2026-11-13-0.1.24-更新说明.md"
+    "docs/2026-11-13-0.1.24-更新说明.md",
+    "docs/BBTV-MCP公开说明.md"
   ],
   "outputAllowlist": [
     "README.md",
@@ -481,8 +482,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 32280,
-      "sha256": "40c8e6d0508e1ff20d1ad83ae1e24b66d1c61a4988c728b310b3712a03192e19"
+      "bytes": 32667,
+      "sha256": "167c7036a3ffcb3fc1c7607ad75f620083f3f055dcdfdeb1419a5cd747982234"
     },
     {
       "path": "release-notes/0.1.12.md",
