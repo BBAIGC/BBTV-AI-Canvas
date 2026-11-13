@@ -63,7 +63,8 @@
     "output/prd4-public-media/dialogue-original15-poster.jpg",
     "output/prd4-public-media/dialogue-current-poster.jpg",
     "output/prd4-public-media/dialogue-previous-poster.jpg",
-    "docs/2026-11-13-0.1.23-更新说明.md"
+    "docs/2026-11-13-0.1.23-更新说明.md",
+    "docs/2026-11-13-0.1.24-更新说明.md"
   ],
   "outputAllowlist": [
     "README.md",
@@ -141,7 +142,8 @@
     "docs/assets/prd4/dialogue-original15-audio.wav",
     "docs/assets/prd4/dialogue-original15-poster.jpg",
     "docs/assets/prd4/dialogue-current-poster.jpg",
-    "docs/assets/prd4/dialogue-previous-poster.jpg"
+    "docs/assets/prd4/dialogue-previous-poster.jpg",
+    "release-notes/0.1.24.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -158,7 +160,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.23",
+  "generatedFromVersion": "0.1.24",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -166,29 +168,9 @@
       "sha256": "0955ecaffb57051479251b008bdcb3605f50c1cfe837942123a82f0e74f92ee8"
     },
     {
-      "path": "LICENSES/open-canvas-MIT.txt",
-      "bytes": 1084,
-      "sha256": "fcf1e5d82614b635703aa199d76fc3ec8d30eddc28f13e6eb4ff6fcf83c2f01f"
-    },
-    {
-      "path": "MODELS.md",
-      "bytes": 14958,
-      "sha256": "20fd54b25286f884db8be092bc32d307677d5c5a2cdb68d73a9c285c3b966f80"
-    },
-    {
-      "path": "NOTICE.md",
-      "bytes": 1084,
-      "sha256": "2616b4ae64b8edc937cc235c9797b373219e2adf65db49da04e55ae8e0478f00"
-    },
-    {
-      "path": "README.md",
-      "bytes": 27574,
-      "sha256": "f0aedb2d9732e64db44a7e28127d73c1cc60024dbf2d6e26144a960ef9b97b53"
-    },
-    {
-      "path": "docs/H3图片与视频示例.md",
-      "bytes": 4647,
-      "sha256": "1f47378beb05cf66e4653a1f11d95688a614ecb431cdacf19558a302e977805f"
+      "path": "docs/模型安装说明.txt",
+      "bytes": 2492,
+      "sha256": "67cb57d41112533fac89ca7b0dec99692520f4fc73c95dd6caa4b78beb9b9cbf"
     },
     {
       "path": "docs/assets/about-updates.png",
@@ -406,6 +388,11 @@
       "sha256": "f262839fee87e124247ec0a7747cc0d3237f1b5638ee87672670243214e774b2"
     },
     {
+      "path": "docs/H3图片与视频示例.md",
+      "bytes": 4647,
+      "sha256": "1f47378beb05cf66e4653a1f11d95688a614ecb431cdacf19558a302e977805f"
+    },
+    {
       "path": "docs/licenses/Character-Swap-H3-LICENSE.txt",
       "bytes": 17604,
       "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44"
@@ -421,6 +408,11 @@
       "sha256": "ec5aa54eef312195c4494873a37158b19b0d523e25cec570189e6aa86289cf42"
     },
     {
+      "path": "docs/licenses/facexlib-LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "db131d6ba4392941108e6adea4216475221b30accd1f59c20f69de619fd39fd8"
+    },
+    {
       "path": "docs/licenses/GFPGAN-LICENSE.txt",
       "bytes": 22990,
       "sha256": "b916d19bf894eb43409866adf17c9f71cbb17aefd9cd105117c4a32598ef6a46"
@@ -429,6 +421,16 @@
       "path": "docs/licenses/MiniMax-H3-Community-LICENSE.txt",
       "bytes": 17604,
       "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44"
+    },
+    {
+      "path": "docs/licenses/pika-license-fixed.txt",
+      "bytes": 17604,
+      "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44"
+    },
+    {
+      "path": "docs/licenses/pika-notice-fixed.txt",
+      "bytes": 397,
+      "sha256": "8fc52805a4f8d034f853b5ed494574e37f292def5cdd326d22547afa2658527b"
     },
     {
       "path": "docs/licenses/Qwen21-Multiple-Angles-LICENSE.txt",
@@ -451,21 +453,6 @@
       "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088"
     },
     {
-      "path": "docs/licenses/facexlib-LICENSE.txt",
-      "bytes": 1068,
-      "sha256": "db131d6ba4392941108e6adea4216475221b30accd1f59c20f69de619fd39fd8"
-    },
-    {
-      "path": "docs/licenses/pika-license-fixed.txt",
-      "bytes": 17604,
-      "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44"
-    },
-    {
-      "path": "docs/licenses/pika-notice-fixed.txt",
-      "bytes": 397,
-      "sha256": "8fc52805a4f8d034f853b5ed494574e37f292def5cdd326d22547afa2658527b"
-    },
-    {
       "path": "docs/model-distribution-inventory.json",
       "bytes": 217780,
       "sha256": "70a3cf98ebb3a4b8f4320641402318d7b3684329b360e4b2ee886f6d3767a7c2"
@@ -476,9 +463,24 @@
       "sha256": "7baee77b36e0fb5d717ef1cf9c5e6d158f2e939248225546fda03cd6911a5137"
     },
     {
-      "path": "docs/模型安装说明.txt",
-      "bytes": 2492,
-      "sha256": "67cb57d41112533fac89ca7b0dec99692520f4fc73c95dd6caa4b78beb9b9cbf"
+      "path": "LICENSES/open-canvas-MIT.txt",
+      "bytes": 1084,
+      "sha256": "fcf1e5d82614b635703aa199d76fc3ec8d30eddc28f13e6eb4ff6fcf83c2f01f"
+    },
+    {
+      "path": "MODELS.md",
+      "bytes": 14958,
+      "sha256": "20fd54b25286f884db8be092bc32d307677d5c5a2cdb68d73a9c285c3b966f80"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1084,
+      "sha256": "2616b4ae64b8edc937cc235c9797b373219e2adf65db49da04e55ae8e0478f00"
+    },
+    {
+      "path": "README.md",
+      "bytes": 27574,
+      "sha256": "7550c7fa2dbaa8f5e7de1463ff5fcabdc499e6bd0ecec352cc34c685ab31bd80"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -534,6 +536,11 @@
       "path": "release-notes/0.1.23.md",
       "bytes": 1901,
       "sha256": "c95d5939b177b81552c473416e5ec692384e42541691cc6fc704de86589d4593"
+    },
+    {
+      "path": "release-notes/0.1.24.md",
+      "bytes": 2289,
+      "sha256": "2fbe4bc918933a64293872e8a6d00995c34dc3cc7172813e3f4c0f108499b7d0"
     }
   ],
   "auditResult": {
