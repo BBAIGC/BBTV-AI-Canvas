@@ -144,7 +144,8 @@
     "docs/assets/prd4/dialogue-current-poster.jpg",
     "docs/assets/prd4/dialogue-previous-poster.jpg",
     "release-notes/0.1.24.md",
-    "release-notes/0.1.26.md"
+    "release-notes/0.1.26.md",
+    "release-notes/0.1.27.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -161,7 +162,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.26",
+  "generatedFromVersion": "0.1.27",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -480,8 +481,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 27574,
-      "sha256": "a91d58eb28ba1056cfab21b59e704d964a965d1891c75755d2073b59ea40d15d"
+      "bytes": 32280,
+      "sha256": "40c8e6d0508e1ff20d1ad83ae1e24b66d1c61a4988c728b310b3712a03192e19"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -547,6 +548,11 @@
       "path": "release-notes/0.1.26.md",
       "bytes": 1049,
       "sha256": "fa888da0b6ef643800a06cb4b2a8d135cc8794f0da37cf88939f77480d6389a9"
+    },
+    {
+      "path": "release-notes/0.1.27.md",
+      "bytes": 1688,
+      "sha256": "b9c089aeea072bf9edfc4201c5ed5cbb31190606208b896ce03694e6dd34216e"
     }
   ],
   "auditResult": {
