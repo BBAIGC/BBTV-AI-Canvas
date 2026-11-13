@@ -62,7 +62,8 @@
     "output/prd4-public-media/dialogue-original15-audio.wav",
     "output/prd4-public-media/dialogue-original15-poster.jpg",
     "output/prd4-public-media/dialogue-current-poster.jpg",
-    "output/prd4-public-media/dialogue-previous-poster.jpg"
+    "output/prd4-public-media/dialogue-previous-poster.jpg",
+    "docs/2026-11-13-0.1.23-更新说明.md"
   ],
   "outputAllowlist": [
     "README.md",
@@ -80,6 +81,7 @@
     "release-notes/0.1.19.md",
     "release-notes/0.1.20.md",
     "release-notes/0.1.21.md",
+    "release-notes/0.1.23.md",
     "docs/model-distribution-inventory.json",
     "docs/模型安装说明.txt",
     "docs/licenses/Real-ESRGAN-LICENSE.txt",
@@ -156,7 +158,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.21",
+  "generatedFromVersion": "0.1.23",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -181,7 +183,7 @@
     {
       "path": "README.md",
       "bytes": 27574,
-      "sha256": "43ced3a8ec302a6da6fcae4ebd7cfe0e26498de8664337b33e8149d6f884d55b"
+      "sha256": "f0aedb2d9732e64db44a7e28127d73c1cc60024dbf2d6e26144a960ef9b97b53"
     },
     {
       "path": "docs/H3图片与视频示例.md",
@@ -527,6 +529,11 @@
       "path": "release-notes/0.1.21.md",
       "bytes": 2093,
       "sha256": "05fe9282373a828289b49aea1f42e3c8a6961c0eaff74b1e40d6b50596ec42bf"
+    },
+    {
+      "path": "release-notes/0.1.23.md",
+      "bytes": 1901,
+      "sha256": "c95d5939b177b81552c473416e5ec692384e42541691cc6fc704de86589d4593"
     }
   ],
   "auditResult": {
