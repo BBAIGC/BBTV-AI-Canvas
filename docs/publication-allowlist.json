@@ -65,7 +65,10 @@
     "output/prd4-public-media/dialogue-previous-poster.jpg",
     "docs/2026-11-13-0.1.23-更新说明.md",
     "docs/2026-11-13-0.1.24-更新说明.md",
-    "docs/BBTV-MCP公开说明.md"
+    "docs/BBTV-MCP公开说明.md",
+    "docs/BBTV剪辑-开源来源与源码.md",
+    "docs/licenses/Concat-NOTICE.txt",
+    "docs/licenses/Concat-AGPL-3.0.txt"
   ],
   "outputAllowlist": [
     "README.md",
@@ -147,7 +150,11 @@
     "release-notes/0.1.24.md",
     "release-notes/0.1.26.md",
     "release-notes/0.1.27.md",
-    "release-notes/0.1.30.md"
+    "release-notes/0.1.30.md",
+    "release-notes/0.1.31.md",
+    "docs/BBTV剪辑-开源来源与源码.md",
+    "docs/licenses/Concat-NOTICE.txt",
+    "docs/licenses/Concat-AGPL-3.0.txt"
   ],
   "prohibitedContent": [
     "program source",
@@ -164,7 +171,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.30",
+  "generatedFromVersion": "0.1.31",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -387,6 +394,11 @@
       "sha256": "a4a34a3d52b5c300785ace3135317ec92f724502537041eef761cb43985fc566"
     },
     {
+      "path": "docs/BBTV剪辑-开源来源与源码.md",
+      "bytes": 2538,
+      "sha256": "7b769b63dcb2e913fa3b25d22fa0ce54b9d43bf15ce1f26680f5ed51a4c66605"
+    },
+    {
       "path": "docs/distribution-resources.json",
       "bytes": 11039,
       "sha256": "f262839fee87e124247ec0a7747cc0d3237f1b5638ee87672670243214e774b2"
@@ -405,6 +417,16 @@
       "path": "docs/licenses/Character-Swap-H3-NOTICE.txt",
       "bytes": 444,
       "sha256": "d029194e580402f7212dd54be0b24ee5863c09ac2e994c8c2d9e498a23c767e4"
+    },
+    {
+      "path": "docs/licenses/Concat-AGPL-3.0.txt",
+      "bytes": 35184,
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+    },
+    {
+      "path": "docs/licenses/Concat-NOTICE.txt",
+      "bytes": 1640,
+      "sha256": "99df210834279b70b1d8b2a86411fefd4ef7925e8fa88e1138534e37724b9d7c"
     },
     {
       "path": "docs/licenses/DWPose-LICENSE.txt",
@@ -483,8 +505,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 33345,
-      "sha256": "a88b3485deb14e29c6350f7168ded882af29584368f9ec00c41f0f236748f289"
+      "bytes": 33406,
+      "sha256": "16682fdd355c011dfbdd39a29ca3e3c0a0c4b6402f3acf77dbb3862404b105cc"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -560,6 +582,11 @@
       "path": "release-notes/0.1.30.md",
       "bytes": 1439,
       "sha256": "b8140bd062ac8183db2e35065d5ea3b581d36bf35cba2b8ea4395a6c7bda8898"
+    },
+    {
+      "path": "release-notes/0.1.31.md",
+      "bytes": 918,
+      "sha256": "814ed1d475eacae28d5da607af82481d1d03a809847ae84d3f2ea907f24ba76b"
     }
   ],
   "auditResult": {

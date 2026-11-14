@@ -1,0 +1,23 @@
+BBTV剪辑 · Concat 来源与许可
+
+上游项目：https://github.com/jub0t/Concat
+上游作者及版权：Copyright (C) 2026 Jareer Abdullah and Concat contributors
+上游参考版本：0.2.11
+上游参考提交：6c9558aa2fd1d62ae75e891ef15817b5cd098aa7
+许可：GNU Affero General Public License, version 3 or later (AGPL-3.0-or-later)
+许可全文：同目录 Concat-AGPL-3.0.txt；原生源树另保留其 LICENSE 与 THIRD_PARTY_NOTICES.md。
+
+本仓库包含两个相关代码范围：
+1. components/canvas-video-editor-*、canvas-video-tools 等 React 剪辑界面，
+   是对 Concat 界面组织与样式的移植和修改，连接 BBTV 画布、字幕工程及本地媒体处理。
+2. editor-native/concat 保存 Concat 完整原生源树（Rust/Slint 编辑器及其原有模块）。
+   BBTV 的画布会话、启动与结果回传桥接属于本仓库的修改；各发行版实际包含范围
+   以其构建清单为准，原生源树的存在不表示尚未发布的开发版本已对外发行。
+
+BBTV 保留 Concat 原版权、许可和第三方归属信息，不将上游完整功能声明为 BBTV 原创。
+项目内其他独立代码保持各自适用许可，此说明不将整个 BBTV 仓库统一改为同一许可。
+
+完整对应源码与构建说明见 ../BBTV剪辑-开源来源与源码.md。
+分发派生版本时，须按 AGPL-3.0-or-later 提供该发行版对应的完整源码、修改、
+必要构建材料与可用获取方式，并保留版权和许可；不能以未公开仓库、上游源码
+或不对应当前二进制的旧版源码包代替本版的完整对应源码。
