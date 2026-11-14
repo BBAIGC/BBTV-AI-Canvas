@@ -18,6 +18,6 @@ AGPL 全文见 [Concat-AGPL-3.0.txt](licenses/Concat-AGPL-3.0.txt)，归属记�
 
 源码从本仓库检出后，可查看根目录 `package.json`、`scripts/package-editor-companion.cjs`、`editor-companion/electron-builder.config.cjs`，以及原生源树的 `README.md` 和构建文档。每次实际发布还须提供该版本的构建清单和可用源码包获取地址；网络提供修改版本时也应履行适用的源码提供要求。
 
-BBTV剪辑 0.2.0 的[完整对应源码 ZIP](https://bbtv.ainivox.cn/editor/source/BBTV-Editor-0.2.0-source.zip)包含本版原生源码、BBTV修改、桥接服务与构建材料。
+BBTV剪辑 0.2.1 的[完整对应源码 ZIP](https://bbtv.ainivox.cn/editor/source/BBTV-Editor-0.2.1-source.zip)包含本版原生源码、BBTV修改、桥接服务与构建材料。
 
 以上归属信息显示在 BBTV 应用的“关于”中，并记录于源码仓库和发行许可材料。

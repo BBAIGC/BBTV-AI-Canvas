@@ -154,7 +154,8 @@
     "release-notes/0.1.31.md",
     "docs/BBTV剪辑-开源来源与源码.md",
     "docs/licenses/Concat-NOTICE.txt",
-    "docs/licenses/Concat-AGPL-3.0.txt"
+    "docs/licenses/Concat-AGPL-3.0.txt",
+    "release-notes/0.1.32.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -171,7 +172,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.31",
+  "generatedFromVersion": "0.1.32",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -396,7 +397,7 @@
     {
       "path": "docs/BBTV剪辑-开源来源与源码.md",
       "bytes": 2538,
-      "sha256": "7b769b63dcb2e913fa3b25d22fa0ce54b9d43bf15ce1f26680f5ed51a4c66605"
+      "sha256": "42920d3aca37c3f0da0e3588b3f1b203489b641409aa7bd098a0eb0ed4c14e3a"
     },
     {
       "path": "docs/distribution-resources.json",
@@ -506,7 +507,7 @@
     {
       "path": "README.md",
       "bytes": 33406,
-      "sha256": "16682fdd355c011dfbdd39a29ca3e3c0a0c4b6402f3acf77dbb3862404b105cc"
+      "sha256": "cc7cc9b270c0b6e40abf6fed5116e26bf1769a17790d9a470e7ccf94044bfa3a"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -587,6 +588,11 @@
       "path": "release-notes/0.1.31.md",
       "bytes": 918,
       "sha256": "814ed1d475eacae28d5da607af82481d1d03a809847ae84d3f2ea907f24ba76b"
+    },
+    {
+      "path": "release-notes/0.1.32.md",
+      "bytes": 1458,
+      "sha256": "9b777ee4d3fbcd82c8fe2581f5ce45b43017a85f07b3adc57d7a9859e3fa5feb"
     }
   ],
   "auditResult": {
