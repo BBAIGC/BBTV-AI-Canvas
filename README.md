@@ -4,7 +4,7 @@
 
 ### 图片、视频与声音，在一张画布中创作
 
-[![版本 v0.1.27](https://img.shields.io/badge/版本-v0.1.27-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
+[![版本 v0.1.30](https://img.shields.io/badge/版本-v0.1.30-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
 [![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%2F%2011-0078d4)](https://bbtv.ainivox.cn)
 [![本地永久免费](https://img.shields.io/badge/本地功能-永久免费-16a34a)](#开始使用下载与安装)
 [![无需购买 API](https://img.shields.io/badge/API-无需购买-0891b2)](#开始使用下载与安装)
@@ -22,12 +22,12 @@
 [![SeedVR2](https://img.shields.io/badge/SeedVR2-放大-278a6a)](https://huggingface.co/numz/SeedVR2_comfyUI)
 [![Qwen 视觉](https://img.shields.io/badge/Qwen-视觉反推-615ced)](https://huggingface.co/Qwen)
 
-[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.27.md) · [Agent 控制](#agent-control)
+[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.30.md) · [Agent 控制](#agent-control)
 
 </div>
 
 <!-- BBTV_MCP_ANNOUNCEMENT_START -->
-**v0.1.27 · 2026年11月14日发布**，已接入 MCP，可让智能体直接操作画布。[查看 Agent 控制与接入方式](#agent-control)。
+**v0.1.30 · 2026年11月14日发布**，已接入 MCP，可让智能体直接操作画布。[查看 Agent 控制与接入方式](#agent-control)。
 <!-- BBTV_MCP_ANNOUNCEMENT_END -->
 
 ## 开始使用：下载与安装
@@ -39,7 +39,7 @@
 3. **连接本地引擎。** 在设置中选择引擎目录，并参考 [MODELS.md](MODELS.md) 核对所选模型的编码器、VAE 和其他依赖。
 4. **开始第一次创作。** 新建项目，导入参考图片，选择模型，输入要求并生成。
 
-[v0.1.27 更新内容](release-notes/0.1.27.md)
+[v0.1.30 更新内容](release-notes/0.1.30.md)
 
 
 
@@ -143,7 +143,7 @@ BBTV 提供标准 MCP，让智能体直接操作**正在打开的真实画布**�
 
 顶部蓝色控制条显示正在操作的智能体名称，发光光标跟随操作。九档速度从极速到逐步演示，可随时调整或停止后续操作。模型任务是否完成，以节点和队列的实际状态为准。
 
-**[下载通用 BBTV MCP Skill](https://bbtv.ainivox.cn/download/bbtv-canvas-mcp-skill.zip)** · [GitHub 备用下载](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/download/v0.1.27/bbtv-canvas-mcp-skill.zip)，交给支持 Skill 的智能体安装。它包含真实画布操作、素材保护、模型选择与任务恢复规则，不含密钥或模型权重；不支持持久 Skill 的产品可在当前对话读取使用。
+**[下载通用 BBTV MCP Skill](https://bbtv.ainivox.cn/download/bbtv-canvas-mcp-skill.zip)** · [GitHub 备用下载](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/download/v0.1.30/bbtv-canvas-mcp-skill.zip)，交给支持 Skill 的智能体安装。它包含真实画布操作、素材保护、模型选择与任务恢复规则，不含密钥或模型权重；不支持持久 Skill 的产品可在当前对话读取使用。
 
 ### 连接 Codex、Claude Code 或其他智能体
 
@@ -368,3 +368,5 @@ GitHub 保留最近 **6 个稳定版本**的安装包及其校验配套文件。
 BBTV 的画布基础来自 [ZeroLu/open-canvas](https://github.com/ZeroLu/open-canvas)。本地推理使用 ComfyUI 及相应模型生态，感谢相关项目与模型作者。
 
 本仓库提供安装包索引、使用文档和版本说明，程序源码未在此仓库发布。上游 MIT 许可证与第三方声明保留在 [NOTICE.md](NOTICE.md) 及 [LICENSES](LICENSES/open-canvas-MIT.txt)。模型与第三方组件各自适用其原许可证。
+
+BBTV 剪辑 0.1.1 的完整对应源代码（包含所用剪辑界面、本地处理服务、独立客户端及构建说明）：[下载源码 ZIP](https://bbtv.ainivox.cn/editor/source/BBTV-Editor-0.1.1-source.zip)。Concat 相关适配依照 AGPL-3.0-or-later 提供，其他组件保留各自许可。
