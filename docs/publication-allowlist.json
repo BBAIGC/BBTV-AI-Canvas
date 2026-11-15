@@ -68,7 +68,8 @@
     "docs/BBTV-MCP公开说明.md",
     "docs/BBTV剪辑-开源来源与源码.md",
     "docs/licenses/Concat-NOTICE.txt",
-    "docs/licenses/Concat-AGPL-3.0.txt"
+    "docs/licenses/Concat-AGPL-3.0.txt",
+    "README.md"
   ],
   "outputAllowlist": [
     "README.md",
@@ -155,7 +156,8 @@
     "docs/BBTV剪辑-开源来源与源码.md",
     "docs/licenses/Concat-NOTICE.txt",
     "docs/licenses/Concat-AGPL-3.0.txt",
-    "release-notes/0.1.32.md"
+    "release-notes/0.1.32.md",
+    "release-notes/0.1.33.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -172,7 +174,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.32",
+  "generatedFromVersion": "0.1.33",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -397,7 +399,7 @@
     {
       "path": "docs/BBTV剪辑-开源来源与源码.md",
       "bytes": 2538,
-      "sha256": "42920d3aca37c3f0da0e3588b3f1b203489b641409aa7bd098a0eb0ed4c14e3a"
+      "sha256": "fda0112e36f1ada215acee707aaddf05c1f2f9ace5c13193524f0b3f25baf4b4"
     },
     {
       "path": "docs/distribution-resources.json",
@@ -507,7 +509,7 @@
     {
       "path": "README.md",
       "bytes": 33406,
-      "sha256": "cc7cc9b270c0b6e40abf6fed5116e26bf1769a17790d9a470e7ccf94044bfa3a"
+      "sha256": "491af4eaad28e7786ada0bc44e06f70331913b9ef5e66ea2bbe94930efd9dbb1"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -593,6 +595,11 @@
       "path": "release-notes/0.1.32.md",
       "bytes": 1458,
       "sha256": "9b777ee4d3fbcd82c8fe2581f5ce45b43017a85f07b3adc57d7a9859e3fa5feb"
+    },
+    {
+      "path": "release-notes/0.1.33.md",
+      "bytes": 2237,
+      "sha256": "7941243e8318dabb93920ff62c9bb5f81f28de6f46b255cf574e6a56655319f1"
     }
   ],
   "auditResult": {
