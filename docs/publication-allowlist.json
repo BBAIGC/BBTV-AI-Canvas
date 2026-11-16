@@ -163,7 +163,8 @@
     "release-notes/0.1.35.md",
     "release-notes/0.1.36.md",
     "docs/BBTV-MCP操作说明.md",
-    "release-notes/0.1.37.md"
+    "release-notes/0.1.37.md",
+    "release-notes/0.1.38.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -180,7 +181,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.37",
+  "generatedFromVersion": "0.1.38",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -520,7 +521,7 @@
     {
       "path": "README.md",
       "bytes": 33871,
-      "sha256": "35b811912233a1434d4c535ee4f8153566ddef9cdb345e0c822e1b3163a57034"
+      "sha256": "6a41883f0785b15827ec6bf6a06f259f1e16fc2fdecf936cf5758c41da0c71a5"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -631,6 +632,11 @@
       "path": "release-notes/0.1.37.md",
       "bytes": 1422,
       "sha256": "63a6e750778ac9fb36fbe35b0897751bb06fb42dc40675f6e93b1e9a9dfb9d80"
+    },
+    {
+      "path": "release-notes/0.1.38.md",
+      "bytes": 1681,
+      "sha256": "73d1815277e07fb2e454e4db9e98fa08220eb4eec6151ddedf82e7720e0376ce"
     }
   ],
   "auditResult": {
