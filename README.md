@@ -4,7 +4,7 @@
 
 ### 图片、视频与声音，在一张画布中创作
 
-[![版本 v0.1.38](https://img.shields.io/badge/版本-v0.1.38-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
+[![版本 v0.1.40](https://img.shields.io/badge/版本-v0.1.40-2563eb)](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/latest)
 [![Windows 10 / 11](https://img.shields.io/badge/Windows-10%20%2F%2011-0078d4)](https://bbtv.ainivox.cn)
 [![本地永久免费](https://img.shields.io/badge/本地功能-永久免费-16a34a)](#开始使用下载与安装)
 [![无需购买 API](https://img.shields.io/badge/API-无需购买-0891b2)](#开始使用下载与安装)
@@ -22,13 +22,25 @@
 [![SeedVR2](https://img.shields.io/badge/SeedVR2-放大-278a6a)](https://huggingface.co/numz/SeedVR2_comfyUI)
 [![Qwen 视觉](https://img.shields.io/badge/Qwen-视觉反推-615ced)](https://huggingface.co/Qwen)
 
-[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.38.md) · [Agent 控制](#agent-control)
+[使用说明](#从参考素材到完整创作) · [下载安装](#开始使用下载与安装) · [模型下载](MODELS.md) · [智能体部署](#让智能体协助部署) · [版本清单](release-notes/0.1.40.md) · [Agent 控制](#agent-control)
 
 </div>
 
 <!-- BBTV_MCP_ANNOUNCEMENT_START -->
-**v0.1.38 · 2026年11月16日发布**，已接入 MCP，可让智能体直接操作画布。[查看 Agent 控制与接入方式](#agent-control)。
+**v0.1.40 · 2026年11月17日发布**，已接入 MCP，可让智能体直接操作画布。[查看 Agent 控制与接入方式](#agent-control)。
 <!-- BBTV_MCP_ANNOUNCEMENT_END -->
+
+<!-- BBTV_KREA2_FEATURE_START -->
+## Krea2 风格与连续双采
+
+Krea2 的影视柔光、风格滤镜可逐项调节；支持连续双采、MOSS → Krea2 和成图二采，原图保留。缺少配套时按文件下载并校验。
+
+| 银发云宫 · 柔光与滤镜双采 | 紫藤金饰 · 柔光双采 |
+|---|---|
+| ![银发云宫](docs/images/krea2/silver-selected-dual.jpg) | ![紫藤金饰](docs/images/krea2/wisteria-selected-dual-soft.jpg) |
+
+[查看采样参数、真实4K验证与来源说明](docs/Krea2采样与风格对照.md)。双采可能改变细节，不承诺逐像素保内容；三款固定 LoRA 通过独立资源库下载，安装包不捆绑权重。
+<!-- BBTV_KREA2_FEATURE_END -->
 
 ## 开始使用：下载与安装
 
@@ -39,7 +51,7 @@
 3. **连接本地引擎。** 在设置中选择引擎目录，并参考 [MODELS.md](MODELS.md) 核对所选模型的编码器、VAE 和其他依赖。
 4. **开始第一次创作。** 新建项目，导入参考图片，选择模型，输入要求并生成。
 
-[v0.1.38 更新内容](release-notes/0.1.38.md)
+[v0.1.40 更新内容](release-notes/0.1.40.md)
 
 
 
@@ -145,7 +157,7 @@ BBTV 提供标准 MCP，让智能体直接操作**正在打开的真实画布**�
 
 智能体可先用 `bbtv_live_actions` 发现图片/视频工具栏、画布与节点右键、设置和生成历史，再用 `bbtv_live_invoke` 调用原功能，或在原面板中操作真实控件。高清使用用户选择的实际放大模型和参数，保留原图；不会用普通图片生成代替放大。视频复刻、重拍、图层分离、裁剪、字幕等功能也通过各自原入口执行。
 
-**[下载通用 BBTV MCP Skill](https://bbtv.ainivox.cn/download/bbtv-canvas-mcp-skill.zip)** · [GitHub 备用下载](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/download/v0.1.38/bbtv-canvas-mcp-skill.zip)，交给支持 Skill 的智能体安装。它包含真实画布操作、素材保护、模型选择与任务恢复规则，不含密钥或模型权重；不支持持久 Skill 的产品可在当前对话读取使用。
+**[下载通用 BBTV MCP Skill](https://bbtv.ainivox.cn/download/bbtv-canvas-mcp-skill.zip)** · [GitHub 备用下载](https://github.com/BBAIGC/BBTV-AI-Canvas/releases/download/v0.1.40/bbtv-canvas-mcp-skill.zip)，交给支持 Skill 的智能体安装。它包含真实画布操作、素材保护、模型选择与任务恢复规则，不含密钥或模型权重；不支持持久 Skill 的产品可在当前对话读取使用。
 
 ### 连接 Codex、Claude Code 或其他智能体
 
