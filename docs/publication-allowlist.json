@@ -179,7 +179,8 @@
     "docs/images/krea2/wisteria-soft-filter.jpg",
     "docs/images/krea2/silver-dual-4k-preview.jpg",
     "docs/images/krea2/silver-selected-dual.jpg",
-    "docs/images/krea2/wisteria-selected-dual-soft.jpg"
+    "docs/images/krea2/wisteria-selected-dual-soft.jpg",
+    "release-notes/0.1.41.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -196,7 +197,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.40",
+  "generatedFromVersion": "0.1.41",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -571,7 +572,7 @@
     {
       "path": "README.md",
       "bytes": 34578,
-      "sha256": "30c50c5681c7874bb6a8073abc7b848456f2449ba9502564ce9e375a19d8a063"
+      "sha256": "23b16bcf3179bd50549f38c446ea259039704d4a52e527937925ef3cc6adc05a"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -692,6 +693,11 @@
       "path": "release-notes/0.1.40.md",
       "bytes": 3384,
       "sha256": "d047025bd5ebed6f941912852b036b19c9d08e498dbd6ba2e17c53c7497cf0d8"
+    },
+    {
+      "path": "release-notes/0.1.41.md",
+      "bytes": 2709,
+      "sha256": "6a6456b0b8efa4911fd648c1eea536b9ad9eebe230750a11308c47fc7133e46a"
     }
   ],
   "auditResult": {
