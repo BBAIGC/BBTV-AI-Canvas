@@ -379,6 +379,8 @@ GitHub 保留最近 **6 个稳定版本**的安装包及其校验配套文件。
 
 ## 致谢与第三方声明
 
+感谢抖音创作者 [@🌈](https://www.douyin.com/user/MS4wLjABAAAAAhuYCbGqwDkhJg0Ar_oPMn6KehdmEI6-IS_Mqq0Flpo) 分享原版室内提示词生成器，BBTV 的室内提示词功能参考了其参数设计与生成逻辑。
+
 本地推理使用 ComfyUI 及相应模型生态，感谢相关项目与模型作者。
 
 本仓库提供安装包索引、使用文档和版本说明，程序源码未在此仓库发布。第三方组件的许可证与声明保留在 [NOTICE.md](NOTICE.md) 及 [LICENSES](LICENSES/open-canvas-MIT.txt)。模型与第三方组件各自适用其原许可证。
