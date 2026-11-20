@@ -26,6 +26,14 @@
 
 </div>
 
+<!-- BBTV_BRAND_START -->
+**BBTV AI Canvas（BBTV 无限画布）** 是 Windows 本地 AI 无限画布创作软件，支持 ComfyUI 图片与视频生成、智能分镜、高清放大及 MCP 智能体控制。本地功能永久免费，使用本地模型无需购买 API；可选云端服务按服务商规则计费。
+
+BBTV AI Canvas is a free Windows local AI infinite canvas for ComfyUI image and video creation, storyboarding, upscaling and MCP agent control.
+
+[官网](https://bbtv.ainivox.cn/) · [功能介绍](https://bbtv.ainivox.cn/features/) · [下载中心](https://bbtv.ainivox.cn/download/) · [模型教程](https://bbtv.ainivox.cn/models/) · [使用指南](https://bbtv.ainivox.cn/guides/) · [English](https://bbtv.ainivox.cn/en/)
+<!-- BBTV_BRAND_END -->
+
 <!-- BBTV_MCP_ANNOUNCEMENT_START -->
 **v0.1.53 · 2026年11月21日发布**，已接入 MCP，可让智能体直接操作画布。[查看 Agent 控制与接入方式](#agent-control)。
 <!-- BBTV_MCP_ANNOUNCEMENT_END -->
