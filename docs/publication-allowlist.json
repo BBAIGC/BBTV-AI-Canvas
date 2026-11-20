@@ -181,7 +181,8 @@
     "docs/images/krea2/silver-selected-dual.jpg",
     "docs/images/krea2/wisteria-selected-dual-soft.jpg",
     "release-notes/0.1.41.md",
-    "release-notes/0.1.44.md"
+    "release-notes/0.1.44.md",
+    "release-notes/0.1.53.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -198,7 +199,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.44",
+  "generatedFromVersion": "0.1.53",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -428,7 +429,7 @@
     {
       "path": "docs/BBTV剪辑-开源来源与源码.md",
       "bytes": 2538,
-      "sha256": "47911c8ca40d4de4bdd0858c7de956e4861932e0d09ce6f1a29ce9536f8be6e9"
+      "sha256": "60713d9132e8e3ede0fc55c08f1d38d9754b5a1729aa787102caef3372ec4103"
     },
     {
       "path": "docs/distribution-resources.json",
@@ -442,33 +443,33 @@
     },
     {
       "path": "docs/images/krea2/silver-dual-4k-preview.jpg",
-      "bytes": 82504,
-      "sha256": "fc08f02f98efad1e95e17799fbde896bb742da80f9eaec3b2a2f5af0379f5c41"
+      "bytes": 149618,
+      "sha256": "b959ce7d703a39d6070ecdd23bc3a57e9b038872988836f8cca1c9ea0033e291"
     },
     {
       "path": "docs/images/krea2/silver-selected-dual.jpg",
-      "bytes": 67246,
-      "sha256": "10e1aa7f144ce136692abde1fa5e1510361621434e37b59f6c08927adfe5d803"
+      "bytes": 121420,
+      "sha256": "30dc202ca2c06fa33b8bdf258f7e02c1ed2ab8a8d862a6a83518b63d2c3c6bc0"
     },
     {
       "path": "docs/images/krea2/silver-soft-filter.jpg",
-      "bytes": 60514,
-      "sha256": "7fa8a943bad2f9e5653d8f2e248cf891e56b4c25f2ed842af38924cbb2544242"
+      "bytes": 108881,
+      "sha256": "5931572c0eecaa204ebae93c3e4541aa35e88ee938e1b474c131fcfb126de388"
     },
     {
       "path": "docs/images/krea2/wisteria-selected-dual-soft.jpg",
-      "bytes": 81682,
-      "sha256": "06a33f24400288725212ecf96688685472be2a99589f66e100d41c3a5d8c39b0"
+      "bytes": 148267,
+      "sha256": "4f51f2183cb9e74ef8f490ae7a7c02c321ddc23cb2178180ba70e884e8464620"
     },
     {
       "path": "docs/images/krea2/wisteria-soft-filter.jpg",
-      "bytes": 82702,
-      "sha256": "70ee8cfed714020b3e25d78c1dbdd0dbdae79cc3e240d234d39bd1b5e0a64d40"
+      "bytes": 149566,
+      "sha256": "4bff77d0447233663f35fe2691b1da95355564001216c9120434c06a5a9bedde"
     },
     {
       "path": "docs/images/krea2/wisteria-soft.jpg",
-      "bytes": 73287,
-      "sha256": "ebe1337e35b890e4ad86545a4672ea4b251a4b72eff04e7acc9a27cca58fa3b7"
+      "bytes": 132640,
+      "sha256": "97298e9052a4b3d7a271d223acaf2666fd06abc4ce0416439fd0b8b084ae2dd8"
     },
     {
       "path": "docs/Krea2采样与风格对照.md",
@@ -572,8 +573,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 34578,
-      "sha256": "72935f81b00a9b4dfd7b8148ef4c4b5f938a7eb0ac16caafbbd4dfec6d9ba903"
+      "bytes": 34825,
+      "sha256": "ed348fdf42d1a2fa622ae517025e04d3ec5885bcc092e82dfd74c08efab440db"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -704,6 +705,11 @@
       "path": "release-notes/0.1.44.md",
       "bytes": 3412,
       "sha256": "fca2dd4d1f66f485cb89568d96a980d3961f1d67b66be64d86f5510ae14087f8"
+    },
+    {
+      "path": "release-notes/0.1.53.md",
+      "bytes": 1938,
+      "sha256": "0165e4cde610a15c4e891fbf8917a3b7a133848a786cc78f005aa82ae85936d2"
     }
   ],
   "auditResult": {
