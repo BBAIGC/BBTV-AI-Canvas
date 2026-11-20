@@ -27,7 +27,7 @@
 </div>
 
 <!-- BBTV_MCP_ANNOUNCEMENT_START -->
-**v0.1.53 · 2026年11月20日发布**，已接入 MCP，可让智能体直接操作画布。[查看 Agent 控制与接入方式](#agent-control)。
+**v0.1.53 · 2026年11月21日发布**，已接入 MCP，可让智能体直接操作画布。[查看 Agent 控制与接入方式](#agent-control)。
 <!-- BBTV_MCP_ANNOUNCEMENT_END -->
 
 <!-- BBTV_KREA2_FEATURE_START -->
@@ -387,4 +387,4 @@ GitHub 从 **0.1.53** 起保留最近 **8 个稳定版本**的安装包及其校
 
 BBTV剪辑向所有用户免费开放，永不收费。我们会在原作基础上持续优化、更新功能，后续版本同样免费。
 
-BBTV剪辑 0.2.6 基于 [Concat](https://github.com/jub0t/Concat) 完整原生源码开发，原作者为 Jareer Abdullah 与 Concat 贡献者，遵循 AGPL-3.0-or-later。[下载本版完整对应源码 ZIP](https://bbtv.ainivox.cn/editor/source/BBTV-Editor-0.2.6-source.zip)，或查看[来源、许可与构建材料说明](docs/BBTV剪辑-开源来源与源码.md)。保留原版权与第三方归属，其他独立组件遵循各自许可。
+BBTV剪辑 0.2.6 基于 [Concat](https://github.com/jub0t/Concat) 完整原生源码开发，原作者为 Jareer Abdullah 与 Concat 贡献者，遵循 AGPL-3.0-or-later。[下载本版完整对应源码 ZIP](https://bbtv.ainivox.cn/editor/source/BBTV-Editor-0.2.6-source.zip?build=20261121-final)，或查看[来源、许可与构建材料说明](docs/BBTV剪辑-开源来源与源码.md)。保留原版权与第三方归属，其他独立组件遵循各自许可。

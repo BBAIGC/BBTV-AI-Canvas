@@ -428,8 +428,8 @@
     },
     {
       "path": "docs/BBTV剪辑-开源来源与源码.md",
-      "bytes": 2538,
-      "sha256": "60713d9132e8e3ede0fc55c08f1d38d9754b5a1729aa787102caef3372ec4103"
+      "bytes": 2559,
+      "sha256": "90ff890b7cbe748c55413740ad3adb40844b088ebb9b3c459e4f47f9f62fe1e0"
     },
     {
       "path": "docs/distribution-resources.json",
@@ -573,8 +573,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 34825,
-      "sha256": "ed348fdf42d1a2fa622ae517025e04d3ec5885bcc092e82dfd74c08efab440db"
+      "bytes": 34846,
+      "sha256": "c11b7f988ab2bb226c8574936b06872073a977b90905e45b1e941576080cd0c8"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -708,8 +708,8 @@
     },
     {
       "path": "release-notes/0.1.53.md",
-      "bytes": 1938,
-      "sha256": "0165e4cde610a15c4e891fbf8917a3b7a133848a786cc78f005aa82ae85936d2"
+      "bytes": 3603,
+      "sha256": "0d51895cfaae3d083218be8621d1c9d2793822e33192cb42b022f0702c66aef3"
     }
   ],
   "auditResult": {
