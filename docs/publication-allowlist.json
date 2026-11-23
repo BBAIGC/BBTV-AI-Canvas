@@ -182,7 +182,8 @@
     "docs/images/krea2/wisteria-selected-dual-soft.jpg",
     "release-notes/0.1.41.md",
     "release-notes/0.1.44.md",
-    "release-notes/0.1.53.md"
+    "release-notes/0.1.53.md",
+    "release-notes/0.1.54.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -199,7 +200,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.53",
+  "generatedFromVersion": "0.1.54",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -443,33 +444,33 @@
     },
     {
       "path": "docs/images/krea2/silver-dual-4k-preview.jpg",
-      "bytes": 149618,
-      "sha256": "b959ce7d703a39d6070ecdd23bc3a57e9b038872988836f8cca1c9ea0033e291"
+      "bytes": 82504,
+      "sha256": "fc08f02f98efad1e95e17799fbde896bb742da80f9eaec3b2a2f5af0379f5c41"
     },
     {
       "path": "docs/images/krea2/silver-selected-dual.jpg",
-      "bytes": 121420,
-      "sha256": "30dc202ca2c06fa33b8bdf258f7e02c1ed2ab8a8d862a6a83518b63d2c3c6bc0"
+      "bytes": 67246,
+      "sha256": "10e1aa7f144ce136692abde1fa5e1510361621434e37b59f6c08927adfe5d803"
     },
     {
       "path": "docs/images/krea2/silver-soft-filter.jpg",
-      "bytes": 108881,
-      "sha256": "5931572c0eecaa204ebae93c3e4541aa35e88ee938e1b474c131fcfb126de388"
+      "bytes": 60514,
+      "sha256": "7fa8a943bad2f9e5653d8f2e248cf891e56b4c25f2ed842af38924cbb2544242"
     },
     {
       "path": "docs/images/krea2/wisteria-selected-dual-soft.jpg",
-      "bytes": 148267,
-      "sha256": "4f51f2183cb9e74ef8f490ae7a7c02c321ddc23cb2178180ba70e884e8464620"
+      "bytes": 81682,
+      "sha256": "06a33f24400288725212ecf96688685472be2a99589f66e100d41c3a5d8c39b0"
     },
     {
       "path": "docs/images/krea2/wisteria-soft-filter.jpg",
-      "bytes": 149566,
-      "sha256": "4bff77d0447233663f35fe2691b1da95355564001216c9120434c06a5a9bedde"
+      "bytes": 82702,
+      "sha256": "70ee8cfed714020b3e25d78c1dbdd0dbdae79cc3e240d234d39bd1b5e0a64d40"
     },
     {
       "path": "docs/images/krea2/wisteria-soft.jpg",
-      "bytes": 132640,
-      "sha256": "97298e9052a4b3d7a271d223acaf2666fd06abc4ce0416439fd0b8b084ae2dd8"
+      "bytes": 73287,
+      "sha256": "ebe1337e35b890e4ad86545a4672ea4b251a4b72eff04e7acc9a27cca58fa3b7"
     },
     {
       "path": "docs/Krea2采样与风格对照.md",
@@ -548,8 +549,8 @@
     },
     {
       "path": "docs/model-distribution-inventory.json",
-      "bytes": 244544,
-      "sha256": "1cf932f32621b789253d0a16bc20c516a85adb0a77878e6d6405b87da324a7cc"
+      "bytes": 264017,
+      "sha256": "4f5a1460e57398769f31f5323cac3f9b341e15392a7aeb91af3d1076e581e317"
     },
     {
       "path": "docs/performance-reference.json",
@@ -573,8 +574,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 35326,
-      "sha256": "4da2783dcab324028f1b1f8019ee798ea7c3756908e07118365420748b55d15b"
+      "bytes": 35624,
+      "sha256": "9edbb12ff6bb12a136c0540137e87325bac88e8f3c5cf67360a397507346f3db"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -710,6 +711,11 @@
       "path": "release-notes/0.1.53.md",
       "bytes": 3603,
       "sha256": "0d51895cfaae3d083218be8621d1c9d2793822e33192cb42b022f0702c66aef3"
+    },
+    {
+      "path": "release-notes/0.1.54.md",
+      "bytes": 6902,
+      "sha256": "8d37c775331983ed6f15e8dcd7a490926cf9bb603720d2dde1f2824be777e530"
     }
   ],
   "auditResult": {
