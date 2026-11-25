@@ -183,7 +183,8 @@
     "release-notes/0.1.41.md",
     "release-notes/0.1.44.md",
     "release-notes/0.1.53.md",
-    "release-notes/0.1.54.md"
+    "release-notes/0.1.54.md",
+    "release-notes/0.1.55.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -200,7 +201,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.54",
+  "generatedFromVersion": "0.1.55",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -549,8 +550,8 @@
     },
     {
       "path": "docs/model-distribution-inventory.json",
-      "bytes": 264017,
-      "sha256": "4f5a1460e57398769f31f5323cac3f9b341e15392a7aeb91af3d1076e581e317"
+      "bytes": 180910,
+      "sha256": "69d2ed0c9b567839576d6d22bc1d1eb6e39cf8e26b7c0b96681e028d857db6d9"
     },
     {
       "path": "docs/performance-reference.json",
@@ -575,7 +576,7 @@
     {
       "path": "README.md",
       "bytes": 35624,
-      "sha256": "9edbb12ff6bb12a136c0540137e87325bac88e8f3c5cf67360a397507346f3db"
+      "sha256": "1b42cc7c1742e1022adb0416169261045284f94d964da8bcd8d5fc3d87443a37"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -716,6 +717,11 @@
       "path": "release-notes/0.1.54.md",
       "bytes": 6902,
       "sha256": "8d37c775331983ed6f15e8dcd7a490926cf9bb603720d2dde1f2824be777e530"
+    },
+    {
+      "path": "release-notes/0.1.55.md",
+      "bytes": 8275,
+      "sha256": "7d4ece36f96af443887522d8e8a1533b755e935aa760e3f4ab0f878f3f6e059c"
     }
   ],
   "auditResult": {
