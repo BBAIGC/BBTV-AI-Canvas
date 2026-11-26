@@ -77,7 +77,9 @@
     "docs/images/krea2/wisteria-soft-filter.jpg",
     "docs/images/krea2/silver-dual-4k-preview.jpg",
     "docs/images/krea2/silver-selected-dual.jpg",
-    "docs/images/krea2/wisteria-selected-dual-soft.jpg"
+    "docs/images/krea2/wisteria-selected-dual-soft.jpg",
+    "docs/distribution-resources.json",
+    "AGENT_INSTALL.md"
   ],
   "outputAllowlist": [
     "README.md",
@@ -184,7 +186,8 @@
     "release-notes/0.1.44.md",
     "release-notes/0.1.53.md",
     "release-notes/0.1.54.md",
-    "release-notes/0.1.55.md"
+    "release-notes/0.1.55.md",
+    "release-notes/0.1.56.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -201,17 +204,17 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.55",
+  "generatedFromVersion": "0.1.56",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
-      "bytes": 13767,
-      "sha256": "0955ecaffb57051479251b008bdcb3605f50c1cfe837942123a82f0e74f92ee8"
+      "bytes": 14478,
+      "sha256": "3ff6abdc011f44332c6047f4498e0836cbc2f066f6bf213b31f914dc2dee10eb"
     },
     {
       "path": "docs/模型安装说明.txt",
-      "bytes": 2492,
-      "sha256": "67cb57d41112533fac89ca7b0dec99692520f4fc73c95dd6caa4b78beb9b9cbf"
+      "bytes": 3203,
+      "sha256": "b274c83afb33784556e409a8c2feed6bd32af001544cb030800569dbf14fb4e4"
     },
     {
       "path": "docs/assets/about-updates.png",
@@ -435,8 +438,8 @@
     },
     {
       "path": "docs/distribution-resources.json",
-      "bytes": 11039,
-      "sha256": "f262839fee87e124247ec0a7747cc0d3237f1b5638ee87672670243214e774b2"
+      "bytes": 39922,
+      "sha256": "7ba1dfa0c8e6e1e1aa090c20942f6054b09ab813379ac39f5cd68d92a64b81c0"
     },
     {
       "path": "docs/H3图片与视频示例.md",
@@ -575,8 +578,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 35624,
-      "sha256": "1b42cc7c1742e1022adb0416169261045284f94d964da8bcd8d5fc3d87443a37"
+      "bytes": 36263,
+      "sha256": "61519c9df312ecd0e2096eb04c894272d15f8f4fae243c11bedc8615e2c700d6"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -722,6 +725,11 @@
       "path": "release-notes/0.1.55.md",
       "bytes": 8275,
       "sha256": "7d4ece36f96af443887522d8e8a1533b755e935aa760e3f4ab0f878f3f6e059c"
+    },
+    {
+      "path": "release-notes/0.1.56.md",
+      "bytes": 4483,
+      "sha256": "0f40354072aa100ad021e663cc89da76a2f998b5391c3139d1534d2bf3379b5e"
     }
   ],
   "auditResult": {

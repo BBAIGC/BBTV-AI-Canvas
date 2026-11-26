@@ -22,8 +22,8 @@
     "downloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
     "extractionCode": "rpmx",
     "inventoryPath": "docs/model-distribution-inventory.json",
-    "verifiedBytes": 333425848882,
-    "verifiedFiles": 142,
+    "verifiedBytes": 347171444358,
+    "verifiedFiles": 151,
     "tiers": [
       {
         "id": "mandatory",
@@ -37,8 +37,8 @@
         "id": "optional",
         "label": "可选扩展",
         "directory": "04-可选扩展",
-        "files": 120,
-        "bytes": 275089376832,
+        "files": 146,
+        "bytes": 297375084398,
         "description": "其他图片、视频、配音、修脸和控制模型；共享编码器及 VAE 复用基础资源。"
       }
     ],
@@ -66,19 +66,259 @@
         "shareVerified": true,
         "licenseDownloadUrl": "https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/LICENSE",
         "licenseSha256": "4a699ec4863d96a91fc265948a0c90033f7e8735d515524dcf3444736406e0c2"
-      }
-    ],
-    "optionalPending": [
+      },
       {
-        "name": "FastH3 Omni",
-        "installRelativePath": "diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors",
-        "bytes": 22213723064,
-        "reason": "网盘分包同步中；可用官方固定直链或现有本地模型。",
-        "downloadUrl": "https://huggingface.co/FastVideo/FastH3-Omni-Comfy/resolve/82eff2a6eee6c962846879f4bab52610a4df24d3/diffusion_models/fasth3_omniref_8step_pruned_int8_convrot.safetensors?download=true",
-        "sha256": "851b2dc9670ed864b7f1e951ac9da047d83b1c04ded9bfcc1a9e5bba0ee33f80"
+        "id": "krea2-cc-soft",
+        "name": "krea2-Cc-MJ-影视柔光.safetensors",
+        "installRelativePath": "loras/BBTV-Krea2/krea2-Cc-MJ-影视柔光.safetensors",
+        "downloadUrl": "https://huggingface.co/RunningHubAI/rh-krea2-cc-mj-lora/resolve/e73572d26b4983c07d52cd2a79c5b7ebfc068636/krea2-Cc-MJ-影视柔光.safetensors",
+        "bytes": 228616016,
+        "sha256": "1e8a3daeee59893d626da3abc2cdbac84786738069b58d23a2cec357ecd0ee26",
+        "license": "Original author rights retained; no ownership or license transfer claimed.",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "targetRelativePath": "04-可选扩展/01-图片生成/Krea2 LoRA/loras/BBTV-Krea2/krea2-Cc-MJ-影视柔光.safetensors",
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx"
+      },
+      {
+        "id": "krea2-cc-filter",
+        "name": "krea2-Cc-MJ-风格滤镜.safetensors",
+        "installRelativePath": "loras/BBTV-Krea2/krea2-Cc-MJ-风格滤镜.safetensors",
+        "downloadUrl": "https://huggingface.co/RunningHubAI/rh-krea2-cc-mj-lora/resolve/e73572d26b4983c07d52cd2a79c5b7ebfc068636/krea2-Cc-MJ-风格滤镜.safetensors",
+        "bytes": 342878264,
+        "sha256": "a7c4936fca171cadbdc5b97c2315da7810d5fd68e6a4deffb3813074ee9e0a6f",
+        "license": "Original author rights retained; no ownership or license transfer claimed.",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "targetRelativePath": "04-可选扩展/01-图片生成/Krea2 LoRA/loras/BBTV-Krea2/krea2-Cc-MJ-风格滤镜.safetensors",
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx"
+      },
+      {
+        "id": "krea2-tiangong",
+        "name": "天宫仙界东方神话场景，Tiangong Celestial Palace - Chinese Mythical Architecture LoRA - KreaTurbo-v2.0.safetensors",
+        "installRelativePath": "loras/天宫仙境巨大构图lora/天宫仙界东方神话场景，Tiangong Celestial Palace - Chinese Mythical Architecture LoRA - KreaTurbo-v2.0.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/Krea2 LoRA/loras/天宫仙境巨大构图lora/天宫仙界东方神话场景，Tiangong Celestial Palace - Chinese Mythical Architecture LoRA - KreaTurbo-v2.0.safetensors",
+        "bytes": 469292392,
+        "sha256": "b607e0b8a04a7d20e1f8046bf80edd67533d49e6649c551f137d816fb75c2b45",
+        "license": "Original author rights retained; file metadata does not declare a license.",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "author": "klixen",
+        "triggerWords": "shenhua_Style,",
+        "sourceRepository": "klixen/krea2chinese_shenhua_style"
+      },
+      {
+        "id": "hunyuan3d-u2net",
+        "name": "u2net.onnx",
+        "installRelativePath": "rembg/u2net.onnx",
+        "targetRelativePath": "06-3D转换扩展包/00-主体抠图配套/rembg/u2net.onnx",
+        "bytes": 175997641,
+        "sha256": "8d10d2f3bb75ae3b6d527c77944fc5e7dcd94b29809d47a739a7a728a912b491",
+        "license": "Apache-2.0 (U-2-Net)",
+        "remoteOnly": false,
+        "shareVerified": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx"
+      },
+      {
+        "id": "hunyuan3d-21",
+        "name": "hunyuan_3d_v2.1.safetensors",
+        "installRelativePath": "checkpoints/hunyuan_3d_v2.1.safetensors",
+        "targetRelativePath": "06-3D转换扩展包/Hunyuan3D-2.1/checkpoints/hunyuan_3d_v2.1.safetensors",
+        "bytes": 7365943290,
+        "sha256": "5f21e98a6cb99b13b5e224abaee33929570fff7af2b6a0060001559a04ba9d72",
+        "license": "Tencent Hunyuan 3D Community License",
+        "remoteOnly": false,
+        "shareVerified": true,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/Comfy-Org/hunyuan3D_2.1_repackaged/resolve/d28dcff0eb85a3740955e24cb1d53def66591278/hunyuan_3d_v2.1.safetensors"
+      },
+      {
+        "id": "hunyuan3d-20-multiview",
+        "name": "hunyuan3d-dit-v2-mv_fp16.safetensors",
+        "installRelativePath": "checkpoints/hunyuan3d-dit-v2-mv_fp16.safetensors",
+        "targetRelativePath": "06-3D转换扩展包/Hunyuan3D-2.0-多视角/checkpoints/hunyuan3d-dit-v2-mv_fp16.safetensors",
+        "bytes": 4928151562,
+        "sha256": "d36f5881bcdc56726b73e517cd444c13c60732431622da7268145355c8d38e9c",
+        "license": "Tencent Hunyuan 3D Community License",
+        "remoteOnly": false,
+        "shareVerified": true,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/Comfy-Org/hunyuan3D_2.0_repackaged/resolve/15c2937a842a1f8cb5cedc840790ef973b583e5f/split_files/hunyuan3d-dit-v2-mv_fp16.safetensors"
+      },
+      {
+        "id": "krea2-herraw",
+        "name": "HerRAW真实女生摄影-v0.2.safetensors",
+        "installRelativePath": "loras/东亚女生优化/HerRAW真实女生摄影-v0.2.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/Krea2 LoRA/loras/东亚女生优化/HerRAW真实女生摄影-v0.2.safetensors",
+        "bytes": 234680568,
+        "sha256": "eb40e42e2ce78bcd751d35f67033392cfa9bcabdbc005dfb381f638243669ffc",
+        "license": "Original author rights retained; supplied file does not declare a license.",
+        "remoteOnly": false,
+        "shareVerified": true,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx"
+      },
+      {
+        "id": "hunyuan3d-u2net",
+        "name": "u2net.onnx",
+        "installRelativePath": "rembg/u2net.onnx",
+        "targetRelativePath": "06-3D转换扩展包/00-主体抠图配套/rembg/u2net.onnx",
+        "bytes": 175997641,
+        "sha256": "8d10d2f3bb75ae3b6d527c77944fc5e7dcd94b29809d47a739a7a728a912b491",
+        "license": "Apache-2.0 (U-2-Net)",
+        "remoteOnly": false,
+        "shareVerified": true,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx"
+      },
+      {
+        "id": "file-123",
+        "name": "qwen21_multiple_angles_v2_step1500.safetensors",
+        "installRelativePath": "loras/qwen21_multiple_angles_v2_step1500.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/Qwen 2.1 相机控制 V2/loras/qwen21_multiple_angles_v2_step1500.safetensors",
+        "bytes": 318819792,
+        "sha256": "548c57977c3f1c09c2c9e5f4e83e930cbc6f719c878a576ab8666ce29fef39b6",
+        "license": "Apache-2.0",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/akhaliq/Qwen-Image-2.1-Multiple-Angles-LoRA/resolve/175b29b6eb41307473eebc363fca8fc198216b60/checkpoints_v2/angles_v2_full_qwen21_multiple_angles_v2_qwen21_multiple_angles_v2_000001500.safetensors"
+      },
+      {
+        "id": "qwen21-panorama",
+        "name": "pano360_qwen21_edit_v1.safetensors",
+        "installRelativePath": "loras/BBTV-research-qwen21/pano360_qwen21_edit_v1.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/Qwen 2.1 LoRA/loras/BBTV-research-qwen21/pano360_qwen21_edit_v1.safetensors",
+        "bytes": 159436400,
+        "sha256": "846a39df32e95307207727e16c8d2d88f873f10c590f72450da33a6a2dc5203c",
+        "license": "Original author rights and upstream Qwen license retained; no adapter redistribution license declared.",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/Gogodr/qwen-image-2.1-edit-pano360-lora/resolve/fe3f3d07c842a5f3afd03b7cf4329e30e2e0ef89/pano360_qwen21_edit_v1.safetensors"
+      },
+      {
+        "id": "h3-pika-ref2va",
+        "name": "pika_h3_flex_ref2va_v1_bf16.safetensors",
+        "installRelativePath": "loras/pika_h3_flex_ref2va_v1_bf16.safetensors",
+        "targetRelativePath": "04-可选扩展/02-视频生成/Pika H3 Flex 多参考6步/loras/pika_h3_flex_ref2va_v1_bf16.safetensors",
+        "bytes": 1956172304,
+        "sha256": "de3745ceb7d8d5c20898dd8fa3a05f1c0b00089ccd55297b2a8bab95c766b0e0",
+        "license": "MiniMax-H3 Community License + Pika upstream notices",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/4b53a35191437de05370da548e59aeabe2a5a09a/loras/pika_h3_flex_ref2va_v1_bf16.safetensors"
+      },
+      {
+        "id": "h3-image-seedream-style",
+        "name": "Seedreamstyle_H3_Resume_6K.safetensors",
+        "installRelativePath": "loras/Seedreamstyle_H3_Resume_6K.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/H3 Image LoRA/loras/Seedreamstyle_H3_Resume_6K.safetensors",
+        "bytes": 149194304,
+        "sha256": "3e1d306c8a392d9cb53540c8f6b853042e008a1f604992a3800ecc99075e2fe8",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/Nebsh/Seedreamstyle-H3-6K/resolve/9d94f273067f0c8d277de8eee88ad2d7a35ba217/Seedreamstyle_H3_Resume_6K.safetensors"
+      },
+      {
+        "id": "h3-image-asian-beauty",
+        "name": "H3_AsianBeauty.safetensors",
+        "installRelativePath": "loras/H3_AsianBeauty.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/H3 Image LoRA/loras/H3_AsianBeauty.safetensors",
+        "bytes": 310168840,
+        "sha256": "19dd57bbdedb3c23997d5b67454e3325143a3280c55c9923141d72d92cf9d82f",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/gsw85/h3-images/resolve/fda527f8297c00d7cbf0c58e79230dc24b40f75d/H3_AsianBeauty.safetensors"
+      },
+      {
+        "id": "krea2-mj-rebel",
+        "name": "RebelMidjourney_(Krea-2).safetensors",
+        "installRelativePath": "loras/BBTV_MJ_LoRA_Test_2026-11-24/REBEL/RebelMidjourney_(Krea-2).safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/Krea2 LoRA/loras/BBTV_MJ_LoRA_Test_2026-11-24/REBEL/RebelMidjourney_(Krea-2).safetensors",
+        "bytes": 228588904,
+        "sha256": "a6c63443a069e091470d8f8bc2627f89e8fa1369a04f4038a152122d3faabee8",
+        "license": "Original author rights retained; no ownership or license transfer claimed.",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/realrebelai/RebelMidjourney_LoRA_Collection/resolve/ecd8bdf05e53f23551a40dd17b6558708a8d3d5b/RebelMidjourney_%28Krea-2%29.safetensors"
+      },
+      {
+        "id": "krea2-mj-vast",
+        "name": "辽阔巨构场景__DC Vast Expanse [Krea2][GPT4.1Captioned][Trigger=DCVSTEXP.][Rank32] v1.safetensors",
+        "installRelativePath": "loras/BBTV-Krea2/辽阔巨构场景__DC Vast Expanse [Krea2][GPT4.1Captioned][Trigger=DCVSTEXP.][Rank32] v1.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/Krea2 LoRA/loras/BBTV-Krea2/辽阔巨构场景__DC Vast Expanse [Krea2][GPT4.1Captioned][Trigger=DCVSTEXP.][Rank32] v1.safetensors",
+        "bytes": 228587896,
+        "sha256": "46e73efa53ee112506c297025398acda8d136e581ce48f9f66d28f3d9f39c5d9",
+        "license": "Original author rights retained; no ownership or license transfer claimed.",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/stevechap416/vast_test/resolve/50699d1afb27f2ce3a9d59ac07df5c4a2eadaf2f/DC%20Vast%20Expanse%20%5BKrea2%5D%5BGPT4.1Captioned%5D%5BTrigger%3DDCVSTEXP.%5D%5BRank32%5D%20v1.safetensors"
+      },
+      {
+        "id": "krea2-mj-dynasty",
+        "name": "DC Celestial Dynasty [Krea2Raw][GPT4.1Captioned][Trigger=DCC3LDYN@S. ][Rank32] v1.safetensors",
+        "installRelativePath": "loras/BBTV_MJ_LoRA_Test_2026-11-24/DYNASTY/DC Celestial Dynasty [Krea2Raw][GPT4.1Captioned][Trigger=DCC3LDYN@S. ][Rank32] v1.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/Krea2 LoRA/loras/BBTV_MJ_LoRA_Test_2026-11-24/DYNASTY/DC Celestial Dynasty [Krea2Raw][GPT4.1Captioned][Trigger=DCC3LDYN@S. ][Rank32] v1.safetensors",
+        "bytes": 228587856,
+        "sha256": "f6788bb07b42904b71fb9da5d9579e5a0f6d3d244b3a0d6a889cfa951241eacd",
+        "license": "Original author rights retained; no ownership or license transfer claimed.",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/RunningHubAI/rh-dc-lora/resolve/4635b5ad916676c200f5a53b047705f9ee0518f0/DC%20Celestial%20Dynasty%20%5BKrea2Raw%5D%5BGPT4.1Captioned%5D%5BTrigger%3DDCC3LDYN%40S.%20%5D%5BRank32%5D%20v1.safetensors"
+      },
+      {
+        "id": "krea2-mj-mecha",
+        "name": "adapter_model.safetensors",
+        "installRelativePath": "loras/BBTV_MJ_LoRA_Test_2026-11-24/MECHA/adapter_model.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/Krea2 LoRA/loras/BBTV_MJ_LoRA_Test_2026-11-24/MECHA/adapter_model.safetensors",
+        "bytes": 229932352,
+        "sha256": "2b3297050e4daab8f3eea6398eb1171d65d07e92cd5d84ca535340d198cd169f",
+        "license": "Original author rights retained; no ownership or license transfer claimed.",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx"
+      },
+      {
+        "id": "krea2-mj-zjourney",
+        "name": "zjourneykreav1.safetensors",
+        "installRelativePath": "loras/BBTV_MJ_LoRA_Test_2026-11-24/ZJOURNEY/zjourneykreav1.safetensors",
+        "targetRelativePath": "04-可选扩展/01-图片生成/Krea2 LoRA/loras/BBTV_MJ_LoRA_Test_2026-11-24/ZJOURNEY/zjourneykreav1.safetensors",
+        "bytes": 228587498,
+        "sha256": "5685942a68782e4a77bd4b28911e98e71b5d4f8b9cee5291f71b1f4f4dcd803a",
+        "license": "Original author rights retained; no ownership or license transfer claimed.",
+        "shareVerified": true,
+        "remoteOnly": false,
+        "shareDownloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "downloadUrl": "https://huggingface.co/tsolful/zjourney-Ideogram4-Krea2-Fantasy-Realism-Refiner/resolve/765edb846958c8568999d0258ebd87c64aa8cc02/zjourneykreav1.safetensors"
       }
     ],
-    "baseLanguageModel": "Qwen3.5 9B"
+    "optionalPending": [],
+    "baseLanguageModel": "Qwen3.5 9B",
+    "catalogFiles": 172,
+    "catalogBytes": 379004990108,
+    "remoteOnlyFiles": 10,
+    "remoteOnlyBytes": 5280218880,
+    "optionalExtensions": [
+      {
+        "id": "bbtv-3d-extension",
+        "label": "3D转换扩展包",
+        "directory": "06-3D转换扩展包",
+        "defaultDownload": false,
+        "downloadUrl": "https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx",
+        "extractionCode": "rpmx",
+        "files": 5,
+        "bytes": 12470128236,
+        "shareVerified": true,
+        "textPipelineRequires": "Krea2 Turbo完整配套；复用原03基础模型或BBTV贴心包/05-Hunyuan3D-2.1-图生与文生"
+      }
+    ],
+    "templateDependencyAuditDate": "2026-11-25"
   },
   "authorHardware": {
     "cpu": "Intel Core i7-12700KF",
@@ -94,10 +334,10 @@
     "hint": "复制后发给 Codex、Claude Code、豆包工作、WorkBuddy、字节 TRAE、MiniMax Code，协助检测本机 ComfyUI 路径、模型与硬件并部署。",
     "intro": "请协助我在这台 Windows 电脑上配置 BBTV 本地推理引擎与模型。按下列目标执行实际检查和部署，保留现有 ComfyUI、模型、画布与用户设置。",
     "commonSteps": [
-      "先检测 Windows 版本、CPU、内存、GPU、可用显存、驱动和目标磁盘剩余空间。记录实际检测结果；不要用作者电脑配置代替我的硬件。",
+      "先按“01-软件包 → 02-推理引擎 → 03-基础模型”准备常用本地能力；其他模型按软件提示下载“04-可选扩展”内对应真实权重文件夹并直接拖入 BBTV。共享组件位于各功能的“00-共享配套”，已匹配文件只需一份，不重复下载。再检测本机 Windows、CPU、内存、GPU、可用显存、驱动和目标磁盘空间，不用作者配置代替实际硬件。",
       "如果尚未安装 BBTV，只从官网或官方 GitHub Releases 获取 Windows 二进制安装器，核对版本和校验值后安装；GitHub 是安装包与使用文档入口，不要求克隆源码或在本机编译。",
       "定位已有 ComfyUI（包括便携版、整合包和独立 Python 环境）、extra_model_paths.yaml、BBTV 引擎与模型目录。先检查常见安装位置和用户指定目录，再按实际证据扩大查找；不要全盘读取无关文件。",
-      "先在“05-按模型下载”中选择所需模型并阅读该模型的完整安装清单，按精确路径逐项准备配套资源。“01-软件包”“02-推理引擎”分别存放程序与引擎；“03-基础模型”“04-可选扩展”按功能、模型名称和组件类别存放权重，多模型共享依赖只在“00-共享配套”保留一份。只下载所选模型清单中的文件，无需下载全部基础模型或全部可选扩展。",
+      "“01-软件包”“02-推理引擎”分别提供程序与引擎；“03-基础模型”包含 Krea 2、H3 视频、VOSR2 等常用配套，需满足实际硬件条件。“04-可选扩展”按功能和模型存放权重，所选模型还可能依赖基础包或其他功能的共享组件。根据软件缺项提示与对应文件夹配套清单补齐，仅下载缺失文件；基础资源不等于所有扩展模型配套已完整。",
       "复用已存在且匹配的模型文件，按公开清单核对大小与 SHA256，不能只凭名称判断；名称不同但哈希一致的文件也是可复用资源。检查并使用 extra_model_paths.yaml；如果 BBTV 需要清单指定的模型名称，可采用文件联接或额外路径配置满足别名，保留原权重原位，不搬移、不重复下载。仅下载缺失且适合本机的资源，图片、视频、文本编码器、VAE、LoRA 和放大模型必须按依赖配套，不把包名当作已完整可用的证据。 用户主动拖入下载的模型包时，按清单校验后归位：同盘移动，跨盘校验复制成功再移除该下载源；已有 ComfyUI 或 Ollama 模型仍可原位复用，不搬移既有环境。",
       "按资源清单的 installRoot 和 installRelativePath 分流安装，不将基础/可选、功能分类或旧“模型库”目录整层嵌入 models。新旧包目录都支持识别；Ollama 必须保留 manifest、所有 blob 与图像投影器完整引用。导入模型后刷新检测，无需重启应用；导入引擎时依界面提示重启。遵守每个模型各自许可。",
       "先给出本机适合的功能组合、所需磁盘空间与缺失资源，再部署已选择的组合。不要覆盖同名模型或删除现有环境；修改配置前保留可恢复备份，不强制迁移已有模型。",
@@ -143,7 +383,8 @@
       "steps": [
         "优先根据这台电脑的实际显存、内存和磁盘空间推荐组合；先完成可运行的最小闭环，再按我的用途逐项增加功能。",
         "如果显存或存储不足，说明具体不满足的模型与替代方案，不因为作者电脑能运行就承诺本机也能运行。"
-      ]
+      ],
+      "prompt": "请协助我在这台 Windows 电脑上配置 BBTV 本地推理引擎与模型。按下列目标执行实际检查和部署，保留现有 ComfyUI、模型、画布与用户设置。\n方案：按电脑配置推荐\n1. 优先根据这台电脑的实际显存、内存和磁盘空间推荐组合；先完成可运行的最小闭环，再按我的用途逐项增加功能。\n2. 如果显存或存储不足，说明具体不满足的模型与替代方案，不因为作者电脑能运行就承诺本机也能运行。\n\n共同执行要求：\n1. 先按“01-软件包 → 02-推理引擎 → 03-基础模型”准备常用本地能力；其他模型按软件提示下载“04-可选扩展”内对应真实权重文件夹并直接拖入 BBTV。共享组件位于各功能的“00-共享配套”，已匹配文件只需一份，不重复下载。再检测本机 Windows、CPU、内存、GPU、可用显存、驱动和目标磁盘空间，不用作者配置代替实际硬件。\n2. 如果尚未安装 BBTV，只从官网或官方 GitHub Releases 获取 Windows 二进制安装器，核对版本和校验值后安装；GitHub 是安装包与使用文档入口，不要求克隆源码或在本机编译。\n3. 定位已有 ComfyUI（包括便携版、整合包和独立 Python 环境）、extra_model_paths.yaml、BBTV 引擎与模型目录。先检查常见安装位置和用户指定目录，再按实际证据扩大查找；不要全盘读取无关文件。\n4. “01-软件包”“02-推理引擎”分别提供程序与引擎；“03-基础模型”包含 Krea 2、H3 视频、VOSR2 等常用配套，需满足实际硬件条件。“04-可选扩展”按功能和模型存放权重，所选模型还可能依赖基础包或其他功能的共享组件。根据软件缺项提示与对应文件夹配套清单补齐，仅下载缺失文件；基础资源不等于所有扩展模型配套已完整。\n5. 复用已存在且匹配的模型文件，按公开清单核对大小与 SHA256，不能只凭名称判断；名称不同但哈希一致的文件也是可复用资源。检查并使用 extra_model_paths.yaml；如果 BBTV 需要清单指定的模型名称，可采用文件联接或额外路径配置满足别名，保留原权重原位，不搬移、不重复下载。仅下载缺失且适合本机的资源，图片、视频、文本编码器、VAE、LoRA 和放大模型必须按依赖配套，不把包名当作已完整可用的证据。 用户主动拖入下载的模型包时，按清单校验后归位：同盘移动，跨盘校验复制成功再移除该下载源；已有 ComfyUI 或 Ollama 模型仍可原位复用，不搬移既有环境。\n6. 按资源清单的 installRoot 和 installRelativePath 分流安装，不将基础/可选、功能分类或旧“模型库”目录整层嵌入 models。新旧包目录都支持识别；Ollama 必须保留 manifest、所有 blob 与图像投影器完整引用。导入模型后刷新检测，无需重启应用；导入引擎时依界面提示重启。遵守每个模型各自许可。\n7. 先给出本机适合的功能组合、所需磁盘空间与缺失资源，再部署已选择的组合。不要覆盖同名模型或删除现有环境；修改配置前保留可恢复备份，不强制迁移已有模型。\n8. 网盘分享页不是文件直链。使用已公开的真实下载链接；若资源链接尚未开放，或百度网盘需要我完成登录、转存或下载，请明确说明并使用我提供的本地压缩包，不编造链接或校验值。\n9. 部署后检查核心依赖、模型文件与本地推理服务。启动 BBTV，在设置的本地引擎中选择正确目录，保存配置并按需重启；分别验证引擎连通、模型列表和对应功能是否可用。未经我选择，不调用收费云端接口。\n10. 最后列出实际使用的路径、复用与新增文件、验证结果和仍缺少的资源；失败时保留成功部分，说明下一步，不把未验证的功能标为成功。\n\n官方网站：https://bbtv.ainivox.cn\n安装包与使用文档：https://github.com/BBAIGC/BBTV-AI-Canvas\n模型清单：https://github.com/BBAIGC/BBTV-AI-Canvas/blob/main/docs/model-distribution-inventory.json\n推理引擎：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）\n模型资源：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）\n作者电脑：i7-12700KF · 64 GB 内存 · RTX 5060 Ti 16 GB"
     },
     {
       "id": "lite",
@@ -153,7 +394,8 @@
       "steps": [
         "先询问我主要需要图片生成、视频生成还是图片放大，只部署选定功能和必须的配套依赖，不把作者完整模型库全部下载。",
         "轻量是相对作者全套减少资源，并不是低显存保证。特别核对视频模型、编码器、VAE 和默认加速 LoRA 的总大小，以及本机可用显存与内存。"
-      ]
+      ],
+      "prompt": "请协助我在这台 Windows 电脑上配置 BBTV 本地推理引擎与模型。按下列目标执行实际检查和部署，保留现有 ComfyUI、模型、画布与用户设置。\n方案：轻量部署\n1. 先询问我主要需要图片生成、视频生成还是图片放大，只部署选定功能和必须的配套依赖，不把作者完整模型库全部下载。\n2. 轻量是相对作者全套减少资源，并不是低显存保证。特别核对视频模型、编码器、VAE 和默认加速 LoRA 的总大小，以及本机可用显存与内存。\n\n共同执行要求：\n1. 先按“01-软件包 → 02-推理引擎 → 03-基础模型”准备常用本地能力；其他模型按软件提示下载“04-可选扩展”内对应真实权重文件夹并直接拖入 BBTV。共享组件位于各功能的“00-共享配套”，已匹配文件只需一份，不重复下载。再检测本机 Windows、CPU、内存、GPU、可用显存、驱动和目标磁盘空间，不用作者配置代替实际硬件。\n2. 如果尚未安装 BBTV，只从官网或官方 GitHub Releases 获取 Windows 二进制安装器，核对版本和校验值后安装；GitHub 是安装包与使用文档入口，不要求克隆源码或在本机编译。\n3. 定位已有 ComfyUI（包括便携版、整合包和独立 Python 环境）、extra_model_paths.yaml、BBTV 引擎与模型目录。先检查常见安装位置和用户指定目录，再按实际证据扩大查找；不要全盘读取无关文件。\n4. “01-软件包”“02-推理引擎”分别提供程序与引擎；“03-基础模型”包含 Krea 2、H3 视频、VOSR2 等常用配套，需满足实际硬件条件。“04-可选扩展”按功能和模型存放权重，所选模型还可能依赖基础包或其他功能的共享组件。根据软件缺项提示与对应文件夹配套清单补齐，仅下载缺失文件；基础资源不等于所有扩展模型配套已完整。\n5. 复用已存在且匹配的模型文件，按公开清单核对大小与 SHA256，不能只凭名称判断；名称不同但哈希一致的文件也是可复用资源。检查并使用 extra_model_paths.yaml；如果 BBTV 需要清单指定的模型名称，可采用文件联接或额外路径配置满足别名，保留原权重原位，不搬移、不重复下载。仅下载缺失且适合本机的资源，图片、视频、文本编码器、VAE、LoRA 和放大模型必须按依赖配套，不把包名当作已完整可用的证据。 用户主动拖入下载的模型包时，按清单校验后归位：同盘移动，跨盘校验复制成功再移除该下载源；已有 ComfyUI 或 Ollama 模型仍可原位复用，不搬移既有环境。\n6. 按资源清单的 installRoot 和 installRelativePath 分流安装，不将基础/可选、功能分类或旧“模型库”目录整层嵌入 models。新旧包目录都支持识别；Ollama 必须保留 manifest、所有 blob 与图像投影器完整引用。导入模型后刷新检测，无需重启应用；导入引擎时依界面提示重启。遵守每个模型各自许可。\n7. 先给出本机适合的功能组合、所需磁盘空间与缺失资源，再部署已选择的组合。不要覆盖同名模型或删除现有环境；修改配置前保留可恢复备份，不强制迁移已有模型。\n8. 网盘分享页不是文件直链。使用已公开的真实下载链接；若资源链接尚未开放，或百度网盘需要我完成登录、转存或下载，请明确说明并使用我提供的本地压缩包，不编造链接或校验值。\n9. 部署后检查核心依赖、模型文件与本地推理服务。启动 BBTV，在设置的本地引擎中选择正确目录，保存配置并按需重启；分别验证引擎连通、模型列表和对应功能是否可用。未经我选择，不调用收费云端接口。\n10. 最后列出实际使用的路径、复用与新增文件、验证结果和仍缺少的资源；失败时保留成功部分，说明下一步，不把未验证的功能标为成功。\n\n官方网站：https://bbtv.ainivox.cn\n安装包与使用文档：https://github.com/BBAIGC/BBTV-AI-Canvas\n模型清单：https://github.com/BBAIGC/BBTV-AI-Canvas/blob/main/docs/model-distribution-inventory.json\n推理引擎：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）\n模型资源：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）\n作者电脑：i7-12700KF · 64 GB 内存 · RTX 5060 Ti 16 GB"
     },
     {
       "id": "author",
@@ -163,7 +405,8 @@
       "steps": [
         "以作者公开清单为目标逐项核对图片、视频、编辑、放大与配套资源；先统计整套下载和解压空间，列明现有文件可复用的部分。",
         "完整资源数量不等于本机能同时加载。按我的硬件选择精度、分辨率和资源释放策略；作者硬件仅作参考，不把所有模型强行常驻显存。"
-      ]
+      ],
+      "prompt": "请协助我在这台 Windows 电脑上配置 BBTV 本地推理引擎与模型。按下列目标执行实际检查和部署，保留现有 ComfyUI、模型、画布与用户设置。\n方案：作者全量配置\n1. 以作者公开清单为目标逐项核对图片、视频、编辑、放大与配套资源；先统计整套下载和解压空间，列明现有文件可复用的部分。\n2. 完整资源数量不等于本机能同时加载。按我的硬件选择精度、分辨率和资源释放策略；作者硬件仅作参考，不把所有模型强行常驻显存。\n\n共同执行要求：\n1. 先按“01-软件包 → 02-推理引擎 → 03-基础模型”准备常用本地能力；其他模型按软件提示下载“04-可选扩展”内对应真实权重文件夹并直接拖入 BBTV。共享组件位于各功能的“00-共享配套”，已匹配文件只需一份，不重复下载。再检测本机 Windows、CPU、内存、GPU、可用显存、驱动和目标磁盘空间，不用作者配置代替实际硬件。\n2. 如果尚未安装 BBTV，只从官网或官方 GitHub Releases 获取 Windows 二进制安装器，核对版本和校验值后安装；GitHub 是安装包与使用文档入口，不要求克隆源码或在本机编译。\n3. 定位已有 ComfyUI（包括便携版、整合包和独立 Python 环境）、extra_model_paths.yaml、BBTV 引擎与模型目录。先检查常见安装位置和用户指定目录，再按实际证据扩大查找；不要全盘读取无关文件。\n4. “01-软件包”“02-推理引擎”分别提供程序与引擎；“03-基础模型”包含 Krea 2、H3 视频、VOSR2 等常用配套，需满足实际硬件条件。“04-可选扩展”按功能和模型存放权重，所选模型还可能依赖基础包或其他功能的共享组件。根据软件缺项提示与对应文件夹配套清单补齐，仅下载缺失文件；基础资源不等于所有扩展模型配套已完整。\n5. 复用已存在且匹配的模型文件，按公开清单核对大小与 SHA256，不能只凭名称判断；名称不同但哈希一致的文件也是可复用资源。检查并使用 extra_model_paths.yaml；如果 BBTV 需要清单指定的模型名称，可采用文件联接或额外路径配置满足别名，保留原权重原位，不搬移、不重复下载。仅下载缺失且适合本机的资源，图片、视频、文本编码器、VAE、LoRA 和放大模型必须按依赖配套，不把包名当作已完整可用的证据。 用户主动拖入下载的模型包时，按清单校验后归位：同盘移动，跨盘校验复制成功再移除该下载源；已有 ComfyUI 或 Ollama 模型仍可原位复用，不搬移既有环境。\n6. 按资源清单的 installRoot 和 installRelativePath 分流安装，不将基础/可选、功能分类或旧“模型库”目录整层嵌入 models。新旧包目录都支持识别；Ollama 必须保留 manifest、所有 blob 与图像投影器完整引用。导入模型后刷新检测，无需重启应用；导入引擎时依界面提示重启。遵守每个模型各自许可。\n7. 先给出本机适合的功能组合、所需磁盘空间与缺失资源，再部署已选择的组合。不要覆盖同名模型或删除现有环境；修改配置前保留可恢复备份，不强制迁移已有模型。\n8. 网盘分享页不是文件直链。使用已公开的真实下载链接；若资源链接尚未开放，或百度网盘需要我完成登录、转存或下载，请明确说明并使用我提供的本地压缩包，不编造链接或校验值。\n9. 部署后检查核心依赖、模型文件与本地推理服务。启动 BBTV，在设置的本地引擎中选择正确目录，保存配置并按需重启；分别验证引擎连通、模型列表和对应功能是否可用。未经我选择，不调用收费云端接口。\n10. 最后列出实际使用的路径、复用与新增文件、验证结果和仍缺少的资源；失败时保留成功部分，说明下一步，不把未验证的功能标为成功。\n\n官方网站：https://bbtv.ainivox.cn\n安装包与使用文档：https://github.com/BBAIGC/BBTV-AI-Canvas\n模型清单：https://github.com/BBAIGC/BBTV-AI-Canvas/blob/main/docs/model-distribution-inventory.json\n推理引擎：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）\n模型资源：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）\n作者电脑：i7-12700KF · 64 GB 内存 · RTX 5060 Ti 16 GB"
     }
   ],
   "performance": [
