@@ -187,7 +187,8 @@
     "release-notes/0.1.53.md",
     "release-notes/0.1.54.md",
     "release-notes/0.1.55.md",
-    "release-notes/0.1.56.md"
+    "release-notes/0.1.56.md",
+    "release-notes/0.1.561.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -204,7 +205,7 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.56",
+  "generatedFromVersion": "0.1.561",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
@@ -578,8 +579,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 36263,
-      "sha256": "61519c9df312ecd0e2096eb04c894272d15f8f4fae243c11bedc8615e2c700d6"
+      "bytes": 36270,
+      "sha256": "5d848080c0b3373cd821c926a6d98608a508d368924a1cefd13ac5c46592f62f"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -730,6 +731,11 @@
       "path": "release-notes/0.1.56.md",
       "bytes": 4483,
       "sha256": "0f40354072aa100ad021e663cc89da76a2f998b5391c3139d1534d2bf3379b5e"
+    },
+    {
+      "path": "release-notes/0.1.561.md",
+      "bytes": 1776,
+      "sha256": "0416359b230c964e05fc07b0262539ce84b4b8d21ebedc234e294214a0efe4b8"
     }
   ],
   "auditResult": {
