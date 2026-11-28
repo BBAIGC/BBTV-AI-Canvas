@@ -29,7 +29,7 @@
 官方网站：https://bbtv.ainivox.cn
 安装包与使用文档：https://github.com/BBAIGC/BBTV-AI-Canvas
 模型清单：https://github.com/BBAIGC/BBTV-AI-Canvas/blob/main/docs/model-distribution-inventory.json
-推理引擎：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）
+推理引擎：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx#list/path=%2FBBTV%E6%9B%B4%E6%96%B0%E8%B5%84%E6%BA%90%E5%BA%93%2FBBTV%E6%8E%A8%E7%90%86%E5%BC%95%E6%93%8E%2B%E5%85%A8%E9%87%8F%E6%A8%A1%E5%9E%8B%2F02-%E6%8E%A8%E7%90%86%E5%BC%95%E6%93%8E&vmode=list（提取码：rpmx）
 模型资源：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）
 作者电脑：i7-12700KF · 64 GB 内存 · RTX 5060 Ti 16 GB
 ```
@@ -59,7 +59,7 @@
 官方网站：https://bbtv.ainivox.cn
 安装包与使用文档：https://github.com/BBAIGC/BBTV-AI-Canvas
 模型清单：https://github.com/BBAIGC/BBTV-AI-Canvas/blob/main/docs/model-distribution-inventory.json
-推理引擎：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）
+推理引擎：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx#list/path=%2FBBTV%E6%9B%B4%E6%96%B0%E8%B5%84%E6%BA%90%E5%BA%93%2FBBTV%E6%8E%A8%E7%90%86%E5%BC%95%E6%93%8E%2B%E5%85%A8%E9%87%8F%E6%A8%A1%E5%9E%8B%2F02-%E6%8E%A8%E7%90%86%E5%BC%95%E6%93%8E&vmode=list（提取码：rpmx）
 模型资源：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）
 作者电脑：i7-12700KF · 64 GB 内存 · RTX 5060 Ti 16 GB
 ```
@@ -89,7 +89,7 @@
 官方网站：https://bbtv.ainivox.cn
 安装包与使用文档：https://github.com/BBAIGC/BBTV-AI-Canvas
 模型清单：https://github.com/BBAIGC/BBTV-AI-Canvas/blob/main/docs/model-distribution-inventory.json
-推理引擎：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）
+推理引擎：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx#list/path=%2FBBTV%E6%9B%B4%E6%96%B0%E8%B5%84%E6%BA%90%E5%BA%93%2FBBTV%E6%8E%A8%E7%90%86%E5%BC%95%E6%93%8E%2B%E5%85%A8%E9%87%8F%E6%A8%A1%E5%9E%8B%2F02-%E6%8E%A8%E7%90%86%E5%BC%95%E6%93%8E&vmode=list（提取码：rpmx）
 模型资源：https://pan.baidu.com/s/1DNzXSlrRB0bNPPT78RdrRQ?pwd=rpmx（提取码：rpmx）
 作者电脑：i7-12700KF · 64 GB 内存 · RTX 5060 Ti 16 GB
 ```

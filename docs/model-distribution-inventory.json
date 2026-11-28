@@ -3,20 +3,20 @@
   "generatedDate": "2026-11-25",
   "totals": {
     "engine": {
-      "files": 4,
-      "bytes": 4872526264
+      "files": 2,
+      "bytes": 4872526534
     },
     "mandatory": {
       "files": 20,
       "bytes": 76298016302
     },
     "optional": {
-      "files": 146,
-      "bytes": 297375084398
+      "files": 147,
+      "bytes": 297673377382
     }
   },
-  "totalFiles": 172,
-  "totalBytes": 379004990108,
+  "totalFiles": 171,
+  "totalBytes": 379303283362,
   "activeModelDependencies": {
     "studio:qwen-2.1": {
       "fileIds": [
@@ -477,6 +477,23 @@
         "file-016"
       ],
       "bytes": 20690152836
+    },
+    "h3-image-pose-transfer": {
+      "fileIds": [
+        "h3-image-pose-transfer"
+      ],
+      "bytes": 298292984
+    },
+    "studio:minimax-h3:manju-paper-crane": {
+      "fileIds": [
+        "file-020",
+        "file-023",
+        "file-024",
+        "file-025",
+        "file-026",
+        "file-027"
+      ],
+      "bytes": 42093138935
     }
   },
   "distributionPolicy": {
@@ -508,45 +525,13 @@
       "sources": []
     },
     {
-      "id": "file-002",
-      "targetRelativePath": "02-推理引擎/BBTV-Engine-0.1.18-Windows-x64.zip.json",
-      "installRelativePath": "BBTV-Engine-0.1.18-Windows-x64.zip.json",
-      "installRoot": "EngineImport",
-      "downloadTier": "engine",
-      "bytes": 654,
-      "sha256": "cee38a46405be3588e82468466379182e249ce97827165115dff2238f8e378c6",
-      "models": [
-        "BBTV Engine 0.1.18"
-      ],
-      "group": "推理引擎",
-      "dependenciesFor": [],
-      "distributionStatus": "background-upload-submitted",
-      "sources": []
-    },
-    {
-      "id": "file-003",
-      "targetRelativePath": "02-推理引擎/BBTV-Engine-0.1.18-Windows-x64.zip.sha256",
-      "installRelativePath": "BBTV-Engine-0.1.18-Windows-x64.zip.sha256",
-      "installRoot": "EngineImport",
-      "downloadTier": "engine",
-      "bytes": 102,
-      "sha256": "ef6e57eef70a45a603cc02f4e3245ae8db6555d7e57f0db62736b056a2414843",
-      "models": [
-        "BBTV Engine 0.1.18"
-      ],
-      "group": "推理引擎",
-      "dependenciesFor": [],
-      "distributionStatus": "background-upload-submitted",
-      "sources": []
-    },
-    {
       "id": "file-004",
       "targetRelativePath": "02-推理引擎/安装说明.txt",
       "installRelativePath": "安装说明.txt",
       "installRoot": "EngineImport",
       "downloadTier": "engine",
-      "bytes": 2419,
-      "sha256": "b686c574bedb5457c9aaf20acfe66f2dece162c47d9fa2d616cc28f96ca6305f",
+      "bytes": 3445,
+      "sha256": "e094147dd65b849ef54c230682a8cb4cd70a59e90ac135d850403d5f991b6db3",
       "models": [
         "BBTV Engine 0.1.18"
       ],
@@ -3802,6 +3787,31 @@
           "url": "https://huggingface.co/tsolful/zjourney-Ideogram4-Krea2-Fantasy-Realism-Refiner/resolve/765edb846958c8568999d0258ebd87c64aa8cc02/zjourneykreav1.safetensors"
         }
       ]
+    },
+    {
+      "id": "h3-image-pose-transfer",
+      "targetRelativePath": "04-可选扩展/01-图片生成/H3 Image LoRA/loras/minimax-h3-image_pose-transfer_v2.safetensors",
+      "installRelativePath": "loras/minimax-h3-image_pose-transfer_v2.safetensors",
+      "installRoot": "ComfyModels",
+      "downloadTier": "optional",
+      "bytes": 298292984,
+      "sha256": "0bb3f6ffbe31acbf6f7ace31d3f6afac80df67a4f6ca1abdd322e433578a61de",
+      "models": [
+        "MiniMax H3 Image · 姿势迁移"
+      ],
+      "group": "LoRA",
+      "dependenciesFor": [
+        "h3-image-pose-transfer"
+      ],
+      "license": "Apache-2.0",
+      "remoteOnly": false,
+      "shareVerified": true,
+      "sources": [
+        {
+          "revision": "47745121a0c8d51188f9899382d0781fa329774f",
+          "url": "https://huggingface.co/supermansundies/Minimax-H3-Image-Pose-Transfer-Lora/resolve/47745121a0c8d51188f9899382d0781fa329774f/minimax-h3-image_pose-transfer_v2.safetensors"
+        }
+      ]
     }
   ],
   "modelBundles": [
@@ -4957,6 +4967,18 @@
       ],
       "requiredBytes": 310168840,
       "downloadTier": "optional"
+    },
+    {
+      "name": "漫剧纸鹤 · H3 视频配套",
+      "group": "视频生成",
+      "fileIds": [
+        "file-020",
+        "file-023",
+        "file-024",
+        "file-025",
+        "file-026",
+        "file-027"
+      ]
     }
   ],
   "performance": [

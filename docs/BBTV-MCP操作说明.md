@@ -8,16 +8,16 @@ MCP 操作的是正在打开的 BBTV 窗口：节点、连线、提示词和生�
 
 操作速度提供九档：极速、很快、快速、流畅、自然、稍慢、慢速、演示、逐步，默认“快速”。速度调整随心跳立即生效，不更换令牌，也不取消已领取的命令。操作期限根据速度与批量步数计算，最长15分钟；逐步展示的长批次可继续执行，超过期限仍按未知结果处理，不伪报成功或自动重试。
 
-原生 HTTP 地址是当前 BBTV 服务地址加 `/api/mcp`，例如 `http://127.0.0.1:3210/api/mcp`，实际端口以设置中的地址为准。使用 MCP Streamable HTTP 的 JSON 响应模式，初始化返回 `Mcp-Session-Id`，后续请求须保留该头。请求携带 `Authorization: Bearer <设置中复制的令牌>`；不提供单独的服务器 SSE 流。
+原生 HTTP 地址是当前 BBTV 服务地址加 `/api/mcp`，例如 `http://127.0.0.1:<设置中的实际端口>/api/mcp`，实际端口以设置中的地址为准。使用 MCP Streamable HTTP 的 JSON 响应模式，初始化返回 `Mcp-Session-Id`，后续请求须保留该头。请求携带 `Authorization: Bearer <设置中复制的令牌>`；不提供单独的服务器 SSE 流。
 
-支持 stdio 的智能体也可使用随软件附带的桥。安装包仅复制桥入口、一个运行 helper、本文档和 SHA256 清单，不附带模型或额外依赖。安装版示例：
+支持 stdio 的智能体也可使用随软件附带的桥。安装包附带桥入口、运行 helper、本文档、`resources/mcp/skill/` 通用 Skill 与 SHA256 清单，不附带模型或额外依赖。安装版示例：
 
 ```json
 {
   "mcpServers": {
     "bbtv": {
       "command": "<BBTV安装目录>/BBTV.exe",
-      "args": ["--max-old-space-size=128", "<BBTV安装目录>/resources/mcp/bbtv-canvas-mcp.cjs", "--base-url", "http://127.0.0.1:3210"],
+      "args": ["--max-old-space-size=128", "<BBTV安装目录>/resources/mcp/bbtv-canvas-mcp.cjs", "--base-url", "http://127.0.0.1:<设置中的实际端口>"],
       "env": {
         "ELECTRON_RUN_AS_NODE": "1",
         "NODE_OPTIONS": "",
@@ -31,7 +31,7 @@ MCP 操作的是正在打开的 BBTV 窗口：节点、连线、提示词和生�
 也可用 `--token-file` 或环境变量 `BBTV_MCP_TOKEN_FILE` 指向本机 `canvas-mcp.json`（或只含令牌的文本文件）。桥只读取其中 `token` 字段，令牌轮换后重新连接。源码方式运行：
 
 ```powershell
-node scripts/bbtv-canvas-mcp.cjs --base-url http://127.0.0.1:3210 --token-file <用户目录>/.bbtv/runtime/data/canvas-mcp.json
+node scripts/bbtv-canvas-mcp.cjs --base-url http://127.0.0.1:<设置中的实际端口> --token-file <用户目录>/.bbtv/runtime/data/canvas-mcp.json
 ```
 
 服务只接受本机地址和合法来源。stdio 桥禁止远端地址、URL 凭据和重定向，标准输出仅承载 MCP JSON-RPC。无需向智能体提供模型 API 密钥；生成沿用 BBTV 已保存的接口和模型设置。不会自动安装或修改智能体的全局配置。
@@ -50,7 +50,7 @@ node scripts/bbtv-canvas-mcp.cjs --base-url http://127.0.0.1:3210 --token-file <
 | `bbtv_live_import` | 将指定本地普通媒体文件上传到软件媒体库，由可见页面创建参考节点；必须提供 `requestId` |
 | `bbtv_live_ui` | 读取可见控件，再用快照短 ID 点击、填写、选择、按键、拖动、滚动 |
 
-顶部控制状态统一显示实际名称，例如“MiniMax Agent 正在操作画布”。初始化可用 `clientInfo.name` 或 `clientInfo.title` 提供真实名称；采用 local/runtime 等通用握手名的客户端必须在 `bbtv_live_control begin` 中传实际 `agentName`。任务不会因工具调用间隔或等待模型而自动熄灭；完成后 `end`，手动“停止控制”或关闭 stdio 连接也会释放。
+顶部控制状态统一显示实际名称，例如“MiniMax Agent 正在操作画布”。初始化可用 `clientInfo.name` 或 `clientInfo.title` 提供真实名称；采用 local/runtime 等通用握手名的客户端必须在 `bbtv_live_control begin` 中传实际 `agentName`。思考和等待模型期间保留本次任务会话，空闲时控制标记可自动隐藏；完成后 `end`，手动“停止控制”或关闭 stdio 连接也会释放。
 
 多个可见窗口同时连接时，先用 `bbtv_live_status` 选择 `clientId`，避免操作错误窗口。批量操作支持：
 
@@ -62,6 +62,31 @@ node scripts/bbtv-canvas-mcp.cjs --base-url http://127.0.0.1:3210 --token-file <
 - `generate`：加入软件可见的原有队列；`queue` 的 `start`、`pause`、`cancel` 控制队列，`cancel_run` 取消对应节点运行。
 - `save`、`read`、`ui_snapshot`、`ui`：保存、检查画布或操作其他可见功能。
 - `discover_actions`、`invoke_action`：在批次中发现和调用界面能力，参数与上述两个专用工具一致。
+
+### 0.2 模板与任务操作
+
+先读取 `tools/list`、`bbtv_live_status` 与 `bbtv_live_actions`。0.2 返回实际软件版本和功能版本 2；旧版缺少模板动作时停止该调用，或使用其已发现的原界面入口。只更新 Skill 不会升级旧软件。
+
+使用 `bbtv_live_invoke`，为每次写调用传独立 `requestId`：
+
+- `template.list` / `template.status`：只读模板、素材与模型状态，不自动获取或下载模型。状态包括 `ready`、`loading`、`missing-assets`、`missing-models`、`needs-acquire`、`preview-only`。
+- `template.sync`：明确请求后启动原共享素材同步；继续用状态查询确认完成。
+- `template.acquire {templateId, revision?}`：获取指定已发布模板素材，不创建节点。
+- `template.import {path}`：桌面窗口通过原导入服务读取用户指定的本地模板 ZIP。
+- `template.apply {templateId, revision?, position?}`：就绪后通过原模板实例化加入当前可见画布、保存并返回真实 `targetNodeId`、`referenceNodeIds` 与 `nodeIds`；不自动生成。用 `update_node` 调整目标提示词、模型、比例、清晰度或 `inputJson` 中 LoRA，再读回确认。
+- `queue.status {nodeId?}`：只读取当前画布任务；`node.focus` 用指定节点 ID 定位结果。取消仍使用原 `queue/cancel` 或 `cancel_run`，不得用重提任务代替查询。
+
+模板同步与获取沿用软件原服务、锁和缓存。模型或 LoRA 缺失时如实返回缺项，不默认代替用户下载。打开模板库面板用 `template.open`；弹窗后续操作遵守可见控件快照。
+
+本地测试 Skill ZIP 与安装包内 `skill/` 的文件指纹应一致；公开下载入口只有发布后才会更新，已下载的旧 Skill 需要重新导入新版。
+
+### 替换模板输入素材
+
+`update_node` 只能编辑输入参数，不能直接覆盖媒体。用 `bbtv_live_import` 导入新文件并保留原参考节点；读取模板回执中的引用顺序、目标完整提示词及实际入边。只替换指定位置，断开该目标待重排的整组图像边，再按原语义顺序连接全部参考，并保留原handle及其它用途连线。不要简单把新图追加到末尾。
+
+例如H3替换图1后应为“新姿势、原主体”；替换图2后应为“原姿势、新主体”。仅将提示词中相应旧节点的完整 `@{{节点ID}}` token 换成新节点token，保留其它正文、模型、LoRA、比例与清晰度。重新读取目标和参考节点，核对有序入边、素材URL与绑定后，才按相同顺序提交 `referenceNodeIds`。原图节点不删除，目标旧成图不作为额外参考。
+
+现有读取工具直接返回节点与边，不暴露内部解析器数组；不能把推算说成已读到该数组。通用Skill的操作参考提供可执行的断开、重连和绑定示例，源码回归用真实解析器覆盖了两种替换。
 
 ### 工具栏、右键、高清与设置
 

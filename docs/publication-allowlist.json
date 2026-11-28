@@ -188,7 +188,8 @@
     "release-notes/0.1.54.md",
     "release-notes/0.1.55.md",
     "release-notes/0.1.56.md",
-    "release-notes/0.1.561.md"
+    "release-notes/0.1.561.md",
+    "release-notes/0.2.0.md"
   ],
   "prohibitedContent": [
     "program source",
@@ -205,12 +206,12 @@
     "public sources",
     "dependency references"
   ],
-  "generatedFromVersion": "0.1.561",
+  "generatedFromVersion": "0.2.0",
   "files": [
     {
       "path": "AGENT_INSTALL.md",
-      "bytes": 14478,
-      "sha256": "3ff6abdc011f44332c6047f4498e0836cbc2f066f6bf213b31f914dc2dee10eb"
+      "bytes": 15072,
+      "sha256": "827c39e96f1d0096b2042eefb8f1dfdd76b30ce280e844c58232f4aa61029af6"
     },
     {
       "path": "docs/模型安装说明.txt",
@@ -429,8 +430,8 @@
     },
     {
       "path": "docs/BBTV-MCP操作说明.md",
-      "bytes": 13118,
-      "sha256": "f0781c5ecd1649ffbe27f70c9033db60d34d23852097b3ef7bfe5ce46f1a75b6"
+      "bytes": 16195,
+      "sha256": "734542bf6ac3da955de6b0e789f06d355a39bd8e6a6c0aac586a64e382842e99"
     },
     {
       "path": "docs/BBTV剪辑-开源来源与源码.md",
@@ -439,8 +440,8 @@
     },
     {
       "path": "docs/distribution-resources.json",
-      "bytes": 39922,
-      "sha256": "7ba1dfa0c8e6e1e1aa090c20942f6054b09ab813379ac39f5cd68d92a64b81c0"
+      "bytes": 41543,
+      "sha256": "d40bbf882974a7b1dca1571237b0ad85190278f60d4cff36c52d133e10d976d1"
     },
     {
       "path": "docs/H3图片与视频示例.md",
@@ -554,8 +555,8 @@
     },
     {
       "path": "docs/model-distribution-inventory.json",
-      "bytes": 180910,
-      "sha256": "69d2ed0c9b567839576d6d22bc1d1eb6e39cf8e26b7c0b96681e028d857db6d9"
+      "bytes": 181363,
+      "sha256": "ee0ab35ab698e67d60ee21e2d3c2ef0d60a6f4ec53171dedddad8c9ac60d8beb"
     },
     {
       "path": "docs/performance-reference.json",
@@ -579,8 +580,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 36270,
-      "sha256": "5d848080c0b3373cd821c926a6d98608a508d368924a1cefd13ac5c46592f62f"
+      "bytes": 38688,
+      "sha256": "a8cfbe5bbfa1449d6ad90b9e5fddd70dcc9596151ab0f9fe533093bb8a2476d2"
     },
     {
       "path": "release-notes/0.1.12.md",
@@ -736,6 +737,11 @@
       "path": "release-notes/0.1.561.md",
       "bytes": 1776,
       "sha256": "0416359b230c964e05fc07b0262539ce84b4b8d21ebedc234e294214a0efe4b8"
+    },
+    {
+      "path": "release-notes/0.2.0.md",
+      "bytes": 4432,
+      "sha256": "f99f4b0955278e0bcdf36be0fc5371658020ba234d4613478ffa285b2fd81442"
     }
   ],
   "auditResult": {
