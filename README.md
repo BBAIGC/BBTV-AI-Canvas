@@ -83,6 +83,18 @@ MiniMax H3 在远景、小脸画面中可能出现面部细节失真。可在视
 **0.2 内测版支持在模板库直接下载配套素材，后续模板和素材更新可从云端接收，已有素材继续本地复用。** 首次下载由用户确认；网络不便时仍可使用网盘或离线素材包。素材包不含模型权重，缺少模型或 LoRA 时按对应入口准备。截图为实际内测界面，正式软件版本仍以下载页为准。
 <!-- BBTV_TEMPLATE_LIBRARY_END -->
 
+<!-- BBTV_LIGHTING_COMPARISON_START -->
+### 打光效果：同一参考图的电影光影对照
+
+选中参考图，打开 **更多 → 打光**，调整光线方向、亮度、颜色和智能模式；点击 **准备生成** 后，可选择已配置的本地或云端图像模型。
+
+下面四个结果从左到右依次是 **GPT Image 2.6、MiniMax H3 Image、Qwen Image 2.1 Turbo、Nano Banana 2.1**。本次体验中，本地 MiniMax H3 Image 编辑响应较快；云端 GPT Image 和 Nano Banana 在内容保持、细节处理上各有长处。本次未统一计时，也未做质量评分，结果仅作直观参考。截图为 0.2 内测界面，软件发布状态仍以下载页为准。
+
+![更多菜单中的打光入口与四款模型的电影光影对照](docs/assets/lighting-comparison-menu.png)
+
+![打光控件：方向、亮度、颜色、智能模式及四款模型结果](docs/assets/lighting-comparison-panel.png)
+<!-- BBTV_LIGHTING_COMPARISON_END -->
+
 ### MiniMax H3 Image 细节增强
 
 从低清原图继续恢复毛发、牙齿、布料和食品细节。MiniMax H3 Image 使用原生图生图，既能围绕参考图编辑，也能生成更清晰的画面。下面是作者提供的完整实机截图。
